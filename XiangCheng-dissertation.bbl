@@ -1,0 +1,533 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{54}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Boettcher}\ \emph {et~al.}(2009)\citenamefont
+  {Boettcher}, \citenamefont {Cook},\ and\ \citenamefont
+  {Ziff}}]{Boettcher09c}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boettcher}}, \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont {Cook}},
+  \ and\ \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont {Ziff}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. E}\
+  }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {041115} (\bibinfo
+  {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boettcher}\ and\ \citenamefont
+  {Hartmann}(2011)}]{BoHa11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boettcher}}\ and\ \bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {Hartmann}},\ }\href {\doibase 10.1103/PhysRevE.84.011108} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
+  {84}},\ \bibinfo {pages} {011108} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gibbs}\ and\ \citenamefont
+  {DiMarzio}(1958)}]{Gibbs1958nature}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Gibbs}}\ and\ \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
+  {DiMarzio}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Chemical Physics}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo
+  {pages} {373} (\bibinfo {year} {1958})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berthier}\ and\ \citenamefont
+  {Ediger}(2016)}]{berthier2016facets}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Berthier}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Ediger}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics today}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo {pages} {40}
+  (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Roth}\ and\ \citenamefont
+  {Dutcher}(2005)}]{roth2005glass}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~B.}\ \bibnamefont
+  {Roth}}\ and\ \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {Dutcher}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Electroanalytical Chemistry}\ }\textbf {\bibinfo {volume}
+  {584}},\ \bibinfo {pages} {13} (\bibinfo {year} {2005})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Richard}\ \emph {et~al.}(2005)\citenamefont
+  {Richard}, \citenamefont {Nicodemi}, \citenamefont {Delannay}, \citenamefont
+  {Ribiere},\ and\ \citenamefont {Bideau}}]{richard2005slow}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Richard}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nicodemi}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Delannay}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Ribiere}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Bideau}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature materials}\ }\textbf
+  {\bibinfo {volume} {4}},\ \bibinfo {pages} {121} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bi}\ \emph {et~al.}(2015)\citenamefont {Bi},
+  \citenamefont {Lopez}, \citenamefont {Schwarz},\ and\ \citenamefont
+  {Manning}}]{bi2015density}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Bi}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lopez}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Schwarz}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.~L.}\ \bibnamefont {Manning}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Physics}\ } (\bibinfo
+  {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Edwards}\ and\ \citenamefont
+  {Anderson}(1975)}]{edwards1975theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~F.}\ \bibnamefont
+  {Edwards}}\ and\ \bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
+  {Anderson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics F: Metal Physics}\ }\textbf {\bibinfo {volume} {5}},\
+  \bibinfo {pages} {965} (\bibinfo {year} {1975})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Imry}\ and\ \citenamefont
+  {Ma}(1975)}]{imry1975random}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Imry}}\ and\ \bibinfo {author} {\bibfnamefont {S.-k.}\ \bibnamefont {Ma}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Letters}\ }\textbf {\bibinfo {volume} {35}},\ \bibinfo {pages} {1399}
+  (\bibinfo {year} {1975})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wannier}(1950)}]{wannier1950afm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Wannier}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {pages} {357}
+  (\bibinfo {year} {1950})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kosterlitz}\ and\ \citenamefont
+  {Thouless}(1973)}]{kosterlitz1973ordering}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Kosterlitz}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Thouless}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics C: Solid State Physics}\ }\textbf {\bibinfo {volume}
+  {6}},\ \bibinfo {pages} {1181} (\bibinfo {year} {1973})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kosterlitz}(1974)}]{kosterlitz1974critical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Kosterlitz}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics C: Solid State Physics}\ }\textbf {\bibinfo {volume}
+  {7}},\ \bibinfo {pages} {1046} (\bibinfo {year} {1974})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Young}(1997)}]{young1997spin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
+  {Young}},\ }\href@noop {} {\emph {\bibinfo {title} {Spin glasses and random
+  fields}}},\ Vol.~\bibinfo {volume} {12}\ (\bibinfo  {publisher} {World
+  Scientific},\ \bibinfo {year} {1997})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Biroli}\ and\ \citenamefont
+  {M\'ezard}(2001)}]{Biroli02}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Biroli}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {M\'ezard}},\ }\href {\doibase 10.1103/PhysRevLett.88.025501} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {88}},\ \bibinfo {pages} {025501} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Biroli}(2007)}]{Biroli2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Biroli}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature
+  Physics}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {222} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ and\ \citenamefont {Nagel}(1998)}]{Liu1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Liu}}\ and\ \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {Nagel}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature}\ }\textbf {\bibinfo {volume} {396}},\ \bibinfo {pages} {21}
+  (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ and\ \citenamefont {Nagel}(2010)}]{Liu2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Liu}}\ and\ \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {Nagel}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Annu.
+  Rev. Condens. Matter Phys.}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo
+  {pages} {347} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berthier}\ \emph {et~al.}(2011)\citenamefont
+  {Berthier}, \citenamefont {Biroli}, \citenamefont {Bouchaud}, \citenamefont
+  {Cipelletti},\ and\ \citenamefont {van Saarloos}}]{Berthier2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Berthier}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Biroli}},
+  \bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont {Bouchaud}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Cipelletti}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {van Saarloos}},\ }\href@noop {}
+  {\emph {\bibinfo {title} {Dynamical heterogeneities in glasses, colloids, and
+  granular media}}}\ (\bibinfo  {publisher} {Oxford University Press},\
+  \bibinfo {year} {2011})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hill}\ and\ \citenamefont
+  {Dissado}(1985)}]{Hill1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Hill}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Dissado}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics
+  C: Solid State Physics}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages}
+  {3829} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ciamarra}\ \emph {et~al.}(2010)\citenamefont
+  {Ciamarra}, \citenamefont {Nicodemi},\ and\ \citenamefont
+  {Coniglio}}]{Ciamarra2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Ciamarra}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nicodemi}},
+  \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Coniglio}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Soft Matter}\
+  }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {2871} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Van~Hecke}(2010)}]{van2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Van~Hecke}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume} {22}},\
+  \bibinfo {pages} {033101} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Majmudar}\ \emph {et~al.}(2007)\citenamefont
+  {Majmudar}, \citenamefont {Sperl}, \citenamefont {Luding},\ and\
+  \citenamefont {Behringer}}]{Majmudar2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont
+  {Majmudar}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sperl}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Luding}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.~P.}\ \bibnamefont {Behringer}},\ }\href {\doibase
+  10.1103/PhysRevLett.98.058001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo {pages}
+  {058001} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Parisi}\ and\ \citenamefont
+  {Zamponi}(2010)}]{Parisi2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Parisi}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Zamponi}},\ }\href {\doibase 10.1103/RevModPhys.82.789} {\bibfield
+  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume}
+  {82}},\ \bibinfo {pages} {789} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Angelani}\ and\ \citenamefont
+  {Foffi}(2007)}]{Angelani2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Angelani}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Foffi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo
+  {pages} {256207} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Trappe}\ \emph {et~al.}(2001)\citenamefont {Trappe},
+  \citenamefont {Prasad}, \citenamefont {Cipelletti}, \citenamefont {Segre},\
+  and\ \citenamefont {Weitz}}]{Trappe2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Trappe}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Prasad}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cipelletti}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Segre}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Weitz}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {411}},\
+  \bibinfo {pages} {772} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ and\ \citenamefont
+  {Makse}(2005)}]{Zhang2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Zhang}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Makse}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  E}\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo {pages} {011301} (\bibinfo
+  {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Da~Cruz}\ \emph {et~al.}(2002)\citenamefont
+  {Da~Cruz}, \citenamefont {Chevoir}, \citenamefont {Bonn},\ and\ \citenamefont
+  {Coussot}}]{DaCruz2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Da~Cruz}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Chevoir}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Bonn}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Coussot}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
+  {\bibinfo {volume} {66}},\ \bibinfo {pages} {051305} (\bibinfo {year}
+  {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Krzakala}\ \emph {et~al.}(2008)\citenamefont
+  {Krzakala}, \citenamefont {Tarzia},\ and\ \citenamefont
+  {Zdeborov\'a}}]{Krzakala2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Krzakala}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Tarzia}}, \
+  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Zdeborov\'a}},\
+  }\href {\doibase 10.1103/PhysRevLett.101.165702} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {101}},\
+  \bibinfo {pages} {165702} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jacquin}\ \emph {et~al.}(2011)\citenamefont
+  {Jacquin}, \citenamefont {Berthier},\ and\ \citenamefont
+  {Zamponi}}]{Jacquin2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Jacquin}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Berthier}}, \
+  and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Zamponi}},\ }\href
+  {\doibase 10.1103/PhysRevLett.106.135702} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo
+  {pages} {135702} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kob}\ and\ \citenamefont {Andersen}(1993)}]{Kob93}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kob}}\ and\ \bibinfo {author} {\bibfnamefont {H.~C.}\ \bibnamefont
+  {Andersen}},\ }\href {\doibase 10.1103/PhysRevE.48.4364} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
+  {48}},\ \bibinfo {pages} {4364} (\bibinfo {year} {1993})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Rivoire}\ \emph {et~al.}(2003)\citenamefont
+  {Rivoire}, \citenamefont {Biroli}, \citenamefont {Martin},\ and\
+  \citenamefont {M{\'e}zard}}]{Rivoire03}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Rivoire}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Biroli}},
+  \bibinfo {author} {\bibfnamefont {O.~C.}\ \bibnamefont {Martin}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {M{\'e}zard}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {The European
+  Physical Journal B-Condensed Matter and Complex Systems}\ }\textbf {\bibinfo
+  {volume} {37}},\ \bibinfo {pages} {55} (\bibinfo {year} {2003})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Berthier}\ and\ \citenamefont
+  {Biroli}(2011)}]{berthier2011theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Berthier}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Biroli}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
+  {pages} {587} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boettcher}\ \emph {et~al.}(2008)\citenamefont
+  {Boettcher}, \citenamefont {Gon{\c{c}}alves},\ and\ \citenamefont
+  {Guclu}}]{Boettcher2008HN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boettcher}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Gon{\c{c}}alves}}, \ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Guclu}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Physics A: Mathematical and Theoretical}\ }\textbf {\bibinfo {volume}
+  {41}},\ \bibinfo {pages} {252001} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Cheng}\ and\ \citenamefont
+  {Boettcher}(2015)}]{cheng2015jamming}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Cheng}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boettcher}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computer Physics Communications}\ }\textbf {\bibinfo {volume} {196}},\
+  \bibinfo {pages} {19} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boettcher}\ and\ \citenamefont
+  {Brunson}(2011)}]{Boettcher2011HNNP}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boettcher}}\ and\ \bibinfo {author} {\bibfnamefont {C.~T.}\ \bibnamefont
+  {Brunson}},\ }\href {\doibase 10.1103/PhysRevE.83.021103} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
+  {83}},\ \bibinfo {pages} {021103} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Boettcher}\ and\ \citenamefont
+  {Brunson}(2015)}]{boettcher2015classification}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Boettcher}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Brunson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {EPL
+  (Europhysics Letters)}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo {pages}
+  {26005} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ and\ \citenamefont
+  {Landau}(2001{\natexlab{a}})}]{Wang2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Landau}},\ }\href {\doibase 10.1103/PhysRevLett.86.2050} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {86}},\ \bibinfo {pages} {2050} (\bibinfo {year}
+  {2001}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ and\ \citenamefont
+  {Landau}(2001{\natexlab{b}})}]{wang01a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont
+  {Landau}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {64}},\ \bibinfo {pages} {056101}
+  (\bibinfo {year} {2001}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2006)\citenamefont {Lee},
+  \citenamefont {Okabe},\ and\ \citenamefont {Landau}}]{Lee2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~K.}\ \bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Okabe}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Landau}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Computer physics communications}\
+  }\textbf {\bibinfo {volume} {175}},\ \bibinfo {pages} {36} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cunha-Netto}\ and\ \citenamefont
+  {Dickman}(2011)}]{Dickman2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Cunha-Netto}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Dickman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computer Physics Communications}\ }\textbf {\bibinfo {volume} {182}},\
+  \bibinfo {pages} {719} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kirkpatrick}\ \emph {et~al.}(1983)\citenamefont
+  {Kirkpatrick}, \citenamefont {Gelatt},\ and\ \citenamefont {Vecchi}}]{SA}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Kirkpatrick}}, \bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont
+  {Gelatt}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Vecchi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {220}},\ \bibinfo {pages} {671}
+  (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{\v{C}}ern{\`y}}(1985)}]{Vcerny1985}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {{\v{C}}ern{\`y}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of optimization theory and applications}\ }\textbf
+  {\bibinfo {volume} {45}},\ \bibinfo {pages} {41} (\bibinfo {year}
+  {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hunter}\ and\ \citenamefont
+  {Weeks}(2012)}]{Hunter12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Hunter}}\ and\ \bibinfo {author} {\bibfnamefont {E.~R.}\ \bibnamefont
+  {Weeks}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Reports
+  on Progress in Physics}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages}
+  {066501} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Villain}(1977)}]{villain1977spin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Villain}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics C: Solid State Physics}\ }\textbf {\bibinfo {volume}
+  {10}},\ \bibinfo {pages} {1717} (\bibinfo {year} {1977})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Herrero}(2008)}]{herrero2008afm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~P.}\ \bibnamefont
+  {Herrero}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review E}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages}
+  {041102} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shokef}\ \emph {et~al.}(2011)\citenamefont {Shokef},
+  \citenamefont {Souslov},\ and\ \citenamefont {Lubensky}}]{shokef2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Shokef}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Souslov}}, \
+  and\ \bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont {Lubensky}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Proceedings of the
+  National Academy of Sciences}\ }\textbf {\bibinfo {volume} {108}},\ \bibinfo
+  {pages} {11804} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ohanyan}\ and\ \citenamefont
+  {Ananikian}(2003)}]{ohanyan2003mag}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Ohanyan}}\ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Ananikian}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics Letters A}\ }\textbf {\bibinfo {volume} {307}},\ \bibinfo {pages}
+  {76} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brunson}(2014)}]{brunson2014rg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~T.}\ \bibnamefont
+  {Brunson}},\ }\emph {\bibinfo {title} {A Renormalization Group Study of the
+  Ising Model on the Hierarchical Hanoi Networks}},\ \href@noop {} {Ph.D.
+  thesis},\ \bibinfo  {school} {Emory University} (\bibinfo {year}
+  {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kageyama}\ \emph {et~al.}(1999)\citenamefont
+  {Kageyama}, \citenamefont {Yoshimura}, \citenamefont {Stern}, \citenamefont
+  {Mushnikov}, \citenamefont {Onizuka}, \citenamefont {Kato}, \citenamefont
+  {Kosuge}, \citenamefont {Slichter}, \citenamefont {Goto},\ and\ \citenamefont
+  {Ueda}}]{kageyama1999pleatu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Kageyama}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Yoshimura}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Stern}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Mushnikov}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Onizuka}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Kato}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kosuge}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Slichter}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Goto}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Ueda}},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
+  {volume} {82}},\ \bibinfo {pages} {3168} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kageyama}\ \emph {et~al.}(2000)\citenamefont
+  {Kageyama}, \citenamefont {Nishi}, \citenamefont {Aso}, \citenamefont
+  {Onizuka}, \citenamefont {Yosihama}, \citenamefont {Nukui}, \citenamefont
+  {Kodama}, \citenamefont {Kakurai},\ and\ \citenamefont
+  {Ueda}}]{kageyama2000direct}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Kageyama}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nishi}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Aso}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Onizuka}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Yosihama}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Nukui}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Kodama}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Kakurai}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Ueda}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {5876} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ma}\ \emph {et~al.}(2016)\citenamefont {Ma},
+  \citenamefont {Cheng}, \citenamefont {Boettcher}, \citenamefont {Urazhdin},\
+  and\ \citenamefont {Novozhilova}}]{ma2016prb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ma}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Cheng}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Boettcher}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Urazhdin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Novozhilova}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review B}\ }\textbf {\bibinfo
+  {volume} {94}},\ \bibinfo {pages} {024422} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fernandez}(1988)}]{fernandez1988random}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Fernandez}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {EPL
+  (Europhysics Letters)}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {129} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Villain}(1982)}]{villain1982commensurate}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Villain}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal de Physique Lettres}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo
+  {pages} {551} (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fisher}\ \emph {et~al.}(1988)\citenamefont {Fisher},
+  \citenamefont {Grinstein},\ and\ \citenamefont {Khurana}}]{fisher1988theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Fisher}}, \bibinfo {author} {\bibfnamefont {G.~M.}\ \bibnamefont
+  {Grinstein}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Khurana}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics Today}\ }\textbf {\bibinfo {volume} {41}},\ \bibinfo {pages} {56}
+  (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\end{thebibliography}%

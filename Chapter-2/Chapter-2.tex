@@ -1,0 +1,596 @@
+
+\chapter{Jamming in Hanoi Networks}
+\label{chap-jamming}
+
+In this chapter, we propose to use the lattice glass model (BM model) on hierarchical
+networks~\cite{Boettcher2008HN}, which are networks with a fixed,
+lattice-like geometry. They combine a finite-dimensional lattice backbone
+with a hierarchy of small-world links that in themselves impose a
+high degree of geometric frustration despite of their regular pattern.
+In fact, the recursive nature of the pattern can ultimately provide
+analytical solution via the renormalization group (RG), positioning
+these networks as sufficiently simple to solve as well as sufficiently
+lattice-like to become an alternative to mean-field solutions~\cite{BoHa11}. 
+Unlike mean-field models, our network is dominated by many small loops that are also the hallmark of lattice systems. Our goal is to find 
+\begin{enumerate}
+\item whether the lattice glass model leads to jamming
+state in hierarchical networks;
+\item whether there is an ideal glass
+transition underlying the jamming transition;
+\item whether the local dynamics affect the jamming process. 
+\end{enumerate}
+To our knowledge, these questions have not been studied in any small-world systems. Our results can contribute new insights to understand jamming.
+
+We find that BM in these networks can jam, even when there is certifiably
+no equilibrium transition; the geometric frustration that derives
+from the incommensurability among the small-world links is sufficient
+in many cases to affect jamming. In fact, jamming is most pronounced
+for fully exclusive neighborhoods ($l=0$). It disappears for more
+disordered neighborhoods ($l=1$), at least for our non-regular networks,
+where the allowance of $l=1$ neighbor to be occupied seems to provide
+the ``lubrication'' that averts jams. However, the packing fractions
+at which time-scales diverge is virtually indistinguishable from random
+close packing within the accuracy of our simulations. 
+
+Mean-field calculations of BM in Ref.~\cite{Rivoire03} predict a kinetic transition for dynamic rules based on nearest-neighbor hopping. In our simulations, we find that  such hopping,  in addition to the particle exchange with a bath, can affect a dramatic change in the dynamic behavior and eliminated jamming in all cases we consider.  
+
+%This chapter is organized as follows. In Sec.~\ref{sec:jam_model}, we describe
+%the lattice glass model. Then we describe in detail  how we implement 2 Monte Carlo methods in Sec. ~\ref{sec:jam_methods}. The results of our simulations is discuss in Sec. ~\ref{sec:jam_results}. In Sec. \ref{sec:jam_conclusions} we conclude with a few summary remarks and an outlook for future work.
+
+
+\section{Lattice glass model}
+\label{sec:jam_model}
+
+The lattice glass model as defined by
+Biroli and Mezard (BM)~\cite{Biroli02} considers a system of particles
+on a lattice of $N$ sites. Each site can carry either $x_{i}=0$
+or $x_{i}=1$ particle, and the occupation is restricted by a hard,
+local ``density constraint'': any occupied site ($x_{i}=1$) can
+have at most $l$ occupied neighbors, where $l$ could range locally
+from 0 to the total number of its neighbor-sites. In this model, the
+jamming is defined thermodynamically by rejecting the configurations
+violating the density constraint. Here, we focus on global density
+constraints of $l=0$ (completely excluded neighborhood occupation)
+and $l=1$ as the most generic cases. The system can be described
+by the grand canonical partition function 
+\begin{equation}
+Z(\mu)=\sum_{{\bf allowed}\,\{x_{i}\}}\exp\left[\mu\sum_{i=1}^{N}x_{i}\right],\label{eq:PF}
+\end{equation}
+where the sum is over all the allowed configurations $\{x_{i}\}$.
+Here, $\mu$ is the reduced chemical potential, where we have chosen
+units such that the temperature is $k_{B}T=1/\beta=1$, and $\sum_{i=1}^{N}x_{i}$
+is the total number of particles in a specific configuration.
+
+From the grand canonical partition function in Eq.~(\ref{eq:PF}),
+we can obtain the thermodynamic observables we intend to measure,
+such as the Landau free energy density $w(\mu)$, the packing fraction
+$\rho(\mu)$, and the entropy density $s\left[\rho(\mu)\right]$,
+as defined in the following equations:
+\begin{eqnarray}
+w(\mu) & = & -\frac{1}{N}\ln Z,\label{eq:GCPdiff}\\
+\rho(\mu) & = & \frac{1}{N}\left<\sum_{i=1}^{N}x_{i}\right>_{\mu}=\frac{1}{N}\frac{\partial\ln Z}{\partial\mu},\nonumber \\
+s(\mu) & = & \frac{1}{N}\left(1-\mu\frac{\partial}{\partial\mu}\right)\ln Z.\nonumber 
+\end{eqnarray}
+ 
+\section{Monte Carlo Methods}
+\label{sec:jam_methods} 
+
+We aim to learn both the non-equilibrium dynamics and equilibrium behaviors in our model and networks. To benchmark the equilibrium properties of the model on those networks, we implement a multi-canonical algorithm due to Wang and Landau~\cite{Wang2001, wang01a}. We further need a grand-canonical annealing algorithm to study the dynamics of the
+lattice glass model on those networks.
+
+\subsection{Wang-Landau Sampling}
+\label{sub:WLsampling}Wang-Landau sampling~\cite{Wang2001} is a
+multi-canonical method to numerically determine the entire density
+of states $g_{n}$ within a single simulation. This method is based
+on the fact that a random walk in the configuration space with a probability
+proportional to the inverse of the density of states with occupation
+$n$, $0\leq n\leq N$, enforces a flat histogram in $g_{n}$ over
+all $n$. Based on this fact, Wang-Landau sampling keeps modifying
+the estimated density of states in the random walks over all possible
+configurations and can make the density of states converge to the
+true value. The sampling procedure is: 
+\begin{enumerate}
+\item Initially, set all unknown density of states $\{g_{n}=1\}$ and the
+histogram $\{H_{n}=0\}$ for all occupations $n$, initiate the modification
+factor $f=e^1\approx2.71828\dots$ ; 
+\item Randomly pick a site $i$; if it is empty (occupied), add (remove)
+a particle with a probability of $\min\left[1,\frac{g_{n}}{g_{n+1}}\right]$
+($\min\left[1,\frac{g_{n}}{g_{n-1}}\right]$) while obeying the rule
+of the hard local density constraint on having at most $l$ occupied
+nearest neighbors of site $i$; 
+\item Randomly pick one occupied site and one empty site; transfer
+a particle from the occupied site to the empty, if the density constraint is not violated; 
+\item Update the $H_{n}$ and $g_{n}$ of the current state, i.e., set $\{H_{n}=H_{n}+1\}$
+and $\{g_{n}=g_{n}\times f\}$; 
+\item Repeat steps 2 to 4 until the sampling reaches a nearly flat histogram
+for the $H_{n}$, then update the modification factor $f=\sqrt{f}$
+and reset $\{H_{n}=0\}$; 
+\item Stop if $f\le1+10^{-8}$. 
+\end{enumerate}
+Our procedure mostly follows the standard procedure of Wang-Landau
+sampling~\cite{Wang2001}, except for step 3. Its purpose is to facilitate
+the random walk to explore phase space more broadly and to expedite
+convergence.
+
+Wang-Landau sampling has been proved as an effective method to find
+the density of states~\cite{Wang2001,Lee2006,Dickman2011}. In our
+study, it can find convergence for system size of up to $N\sim10^{3}$
+within a reasonably computational cost. From the density of states,
+we can calculate the equilibrium thermodynamical properties for the
+corresponding system sizes. 
+
+
+\subsection{Grand-Canonical Annealing}
+
+\label{sub:GCannealing} In parallel to the equilibrium properties
+provided by Wang-Landau sampling, we also implement a form of simulated
+annealing~\cite{SA} to explore the dynamics of the model and the
+possibility of jamming, in a process that is similar to an experiment.
+Simulated annealing used in this study follows the standard procedure
+~\cite{Vcerny1985}. The corresponding experiment is exchanging particles
+between the network and a reservoir of particles with (dimensionless)
+chemical potential $\mu$. In our study, the annealing speed is not
+controlled by decreasing temperature (which we set to $\beta=1$)
+but by increasing the chemical potential. The procedure of the annealing algorithm
+is: 
+\begin{enumerate}
+\item Initially, start with chemical potential $\mu_{0}=0$ ; 
+\item Randomly pick a site $n$; if it is empty (occupied), add (remove)
+a particle with a probability of $\min\left[1,\exp(\mu)\right]$ ($\min\left[1,\exp(-\mu)\right]$)
+while obeying the rule of the hard local density constraint on having
+at most $l$ occupied nearest neighbors of $n$; 
+\item If hopping is allowed, randomly pick one site; only if it is occupied,
+randomly pick one of its empty neighbor(s) and displace the particle
+if the density constraint remains satisfied; 
+\item Increase $\mu$ by $d\mu$ every 1 Monte Carlo sweep ($N$ random
+updates), where $d\mu/dt$ (in time-units of $dt=1$) is the annealing
+schedule and $d\mu\ll1$; 
+\item Repeat steps 2 to 4 until $\mu$ reaches a certain (large) chemical
+potential. 
+\end{enumerate}
+Following the procedure above, the simulated annealing can reveal
+whether or not a jamming transition occurs in the process. Besides
+that, we can test the effect of local dynamics~\cite{Biroli02, Krzakala2008}
+by adding a local hopping random walk (step 3), i.e., a particle can
+transfer any of its empty neighboring sites as long as 
+the constraint remains satisfied.  The results are shown and explained in
+the following section.
+
+
+\section{Results}
+\label{sec:jam_results} 
+To assess the properties of jamming, we first
+have to benchmark our systems with the corresponding equilibrium behaviors.
+After that, we discuss the dynamic simulations with the annealing
+algorithm in reference to these equilibrium benchmarks.
+
+
+\subsection{Equilibrium Properties\label{sub:Equilibrium-PropertiesWang-Landa}}
+
+Wang-Landau sampling, as described in Sec.~\ref{sub:WLsampling},
+is ideally suited for our purpose, since it provides access directly
+to the density of states $g_{n}$ as a function of occupation number
+$n$, which yields the partition function as
+\begin{equation}
+Z(\mu)=\sum_{n=0}^{n_{max}}g_{n}e^{n\mu}.\label{eq:Zmu}
+\end{equation}
+All thermodynamic quantities in the equilibrium can be obtained numerically
+by summation of the formal derivates of $Z(\mu)$, such as those in
+Eqs.~(\ref{eq:GCPdiff}), over all permissible occupation numbers
+$0\leq n\leq n_{max}<N$. (For all $n_{max}<n\leq N$ it is $g_{n}=0$.) 
+
+In Fig.~\ref{fig:doswl}, we plot the density of states as a function
+of the packing fraction, both obtained with Wang-Landau. It becomes
+apparent that each model has a simple rational value for its optimal
+($\mu\to\infty$) ``random'' close packing fraction $\rho_{CP}=n_{max}/N$.
+This corresponds to a random packing in the sense that it has a nontrivial
+entropy density due to geometric disorder (imposed by the lack of
+translational invariance in the lattice), except for HNNP at $l=0$,
+which has a unique ``crystalline'' packing of every odd site being
+occupied. While these values for $\rho_{CP}$ have been previously
+obtained with RG for $l=0$~\cite{BoHa11}, the simulations predict
+also strikingly simple but nontrivial values for $l=1$, where exact
+RG is likely not possible. These values are listed in Table \ref{tab:cpf}.
+
+\begin{table}
+\begin{centering}
+\protect\caption{\label{tab:cpf} Closest packing fractions $\rho_{CP}$ found by Wang-Landau sampling.
+The values for $l=0$ have been previously obtained with exact RG,
+the one for HNNP being unique, with every second, odd site occupied.
+For $l=1$, we also predict exact fractions with nontrivial entropy
+densities, see Fig.~\ref{fig:doswl}. }
+
+\par\end{centering}
+
+\begin{centering}
+
+\par\end{centering}
+
+\centering{}%
+\begin{tabular}{|c|c||c|}
+\hline 
+Network & $l=0$  & $l=1$ \tabularnewline
+\hline 
+\hline 
+HN3  & 3/8~\cite{BoHa11} & 9/16 \tabularnewline
+\hline 
+HN5  & 1/3~\cite{BoHa11} & 1/2 \tabularnewline
+\hline 
+HNNP  & 1/2  & 1/2 \tabularnewline
+\hline 
+\end{tabular}
+\end{table}
+
+
+\begin{figure}
+\centering \includegraphics[width=0.8\columnwidth]{Chapter-2/Paper_DOS_Plot2}
+\protect\caption{Density of states from Wang-Landau sampling at $N=1024$. The green
+dash-dot vertical line are showing the closest packing fractions (as
+shown in Table \ref{tab:cpf}) for each system. Note that only for
+HNNP at $l=0$ there is a unique, crystalline ground state. }
+
+\label{fig:doswl} 
+\end{figure}
+
+
+\begin{figure}
+\centering \includegraphics[width=1\columnwidth]{Chapter-2/Paper_ConvergenceHN3_Plot2}
+\protect\caption{Convergence to the thermodynamic limit for finite system sizes for
+the example of HN3 with $l=1$ using Wang-Landau sampling. The figures are
+for the density of states (left) and the packing fraction (right). The
+equilibrium packing fraction $\rho(\mu)$ as a function of chemical
+potential $\mu$ is calculated from the density of states according
+to Eq.~(\ref{eq:GCPdiff}); it approaches the closest packing fraction
+$\rho_{CP}$ for $1/\mu\to0$. The convergence for other systems is
+similar or better. }
+\label{fig:WLconverge} 
+\end{figure}
+
+
+\begin{figure}
+\centering\includegraphics[width=0.6\columnwidth]{Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to}\protect\caption{\label{fig:RGvsWL} 
+Plot of the error in the finite-size packing fraction
+in Wang-Landau sampling, $\left|\rho_{WL}-\rho_{RG}\right|$, as a
+function of $1/\mu$ near close packing ($\mu\to\infty$) in HN3 at
+$l=0$. Here, RG result $\rho_{RG}(\mu)$ from Ref. \protect\cite{BoHa11}
+at system size $N=2^{500}$ is taken as the exact, thermodynamic packing
+fraction. Relative to $\rho_{RG}(\mu)$, the finite-size packing fraction,
+$\rho_{WL}(\mu)$, at $N=2^{k}$ with $k=8,9,10$ already exhibit
+quite small and rapidly diminishing corrections. }
+\end{figure}
+
+
+Wang-Landau sampling converges within a reasonable time for system
+sizes smaller than $N\approx2000$ but fails to converge for larger
+system size. There may be two reasons for the lack of convergence:
+(1) the density of states is not symmetric as a function of packing
+fraction, and this asymmetry requires Wang-Landau to sample the whole
+configuration space, which increases the computational cost dramatically
+especially for large system sizes; (2) the lower the density of states
+of the closest packed state, the harder it is for Monte Carlo sampling
+to find its closest packing state because of the hard density constraint.
+Although Wang-Landau sampling fails for large system sizes, the results
+of system size $N=1024$ can still offer an insight to the equilibrium
+state because the density of states and the packing fraction exhibit only small 
+finite-size corrections for increasing $N$. For example, the convergence of HN3
+with $l=0$ is shown in Fig.\ref{fig:WLconverge}. Other networks
+with $l=0,1$ have similar or even better convergence.
+
+We can further demonstrate the quality of the Wang-Landau simulations,
+and appraise their residual finite-size effects, by comparison with
+exact results obtained with the renormalization group (RG) for $l=0$
+on HN3~\cite{BoHa11}. In Fig.~\ref{fig:RGvsWL}, we compare the results
+for the packing fraction $\rho(\mu)$ as a function of the chemical
+potential for Wang-Landau sampling on networks with $N=2^{k}$ sites, $k=8\sim10$,
+with those from the exact RG after 500 iterations, corresponding
+to a system of $N=2^{500}$ sites. Despite the much smaller sizes
+of the Wang-Landau simulation, its results are barely distinguishable
+from the exact result, affirming the Wang-Landau sampling results
+as good references for our dynamic simulations, with negligible finite-size
+effects.
+
+
+\subsection{Dynamic Properties}
+
+\label{subsec:jamsc} The dynamic simulations of the BM on our networks
+uses the grand canonical partition function controlled by a chemical
+potential $\mu$ that mimics the experimental situation in a complex
+fluid or colloid, where particles are pumped into the larger system
+(the reservoir) and can enter the field-of-view through open boundaries
+inside a smaller window. For example, this could correspond to a $2d$
+slice of a $3d$ colloidal bath used in colloidal tracking experiments
+~\cite{Hunter12}. Since our particles are not energetically coupled
+and merely obey hard excluded volume constraints, temperature is irrelevant
+and we can set $\beta=1$, making the chemical potential dimensionless,
+$\beta\mu\to\mu$. As we increase $\mu$, the system is more likely
+to accept more particles and increase the packing fraction $\rho(\mu)$.
+When $\mu$ is small (or negative), the reservoir and the network
+readily reach an equilibrium state with a certain packing fraction.
+However, when $\mu$ is large, the equilibrium state defined by the
+partition function has a packing fraction close to the close packing
+$\rho_{CP}$. Because of the density constraint and the disorder imposed
+by the hierarchical network geometry, the system enters into a jam
+at a density far from equilibrium packing. As in experiments, this
+jammed state remains for an extremely long time, even when $\mu$
+is further increased. The ultimate packing fraction $\rho^{*}$ that
+the systems gets stuck at, in fact, is ever further from random close
+packing, the faster the quench in $\mu$ is executed, where $\frac{d\mu}{dt}$
+is the quench rate. In this, our results closely resemble those reported
+in Ref.~\cite{Krzakala2008}. 
+
+\begin{figure}
+\centering \includegraphics[width=1\columnwidth]{Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot}
+\protect\caption{Reduced packing fraction and entropy density for HN3 from Wang-Landau
+sampling and Simulated Annealing. (a)\&(b) are for $l=0$, and (c)
+\&(d) are for $l=1$. The black solid lines represent the equilibrium
+properties from Wang-Landau sampling with $N=1024$. The dotted lines
+are from simulated annealing with $N=32,768$, run at different annealing
+schedules with $d\mu=0.001/2^{j}$ for $j=0,\ldots,8$, from top to
+bottom. Wang-Landau sampling provides the entropy density via Eq.
+(\ref{eq:GCPdiff}), as shown in (b) and (d), which is difficult to
+obtain from other Monte Carlo methods. For both, $l=0$ and 1, we
+find a non-zero entropy density for random close packing at $\mu\rightarrow\infty$.}
+\label{fig:HN3PE} 
+\end{figure}
+
+
+\begin{figure}
+\centering \includegraphics[width=0.9\columnwidth]{Chapter-2/Paper_HN3_Decay}
+\protect\caption{Scaling of the dynamically reached packing fraction $\rho^{*}(d\mu)$
+as a function of the annealing rate $d\mu$ for different system sizes
+$N$ of HN3. (a) For $l=0$, the dashed lines are for systems sizes
+$N=2^{k}$ with $k=7,\ldots,$10, 12, 14 and 15, from bottom to top.
+All data sets (except for the smallest sizes, $N=128,\ldots,1024$)
+collapse onto the top line with a slope of $0.34\pm0.01$, which is
+obtained from a fit using the data of the largest system size $N=32,768$.
+(b) For $l=1$, the data sets converge even faster towards power-law
+scaling. The dashed lines are for system sizes of $N=2^{k}$ with
+$k=5,\ldots,8$, 10, 12, 14 and 15, from bottom to top. All but the
+first 3 sets collapse onto a line of slope $0.19\pm0.01,$ which is
+obtained from a fit for $N=32,768$. Error bars are about of the size
+of each data point or smaller, indicating a relative error of less
+than $3\%$.}
+\label{fig:HN3Decay} 
+\end{figure}
+
+
+\begin{figure}
+\centering \includegraphics[width=0.9\columnwidth]{Chapter-2/Paper_HN3_Hopping_Plot}
+\protect\caption{\label{fig:HN3hopping} 
+Results of simulated annealing with hopping for HN3. For both (a)
+and (b), the figure consists of one solid line for the equilibrium
+result obtained with Wang-Landau sampling and 9 dotted lines obtained
+with simulated annealing at rates $d\mu=0.001/2^{j}$ for $j=0,\ldots,8$.
+For HN3 with $l=0$ and $l=1$, the system equilibrates for nearly
+all annealing schedules, collapsing the data onto the equilibrium
+line. Only for HN3 with $l=1$, small deviations from equilibrium
+are observed for annealing schedules $d\mu \le10^{-5}$. } 
+\end{figure}
+
+
+
+\subsubsection{Results for HN3}
+
+\label{subsec:HN3}
+
+The equilibrium packing fraction and entropy from Wang-Landau sampling
+as well as the dynamic results from simulated annealing for HN3 are
+shown in Fig.~\ref{fig:HN3PE}. Based on the analytical results by
+Boettcher \textit{et al.}~\cite{BoHa11}, we can confidently conclude
+that there is no phase transition in HN3 with $l=0$. Yet, the dynamic
+simulations indicate that the system jams nonetheless. The system
+jams even further from equilibrium for the case of $l=1$. Here, RG
+results have not been obtained so far and it is not clear whether
+there is a thermodynamic phase transition. The equilibrium results
+from Wang-Landau sampling (at $N=2^{10}$) seem to suggest a singularity
+near $1/\mu\approx0.06$ where the entropy density jumps noticeably
+and $\rho(\mu)\equiv\rho_{CP}$ for all larger $\mu$. Either RG or
+results for bigger systems may be needed to confirm whether there
+is phase transition or not. 
+
+The possible jamming transitions for both $l=0$ and $1$, revealed
+by the dynamic annealing simulations in Fig.~\ref{fig:HN3PE} (a)
+and (c), are further supported by a power law decay of the residual
+packing fractions, $\rho_{CP}-\rho^{*}(d\mu)$, as a function of the
+annealing rate, $d\mu$. Here, we set the jammed packing fraction,
+obtained at $\mu\to\infty$ after annealing at rate $d\mu$, as $\rho^{*}(d\mu)=\rho(\mu\to\infty;d\mu)$,
+where $d\mu/dt\to d\mu$ when measured in units of $dt\hat{=}1$ sweep.
+Note that at these system sizes ($N=32,768$), even the weakest jam
+is of order $\rho_{CP}-\rho^{*}(d\mu)\approx0.001$ and, thus, still
+consists of a sizable number ($ > 30$) of frustrated particles. 
+
+As shown in Fig.~\ref{fig:HN3Decay}, a linear fit of the data on
+a double-logarithmic scale at the largest systems  is
+nearly perfect, justifying the assumption that the time-scales $1/d\mu$
+for the existence of the jam diverge asymptotically with a power law
+for $\rho\to\rho_{CP}$. For HN3 at $l=0$, the slope is $0.34\pm0.01$
+with coefficient of determination $R^{2}=0.9975$, while for $l=1$
+the slope is $0.19\pm0.01$ with $R^{2}=0.9997$, in both cases indicating
+a dramatic increase of time-scales. 
+
+We also test the effect of introducing local hopping, implemented
+as suggested in step 3 of the algorithm in Sec.~\ref{sub:GCannealing},
+which has not been addressed in Refs.~\cite{Krzakala2008, Biroli02}.
+The results shown in Fig.~\ref{fig:HN3hopping} indicate a substantial
+difference from the simulation without hopping. For HN3 with $l=0$,
+the jamming transition disappears even for the fastest annealing schedule,
+$d\mu=10^{-3}$. For HN3 with $l=1$, the jamming transition can be
+eliminated at least for an annealing schedule of $d\mu\approx10^{-5}$
+or slower. 
+
+Besides the Hanoi networks, we have repeated the annealing simulations on random regular graphs, 
+following Krzakala {\it et al.}~\cite{Krzakala2008}. On those graphs, BM with a hopping dynamics 
+can reach a much denser state than with a varying chemical potential alone, which is similar to what Rivoire {\it  et al.}~\cite{Rivoire03} argue. But because of the enormous computational cost, we can only test $d\mu$ to as small as $\sim10^{-6}$ for system sizes at most as large as $\sim 10^5$. No results are obtained to conclude that the jamming transition disappears entirely for some smaller $d\mu$, and we suspect that the behavior instead may resemble the mean-field predictions of Rivoire {\it et al.} \cite{Rivoire03}.  
+
+\begin{figure}
+\centering \includegraphics[width=1\columnwidth]{Chapter-2/Paper_HN5_PE_Plot}
+\protect\caption{Reduced packing fraction and entropy density for HN5 from Wang-Landau
+sampling and Simulated Annealing. (a)\&(b) are for $l=0$, and (c)
+\&(d) are for $l=1$. The black solid lines represent the equilibrium
+properties from Wang-Landau sampling with $N=1024$. The dotted lines
+are from simulated annealing with $N=32,768$, run at different annealing
+schedules with $d\mu=0.001/2^{j}$ for $j=0,\ldots,8$, from top to
+bottom. As in Fig.~\ref{fig:HN3PE}, Wang-Landau sampling provides
+the entropy density via Eq.~(\ref{eq:GCPdiff}), as shown in (b) and
+(d).}
+\label{fig:HN5PE} 
+\end{figure}
+
+
+\begin{figure}
+\centering \includegraphics[width=0.5\columnwidth]{Chapter-2/Paper_HN5_Decay_Plot}
+\protect\caption{Scaling of the dynamically reached packing fraction $\rho^{*}(d\mu)$
+as a function of the annealing rate $d\mu$ for different system sizes
+$N$ of HN5 for $l=0$, the dashed lines are for systems sizes $N=2^{k}$
+with $k=8,10,12$, and 14. All data sets collapse onto the black solid line
+with a slope of $0.31\pm0.01$ with $R^{2}=0.9989$, which is obtained
+from a fit using the data of the largest system size $N=16,384$. Error
+bars are about of the size of each data point or smaller, indicating
+a relative error of less than $3\%$. }
+
+
+\label{fig:HN5Decay} 
+\end{figure}
+
+
+
+\subsubsection{Results for HN5}
+
+\label{subsec:HN5}
+
+The case in HN5 is different from that in HN3. Note that HN5, unlike
+HN3 and most finite-dimensional lattices or the random graphs studied
+in Ref.~~\cite{Krzakala2008}, is not a regular network but has an exponential
+degree distribution. In HN5 for both, $l=0$ and $l=1$, as shown
+in Fig.~\ref{fig:HN5PE}, the equilibrium behavior obtained from Wang-Landau
+sampling is smooth and there is no indication of a phase transition.
+Annealing reveals a jamming transition and a power law decay similar
+to that in HN3 in the dynamic simulations only for $l=0$. For $l=1$,
+surprisingly, there is no jamming transition. The simulations with
+different annealing schedules equilibrate easily and collapse with
+the curves from Wang-Landau sampling. This suggests that the combination
+of heterogeneity in neighborhood sizes together with the possibility
+to have one occupied neighbor ``lubricates'' the system sufficiently
+to avert jams. Correspondingly, the results from Wang-Landau converge
+rapidly even for larger system sizes. As for HN3, permitting a local
+hopping dynamics unjams the system also for HN5 with $l=0$.
+
+\begin{figure}
+\centering \includegraphics[width=0.95\columnwidth]{Chapter-2/Paper_HNNP_PE_Plot}
+\protect\caption{Reduced packing fraction and entropy density for HNNP from Wang-Landau
+sampling and Simulated Annealing. (a)\&(b) are for $l=0$, and (c)
+\&(d) are for $l=1$. The black solid lines represent the equilibrium
+properties from Wang-Landau sampling with $N=1024$. The dotted lines
+are from simulated annealing with $N=16,384$, run at different annealing
+schedules with $d\mu=0.001/2^{j}$ for $j=0,\ldots,8$, from top to
+bottom. As in Figs. \ref{fig:HN3PE} and \ref{fig:HN5PE}, Wang-Landau
+sampling provides the entropy density via Eq.~(\ref{eq:GCPdiff}),
+as shown in (b) and (d). Note that in the limit of $\mu\to\infty$,
+HNNP at $l=0$ has a zero entropy which corresponds to a unique ground
+state. At $l=1$, it attains the \emph{same} close packing fraction,
+$\rho_{CP}=\frac{1}{2}$, see Table \ref{tab:cpf}, but now at a non-trivial
+entropy. }
+\label{fig:HNNPPE} 
+\end{figure}
+
+
+\begin{figure}
+\centering \includegraphics[width=0.5\columnwidth]{Chapter-2/Paper_HNNP_Decay}
+\protect\caption{Scaling of the dynamically reached packing fraction $\rho^{*}(d\mu)$
+as a function of the annealing rate $d\mu$ for different system sizes
+$N$ of HNNP for $l=0$, the dashed lines are for systems sizes $N=2^{k}$
+with $k=8,10,12$, and 14. All data sets collapse onto the top line
+with a slope of $0.23\pm0.01$ with $R^{2}=0.9997$, which is obtained
+from a fit using the data of the largest system size $N=16,384$. Error
+bars are about of the size of each data point or smaller, indicating
+a relative error of less than $3\%$. }
+
+\label{fig:HNNPDecay} 
+\end{figure}
+
+
+\begin{table*}
+\begin{centering}
+\protect\caption{Summary of the results. \enquote{JT} means \enquote{ Jamming Transition }, and \enquote{PT} stands for \enquote{ Phase Transition }. For each network and the allowed neighborhood
+occupations of $l=0$ and $l=1$, we list to potential for a jam in
+dynamic simulations and the likely existence of an equilibrium glass
+transition.}
+
+\par\end{centering}
+
+\begin{centering}
+\label{tab:summary}
+\par\end{centering}
+
+\centering{}%
+\begin{tabular}{|c|c||c|}
+\hline 
+ & $l=0$  & $l=1$ \tabularnewline
+\hline 
+\hline 
+HN3  & JT \& no PT  & JT \& uncertain \tabularnewline
+\hline 
+HN5  & JT \& uncertain  & No JT \& no PT \tabularnewline
+\hline 
+HNNP  & JT \& uncertain  & No JT \& no PT \tabularnewline
+\hline 
+\end{tabular}
+\end{table*}
+
+
+
+\subsubsection{Results for HNNP}
+
+\label{subsec:HNNP}
+
+HNNP provides an interesting alternative among the networks we are
+considering here. Unlike HN3 and HN5, HNNP is a nonplanar network,
+but like HN5 it has an exponential distribution of degrees with an
+average degree of 4. Most importantly, HNNP at $l=0$ possesses a
+``crystalline'' optimal packing that is unique, see Fig.~\ref{fig:HNNPPE}(b),
+and consists of every second site along the line being occupied, i.e.,
+those sites that uniformly have the lowest degree of 3. Therefore,
+it provides the opportunity to explore the potential for a first-order
+transition from a jammed state into the ground state, as was observed
+for lattice glasses in Ref.~~\cite{Biroli02}. In this case, RG can
+be applied to obtain $\rho(\mu)$ in equilibrium exactly.
+
+Indeed, we find a weakly jammed state in HNNP with $l=0$, with only
+a small number of frustrated particles, as shown in Fig.~\ref{fig:HNNPPE}.
+The results of annealing simulations also show a power-law decay (Fig
+\ref{fig:HNNPDecay}), consistent with the approach to a jamming transition.
+As RG suggest, and the smooth equilibrium curve for $N=1024$ and
+the convergence with increasing system sizes affirm, there is no thermodynamic
+phase transition in HNNP with $l=0$. Despite the weakness of those
+jams, we can find no indication that the annealing simulations at
+any rate $d\mu$ can ever decay into the ordered state. Apparently,
+the structural disorder, enforced in HNNP through a heterogeneous
+neighborhood degree and the hierarchy of long-range links, prevents
+such an explosive transition. The dominance of such structural elements
+is further emphasized by the fact that HNNP for $l=1$ exhibits no
+jams, similar to HN5, with which HNNP shares that structure. 
+
+
+\section{Conclusions and Summary}
+
+\label{sec:jam_conclusions}
+
+We have examined the Biroli-Mezard lattice glass model on hierarchical
+networks, which provide intermediaries between solvable mean-field
+models and intractable finite-dimensional systems. These networks
+exhibit a lattice-like structure with small loops but also with a hierarchy of long-range links
+imposing geometric disorder and frustration while preserving a recursive
+structure that can be explored with exact methods, in principle. We
+observed a rich variety of dynamic behaviors in our simulations. For
+instance, we find jamming behavior on a regular network for which
+RG has shown that no equilibrium phase transition exists. However,
+whether the dynamic transition occurs at a packing fraction distinctly
+above random close packing remains unclear, and can only be resolved
+with more detailed RG studies that are beyond our discussion here.
+
+We have simulated the model on our networks with a varying chemical potential $\mu$,
+with and without local hopping of particles. Hopping impacted those
+simulations in a significant manner, always eliminating any jams that have existed without hopping. Solutions of the corresponding mean-field systems  would have suggested that a dynamics driven by hopping (but at fixed particle number) results in kinetic arrest~\cite{Rivoire03}. Whether canonical simulations with
+hopping alone, or hopping at different rates, would change this scenario, we have to leave for future investigations, as well as the question
+on whether a combined method of updates would alter the behavior observed
+on lattices and mean-field networks.

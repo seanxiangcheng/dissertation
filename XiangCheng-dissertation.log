@@ -1,0 +1,1782 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.13)  6 SEP 2016 22:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**XiangCheng-dissertation.tex
+(./XiangCheng-dissertation.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./ncsuthesis.cls
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip41
+\f@ncyO@elh=\skip42
+\f@ncyO@erh=\skip43
+\f@ncyO@olh=\skip44
+\f@ncyO@orh=\skip45
+\f@ncyO@elf=\skip46
+\f@ncyO@erf=\skip47
+\f@ncyO@olf=\skip48
+\f@ncyO@orf=\skip49
+)
+Document Class: ncsuthesis 2012/01/26 v0.4 NC State ETD conformant thesis class
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language79
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/nolbreaks/nolbreaks.sty
+Package: nolbreaks 2012/05/31  v 1.2  - no linebreaks in text
+\nb@counter=\count88
+\nb@RestHyph=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforechapskip=\skip58
+\cftchapindent=\skip59
+\cftchapnumwidth=\skip60
+\cftbeforesecskip=\skip61
+\cftsecindent=\skip62
+\cftsecnumwidth=\skip63
+\cftbeforesubsecskip=\skip64
+\cftsubsecindent=\skip65
+\cftsubsecnumwidth=\skip66
+\cftbeforesubsubsecskip=\skip67
+\cftsubsubsecindent=\skip68
+\cftsubsubsecnumwidth=\skip69
+\cftbeforeparaskip=\skip70
+\cftparaindent=\skip71
+\cftparanumwidth=\skip72
+\cftbeforesubparaskip=\skip73
+\cftsubparaindent=\skip74
+\cftsubparanumwidth=\skip75
+\cftbeforeloftitleskip=\skip76
+\cftafterloftitleskip=\skip77
+\cftbeforefigskip=\skip78
+\cftfigindent=\skip79
+\cftfignumwidth=\skip80
+\c@lofdepth=\count89
+\c@lotdepth=\count90
+\cftbeforelottitleskip=\skip81
+\cftafterlottitleskip=\skip82
+\cftbeforetabskip=\skip83
+\cfttabindent=\skip84
+\cfttabnumwidth=\skip85
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip86
+\calc@Bskip=\skip87
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count94
+\calc@Cskip=\skip88
+)
+\ncsu@capitalheight=\skip89
+\ncsu@lineheight=\skip90
+\ncsu@leading=\skip91
+\ncsu@footskip=\skip92
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks16
+)
+\ncsu@afterschapsep=\skip93
+\ncsu@afterschapbeforeleadingsep=\skip94
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count98
+\rotFPtop=\skip95
+\rotFPbot=\skip96
+\rot@float@box=\box26
+\rot@mess@toks=\toks17
+)
+\portraittextheight=\skip97
+\portraittextwidth=\skip98
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks18
+\AP@partial=\box27
+\AP@footins=\box28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count99
+\cp@tempcnt=\count100
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count101
+Package caption Info: rotating package is loaded.
+)
+\appendixwidth=\skip99
+
+(/usr/share/texlive/texmf-dist/tex/latex/totcount/totcount.sty
+Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
+ounters
+)
+\c@chapter@totc=\count102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen122
+\lightrulewidth=\dimen123
+\cmidrulewidth=\dimen124
+\belowrulesep=\dimen125
+\belowbottomsep=\dimen126
+\aboverulesep=\dimen127
+\abovetopsep=\dimen128
+\cmidrulesep=\dimen129
+\cmidrulekern=\dimen130
+\defaultaddspace=\dimen131
+\@cmidla=\count103
+\@cmidlb=\count104
+\@aboverulesep=\dimen132
+\@belowrulesep=\dimen133
+\@thisruleclass=\count105
+\@lastruleclass=\count106
+\@thisrulewidth=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip100
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count107
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count108
+\leftroot@=\count109
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count110
+\DOTSCASE@=\count111
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count112
+\c@MaxMatrixCols=\count113
+\dotsspace@=\muskip10
+\c@parentequation=\count114
+\dspbrk@lvl=\count115
+\tag@help=\toks20
+\row@=\count116
+\column@=\count117
+\maxfields@=\count118
+\andhelp@=\toks21
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks22
+\multlinegap=\skip101
+\multlinetaggap=\skip102
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count120
+\sf@farskip=\skip103
+\sf@captopadj=\dimen144
+\sf@capskip=\skip104
+\sf@nearskip=\skip105
+\c@subfigure=\count121
+\c@subfigure@save=\count122
+\c@subtable=\count123
+\c@subtable@save=\count124
+\sf@top=\skip106
+\sf@bottom=\skip107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \AP@enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen145
+\Hy@linkcounter=\count125
+\Hy@pagecounter=\count126
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count127
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count128
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen146
+\Fld@menulength=\count129
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count130
+\c@Item=\count131
+\c@Hfootnote=\count132
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count133
+\c@bookmark@seq@number=\count134
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip108
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+
+(/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen149
+\extrarowheight=\dimen150
+\NC@list=\toks24
+\extratabsurround=\skip109
+\backup@length=\skip110
+)
+\TX@col@width=\dimen151
+\TX@old@table=\dimen152
+\TX@old@col=\dimen153
+\TX@target=\dimen154
+\TX@delta=\dimen155
+\TX@cols=\count135
+\TX@ftn=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count136
+\float@exts=\toks26
+\float@box=\box32
+\@float@everytoks=\toks27
+\@floatcapt=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/mcite/mcite.sty
+Package: mcite 1996/01/01 multiple citations
+
+Package: `mcite' v0.04 <1996/01/01> (tho) PRELIMINARY TEST RELEASE
+English documentation     <1996/01/01> (tho)
+) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `mcite' package should not be used
+(natbib)                with natbib. Use option `merge' instead.
+
+\bibhang=\skip111
+\bibsep=\skip112
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count137
+) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count138
+)
+\etb@tempcnta=\count139
+)
+\csq@reset=\count140
+\csq@gtype=\count141
+\csq@glevel=\count142
+\csq@qlevel=\count143
+\csq@maxlvl=\count144
+\csq@tshold=\count145
+\csq@ltx@everypar=\toks28
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+\c@defcounter=\count146
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
+(./XiangCheng-dissertation.aux (./front.aux) (./Chapter-1/Chapter-1.aux)
+(./Chapter-2/Chapter-2.aux) (./Chapter-3/Chapter-3.aux
+
+LaTeX Warning: Label `eq:hn35-init1' multiply defined.
+
+
+LaTeX Warning: Label `eq:hn35-activities' multiply defined.
+
+) (./Chapter-4/Chapter-4.aux) (./Chapter-5/Chapter-5.aux)
+(./Appendix/Appendix.aux))
+\openout1 = `XiangCheng-dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 139.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count147
+\scratchdimen=\dimen156
+\scratchbox=\box34
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen157
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks30
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(90.3375pt, 451.68752pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=451.68752pt
+* \textheight=591.65172pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-31.8738pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=58.77829pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@ncsu@appendixtocdepth=\count153
+\AtBeginShipoutBox=\box35
+Package hyperref Info: Link coloring ON on input line 139.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 139.
+LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \nameref on input line 139.
+
+(./XiangCheng-dissertation.out) (./XiangCheng-dissertation.out)
+\@outlinefile=\write4
+\openout4 = `XiangCheng-dissertation.out'.
+
+\symgns@font=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 139.
+Package gensymb Info: Math companion symbols declared on input line 139.
+LaTeX Info: Redefining \degree on input line 139.
+LaTeX Info: Redefining \celsius on input line 139.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 139.
+LaTeX Info: Redefining \ohm on input line 139.
+Package gensymb Info: Using \textohm for \ohm on input line 139.
+Package gensymb Info: Using \textmu for \micro on input line 139.
+\openout2 = `front.aux'.
+
+ (./front.tex
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] [3
+
+] [4
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \makecovertwo
+                   [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 \end{acknowledgements}
+                            [2
+
+
+] (./XiangCheng-dissertation.tocpdfTeX warning (ext4): destination with the sam
+e identifier (name{page.iii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 ...{5}Summary and Future Work}{74}{chapter.5}
+                                                   [3
+
+])
+\tf@toc=\write5
+\openout5 = `XiangCheng-dissertation.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \thesistableofcontents
+                            [4] (./XiangCheng-dissertation.lot)
+\tf@lot=\write6
+\openout6 = `XiangCheng-dissertation.lot'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.v}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \thesislistoftables
+                         [5
+
+
+] (./XiangCheng-dissertation.lof [6
+
+
+
+] [7]
+Overfull \hbox (35.17014pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/n/12 tom cor-re-spond to an-neal-ing sched-ules of $10[]\OML/cmm/m/
+it/12 ; \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2[]\OML/cmm/m/it/
+12 ; \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2[]\OML/cmm/m/it/12 
+; []  ; \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2[]$, 
+ []
+
+[8] [9])
+\tf@lof=\write7
+\openout7 = `XiangCheng-dissertation.lof'.
+
+ [10]
+Overfull \hbox (0.6312pt too wide) in paragraph at lines 77--78
+[]\OT1/cmr/m/n/12 Michael Madaio, Shang-Tse Chen, Oliver L Haim-son, Wen-wen Zh
+ang, $[]$,
+ []
+
+[11
+
+
+])
+\openout2 = `Chapter-1/Chapter-1.aux'.
+
+ (./Chapter-1/Chapter-1.tex
+Chapter 1.
+[1
+
+
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Overfull \hbox (12.82147pt too wide) in paragraph at lines 94--102
+\OT1/cmr/m/n/12 In our in-ves-ti-ga-tions, one of the in-no-va-tive in-sights i
+s con-tributed from the finite-dimensional
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] <Chapter-1/HN3_short.pdf, id=646, 619.31375pt x 207.77625pt>
+File: Chapter-1/HN3_short.pdf Graphic file (type pdf)
+
+<use Chapter-1/HN3_short.pdf>
+Package pdftex.def Info: Chapter-1/HN3_short.pdf used on input line 152.
+(pdftex.def)             Requested size: 451.68752pt x 151.5454pt.
+
+<Chapter-1/HN5HNNP.pdf, id=649, 252.945pt x 276.03125pt>
+File: Chapter-1/HN5HNNP.pdf Graphic file (type pdf)
+
+<use Chapter-1/HN5HNNP.pdf>
+Package pdftex.def Info: Chapter-1/HN5HNNP.pdf used on input line 170.
+(pdftex.def)             Requested size: 361.35138pt x 394.3384pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./Chapter-1/HN3_short.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./Chapter-1/HN5HNNP.pdf>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+\openout2 = `Chapter-2/Chapter-2.aux'.
+
+ (./Chapter-2/Chapter-2.tex
+Chapter 2.
+[9
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14] <Chapter-2/Paper_DOS_Plot2.pdf, id=764, 271.0125pt x 252.945pt>
+File: Chapter-2/Paper_DOS_Plot2.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_DOS_Plot2.pdf>
+Package pdftex.def Info: Chapter-2/Paper_DOS_Plot2.pdf used on input line 226.
+(pdftex.def)             Requested size: 361.35138pt x 337.27332pt.
+
+<Chapter-2/Paper_ConvergenceHN3_Plot2.pdf, id=767, 402.6233pt x 170.13562pt>
+File: Chapter-2/Paper_ConvergenceHN3_Plot2.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_ConvergenceHN3_Plot2.pdf>
+Package pdftex.def Info: Chapter-2/Paper_ConvergenceHN3_Plot2.pdf used on input
+ line 237.
+(pdftex.def)             Requested size: 451.68752pt x 190.88028pt.
+
+<Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf, id=770, 216.23642pt 
+x 201.61037pt>
+File: Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.p
+df used on input line 251.
+(pdftex.def)             Requested size: 271.01526pt x 252.70142pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <./Chapter-2/Paper_DOS_Plot2.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <./Chapter-2/Paper_ConvergenceHN3_Plot2.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf>]
+<Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf, id=916, 356.33125pt x 334.248
+75pt>
+File: Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf Graphic file (type pdf)
+ <use Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf used o
+n input line 322.
+(pdftex.def)             Requested size: 451.68752pt x 423.71596pt.
+
+<Chapter-2/Paper_HN3_Decay.pdf, id=919, 365.365pt x 180.675pt>
+File: Chapter-2/Paper_HN3_Decay.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_HN3_Decay.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HN3_Decay.pdf used on input line 338.
+(pdftex.def)             Requested size: 406.516pt x 201.03406pt.
+
+<Chapter-2/Paper_HN3_Hopping_Plot.pdf, id=920, 304.13625pt x 145.54375pt>
+File: Chapter-2/Paper_HN3_Hopping_Plot.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_HN3_Hopping_Plot.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HN3_Hopping_Plot.pdf used on input lin
+e 358.
+(pdftex.def)             Requested size: 406.516pt x 194.54346pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./Chapter-2/Paper_HN3_Decay.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./Chapter-2/Paper_HN3_Hopping_Plot.pdf>]
+<Chapter-2/Paper_HN5_PE_Plot.pdf, id=988, 353.32pt x 316.18124pt>
+File: Chapter-2/Paper_HN5_PE_Plot.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_HN5_PE_Plot.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HN5_PE_Plot.pdf used on input line 426
+.
+(pdftex.def)             Requested size: 451.68752pt x 404.21367pt.
+
+<Chapter-2/Paper_HN5_Decay_Plot.pdf, id=993, 203.76125pt x 201.75375pt>
+File: Chapter-2/Paper_HN5_Decay_Plot.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_HN5_Decay_Plot.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HN5_Decay_Plot.pdf used on input line 
+441.
+(pdftex.def)             Requested size: 225.84375pt x 223.62914pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./Chapter-2/Paper_HN5_PE_Plot.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <./Chapter-2/Paper_HN5_Decay_Plot.pdf>]
+<Chapter-2/Paper_HNNP_PE_Plot.pdf, id=1029, 350.30875pt x 337.26pt>
+File: Chapter-2/Paper_HNNP_PE_Plot.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_HNNP_PE_Plot.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HNNP_PE_Plot.pdf used on input line 47
+9.
+(pdftex.def)             Requested size: 429.10176pt x 413.14453pt.
+
+<Chapter-2/Paper_HNNP_Decay.pdf, id=1038, 214.8025pt x 210.7875pt>
+File: Chapter-2/Paper_HNNP_Decay.pdf Graphic file (type pdf)
+
+<use Chapter-2/Paper_HNNP_Decay.pdf>
+Package pdftex.def Info: Chapter-2/Paper_HNNP_Decay.pdf used on input line 498.
+
+(pdftex.def)             Requested size: 225.84375pt x 221.6261pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./Chapter-2/Paper_HNNP_PE_Plot.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./Chapter-2/Paper_HNNP_Decay.pdf>]
+Overfull \hbox (14.3257pt too wide) in paragraph at lines 578--590
+\OT1/cmr/m/n/12 pro-vide in-ter-me-di-aries be-tween solv-able mean-field mod-e
+ls and in-tractable finite-dimensional
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+\openout2 = `Chapter-3/Chapter-3.aux'.
+
+ (./Chapter-3/Chapter-3.tex
+Chapter 3.
+[31
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35] <Chapter-3/RG3hanoi.pdf, id=1155, 369.20436pt x 146.04375pt>
+File: Chapter-3/RG3hanoi.pdf Graphic file (type pdf)
+
+<use Chapter-3/RG3hanoi.pdf>
+Package pdftex.def Info: Chapter-3/RG3hanoi.pdf used on input line 74.
+(pdftex.def)             Requested size: 251.05563pt x 99.30843pt.
+
+<Chapter-3/RG3hanoi_after.pdf, id=1158, 223.87076pt x 145.30347pt>
+File: Chapter-3/RG3hanoi_after.pdf Graphic file (type pdf)
+
+<use Chapter-3/RG3hanoi_after.pdf>
+Package pdftex.def Info: Chapter-3/RG3hanoi_after.pdf used on input line 82.
+(pdftex.def)             Requested size: 152.23009pt x 98.80504pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./Chapter-3/RG3hanoi.pdf> <./Chapter-3/RG3hanoi_after.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapter-3/RG3hanoi_after.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] <Chapter-3/IsingRG_HN5_before.pdf, id=1178, 369.20436pt x 181.45894pt>
+File: Chapter-3/IsingRG_HN5_before.pdf Graphic file (type pdf)
+
+<use Chapter-3/IsingRG_HN5_before.pdf>
+Package pdftex.def Info: Chapter-3/IsingRG_HN5_before.pdf used on input line 91
+.
+(pdftex.def)             Requested size: 251.05563pt x 123.39043pt.
+
+<Chapter-3/IsingRG_HNNP_before.pdf, id=1179, 370.28337pt x 154.75717pt>
+File: Chapter-3/IsingRG_HNNP_before.pdf Graphic file (type pdf)
+
+<use Chapter-3/IsingRG_HNNP_before.pdf>
+Package pdftex.def Info: Chapter-3/IsingRG_HNNP_before.pdf used on input line 9
+7.
+(pdftex.def)             Requested size: 251.78935pt x 105.23346pt.
+
+<Chapter-3/IsingRG_HN6_before.pdf, id=1180, 370.28337pt x 177.198pt>
+File: Chapter-3/IsingRG_HN6_before.pdf Graphic file (type pdf)
+
+<use Chapter-3/IsingRG_HN6_before.pdf>
+Package pdftex.def Info: Chapter-3/IsingRG_HN6_before.pdf used on input line 10
+3.
+(pdftex.def)             Requested size: 251.78935pt x 120.49303pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <./Chapter-3/IsingRG_HN5_before.pdf> <./Chapter-3/IsingRG_HNNP_before.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapter-3/IsingRG_HNNP_before.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38 <./Chapter-3/IsingRG_HN6_before.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43] <Chapter-3/AFM_Jamming_SA_plot.pdf, id=1257, 722.7pt x 578.16pt>
+File: Chapter-3/AFM_Jamming_SA_plot.pdf Graphic file (type pdf)
+
+<use Chapter-3/AFM_Jamming_SA_plot.pdf>
+Package pdftex.def Info: Chapter-3/AFM_Jamming_SA_plot.pdf used on input line 2
+70.
+(pdftex.def)             Requested size: 406.516pt x 325.2142pt.
+
+<Chapter-3/AFM_Jamming_SA_scaling_plot.pdf, id=1261, 361.35pt x 289.08pt>
+File: Chapter-3/AFM_Jamming_SA_scaling_plot.pdf Graphic file (type pdf)
+
+<use Chapter-3/AFM_Jamming_SA_scaling_plot.pdf>
+Package pdftex.def Info: Chapter-3/AFM_Jamming_SA_scaling_plot.pdf used on inpu
+t line 283.
+(pdftex.def)             Requested size: 225.84375pt x 180.67455pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./Chapter-3/AFM_Jamming_SA_plot.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./Chapter-3/AFM_Jamming_SA_scaling_plot.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47] <Chapter-3/HN35_KJvsTys.pdf, id=1366, 578.16pt x 289.08pt>
+File: Chapter-3/HN35_KJvsTys.pdf Graphic file (type pdf)
+
+<use Chapter-3/HN35_KJvsTys.pdf>
+Package pdftex.def Info: Chapter-3/HN35_KJvsTys.pdf used on input line 364.
+(pdftex.def)             Requested size: 406.516pt x 203.25446pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48] <Chapter-3/HN35ysTransVsY.pdf, id=1381, 505.89pt x 216.81pt>
+File: Chapter-3/HN35ysTransVsY.pdf Graphic file (type pdf)
+
+<use Chapter-3/HN35ysTransVsY.pdf>
+Package pdftex.def Info: Chapter-3/HN35ysTransVsY.pdf used on input line 380.
+(pdftex.def)             Requested size: 406.516pt x 174.22566pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49 <./Chapter-3/HN35_KJvsTys.pdf>]
+<Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf, id=1433, 361.35pt x 578.16pt>
+File: Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf Graphic file (type pdf)
+
+<use Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf>
+Package pdftex.def Info: Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf used on input line 40
+4.
+(pdftex.def)             Requested size: 271.01526pt x 433.62775pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50 <./Chapter-3/HN35ysTransVsY.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51 <./Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf>]
+<Chapter-3/HNNP_eigenvalues.pdf, id=1501, 438.63875pt x 293.095pt>
+File: Chapter-3/HNNP_eigenvalues.pdf Graphic file (type pdf)
+
+<use Chapter-3/HNNP_eigenvalues.pdf>
+Package pdftex.def Info: Chapter-3/HNNP_eigenvalues.pdf used on input line 431.
+
+(pdftex.def)             Requested size: 271.01526pt x 181.09537pt.
+
+<Chapter-3/HNP6_KvsMu_ys.pdf, id=1502, 722.7pt x 578.16pt>
+File: Chapter-3/HNP6_KvsMu_ys.pdf Graphic file (type pdf)
+
+<use Chapter-3/HNP6_KvsMu_ys.pdf>
+Package pdftex.def Info: Chapter-3/HNP6_KvsMu_ys.pdf used on input line 437.
+(pdftex.def)             Requested size: 451.68752pt x 361.3491pt.
+
+<Chapter-3/HNP6_JvsT_ys.pdf, id=1503, 722.7pt x 578.16pt>
+File: Chapter-3/HNP6_JvsT_ys.pdf Graphic file (type pdf)
+
+<use Chapter-3/HNP6_JvsT_ys.pdf>
+Package pdftex.def Info: Chapter-3/HNP6_JvsT_ys.pdf used on input line 443.
+(pdftex.def)             Requested size: 451.68752pt x 361.3491pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53 <./Chapter-3/HNNP_eigenvalues.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54 <./Chapter-3/HNP6_KvsMu_ys.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55 <./Chapter-3/HNP6_JvsT_ys.pdf>]
+<Chapter-3/HP_KJvsTys_FMTrans.pdf, id=1955, 650.43pt x 289.08pt>
+File: Chapter-3/HP_KJvsTys_FMTrans.pdf Graphic file (type pdf)
+
+<use Chapter-3/HP_KJvsTys_FMTrans.pdf>
+Package pdftex.def Info: Chapter-3/HP_KJvsTys_FMTrans.pdf used on input line 47
+6.
+(pdftex.def)             Requested size: 451.68752pt x 200.75342pt.
+
+<Chapter-3/HN6_TransTvsY1.pdf, id=1956, 794.97pt x 289.08pt>
+File: Chapter-3/HN6_TransTvsY1.pdf Graphic file (type pdf)
+
+<use Chapter-3/HN6_TransTvsY1.pdf>
+Package pdftex.def Info: Chapter-3/HN6_TransTvsY1.pdf used on input line 482.
+(pdftex.def)             Requested size: 451.68752pt x 164.2524pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56 <./Chapter-3/HP_KJvsTys_FMTrans.pdf>]
+<Chapter-3/HN35P6DOS_h2.pdf, id=2007, 505.89pt x 361.35pt>
+File: Chapter-3/HN35P6DOS_h2.pdf Graphic file (type pdf)
+
+<use Chapter-3/HN35P6DOS_h2.pdf>
+Package pdftex.def Info: Chapter-3/HN35P6DOS_h2.pdf used on input line 513.
+(pdftex.def)             Requested size: 316.17987pt x 225.84871pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57 <./Chapter-3/HN6_TransTvsY1.pdf>]
+<Chapter-3/HNs_MagvsH_m_vs_H.pdf, id=2058, 722.7pt x 289.08pt>
+File: Chapter-3/HNs_MagvsH_m_vs_H.pdf Graphic file (type pdf)
+
+<use Chapter-3/HNs_MagvsH_m_vs_H.pdf>
+Package pdftex.def Info: Chapter-3/HNs_MagvsH_m_vs_H.pdf used on input line 526
+.
+(pdftex.def)             Requested size: 406.516pt x 162.60709pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58 <./Chapter-3/HN35P6DOS_h2.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59 <./Chapter-3/HNs_MagvsH_m_vs_H.pdf>]
+<Chapter-3/freeE_lowT2highT.pdf, id=2139, 722.7pt x 361.35pt>
+File: Chapter-3/freeE_lowT2highT.pdf Graphic file (type pdf)
+
+<use Chapter-3/freeE_lowT2highT.pdf>
+Package pdftex.def Info: Chapter-3/freeE_lowT2highT.pdf used on input line 551.
+
+(pdftex.def)             Requested size: 361.35138pt x 180.67456pt.
+
+<Chapter-3/freeEdifference_k16_32.pdf, id=2142, 867.24pt x 650.43pt>
+File: Chapter-3/freeEdifference_k16_32.pdf Graphic file (type pdf)
+
+<use Chapter-3/freeEdifference_k16_32.pdf>
+Package pdftex.def Info: Chapter-3/freeEdifference_k16_32.pdf used on input lin
+e 557.
+(pdftex.def)             Requested size: 361.35138pt x 271.01514pt.
+
+<Chapter-3/chaotic_exponents_freeE.pdf, id=2143, 722.7pt x 361.35pt>
+File: Chapter-3/chaotic_exponents_freeE.pdf Graphic file (type pdf)
+
+<use Chapter-3/chaotic_exponents_freeE.pdf>
+Package pdftex.def Info: Chapter-3/chaotic_exponents_freeE.pdf used on input li
+ne 564.
+(pdftex.def)             Requested size: 361.35138pt x 180.67456pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60 <./Chapter-3/freeE_lowT2highT.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61 <./Chapter-3/freeEdifference_k16_32.pdf> <./Chapter-3/chaotic_exponents_fre
+eE.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapter-3/chaotic_exponents_freeE.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+\openout2 = `Chapter-4/Chapter-4.aux'.
+
+ (./Chapter-4/Chapter-4.tex
+Chapter 4.
+[62
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[65] <Chapter-4/RFIM_Before_After_Annealing.pdf, id=2244, 722.7pt x 397.485pt>
+File: Chapter-4/RFIM_Before_After_Annealing.pdf Graphic file (type pdf)
+
+<use Chapter-4/RFIM_Before_After_Annealing.pdf>
+Package pdftex.def Info: Chapter-4/RFIM_Before_After_Annealing.pdf used on inpu
+t line 51.
+(pdftex.def)             Requested size: 406.516pt x 223.58476pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66 <./Chapter-4/RFIM_Before_After_Annealing.pdf>]
+<Chapter-4/spin_plot1_Norf.pdf, id=2278, 433.62pt x 433.62pt>
+File: Chapter-4/spin_plot1_Norf.pdf Graphic file (type pdf)
+
+<use Chapter-4/spin_plot1_Norf.pdf>
+Package pdftex.def Info: Chapter-4/spin_plot1_Norf.pdf used on input line 71.
+(pdftex.def)             Requested size: 361.35138pt x 361.36676pt.
+
+<Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf, id=2281, 592.61403pt x 361
+.35pt>
+File: Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf Graphic file (type pdf
+)
+ <use Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf>
+Package pdftex.def Info: Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf use
+d on input line 77.
+(pdftex.def)             Requested size: 361.35138pt x 220.34047pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68 <./Chapter-4/spin_plot1_Norf.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69 <./Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf>]
+<Chapter-4/exponent_scale_4cycle_T03.pdf, id=2337, 361.35pt x 289.08pt>
+File: Chapter-4/exponent_scale_4cycle_T03.pdf Graphic file (type pdf)
+
+<use Chapter-4/exponent_scale_4cycle_T03.pdf>
+Package pdftex.def Info: Chapter-4/exponent_scale_4cycle_T03.pdf used on input 
+line 89.
+(pdftex.def)             Requested size: 225.84375pt x 180.67455pt.
+
+<Chapter-4/asymptotic_E_T03_10cycles.pdf, id=2338, 361.35pt x 289.08pt>
+File: Chapter-4/asymptotic_E_T03_10cycles.pdf Graphic file (type pdf)
+
+<use Chapter-4/asymptotic_E_T03_10cycles.pdf>
+Package pdftex.def Info: Chapter-4/asymptotic_E_T03_10cycles.pdf used on input 
+line 95.
+(pdftex.def)             Requested size: 225.84375pt x 180.67455pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70 <./Chapter-4/exponent_scale_4cycle_T03.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./Chapter-4/asymptotic_E_T03_10cycles.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]
+\openout2 = `Chapter-5/Chapter-5.aux'.
+
+ (./Chapter-5/Chapter-5.tex
+Chapter 5.
+) [74
+
+
+
+] (./XiangCheng-dissertation.bbl [75
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78] [79
+
+]
+\openout2 = `Appendix/Appendix.aux'.
+
+ (./Appendix/Appendix.tex)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+ (./XiangCheng-dissertation.aux (./front.aux) (./Chapter-1/Chapter-1.aux)
+(./Chapter-2/Chapter-2.aux) (./Chapter-3/Chapter-3.aux)
+(./Chapter-4/Chapter-4.aux) (./Chapter-5/Chapter-5.aux)
+(./Appendix/Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package rerunfilecheck Info: File `XiangCheng-dissertation.out' has not changed
+.
+(rerunfilecheck)             Checksum: 1829D49CA6E8544B4BC33FD37F9BBFFB;2903.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+ ) 
+Here is how much of TeX's memory you used:
+ 11963 strings out of 493304
+ 180223 string characters out of 6139871
+ 422400 words of memory out of 5000000
+ 14805 multiletter control sequences out of 15000+600000
+ 14218 words of font info for 52 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 43i,12n,47p,1323b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on XiangCheng-dissertation.pdf (96 pages, 1687264 bytes).
+PDF statistics:
+ 2565 PDF objects out of 2984 (max. 8388607)
+ 1715 compressed objects within 18 object streams
+ 320 named destinations out of 1000 (max. 500000)
+ 514 words of extra memory for PDF output out of 10000 (max. 10000000)
+

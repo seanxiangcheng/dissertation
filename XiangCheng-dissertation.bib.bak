@@ -1,0 +1,910 @@
+% This file was created with JabRef 2.10b2.
+% Encoding: UTF-8
+
+
+@Article{Vcerny1985,
+  Title                    = {Thermodynamical approach to the traveling salesman problem: An efficient simulation algorithm},
+  Author                   = {{\v{C}}ern{\`y}, VLADIM{\'I}R},
+  Journal                  = {Journal of optimization theory and applications},
+  Year                     = {1985},
+  Number                   = {1},
+  Pages                    = {41--51},
+  Volume                   = {45},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Springer},
+  Timestamp                = {2014.06.15}
+}
+
+@Article{Angelani2007,
+  Title                    = {Configurational entropy of hard spheres},
+  Author                   = {Angelani, Luca and Foffi, Giuseppe},
+  Journal                  = {Journal of Physics: Condensed Matter},
+  Year                     = {2007},
+  Number                   = {25},
+  Pages                    = {256207},
+  Volume                   = {19},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2014.08.13}
+}
+
+@Article{Barrat2001,
+  Title                    = {Edwards' measures:\quad{}A thermodynamic construction for dense granular media and glasses},
+  Author                   = {Barrat, Alain and Kurchan, Jorge and Loreto, Vittorio and Sellitto, Mauro},
+  Journal                  = {Phys. Rev. E},
+  Year                     = {2001},
+
+  Month                    = {Apr},
+  Pages                    = {051301},
+  Volume                   = {63},
+
+  Doi                      = {10.1103/PhysRevE.63.051301},
+  Issue                    = {5},
+  Numpages                 = {14},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.63.051301}
+}
+
+@Article{berthier2011theory,
+  Title                    = {Theoretical perspective on the glass transition and amorphous materials},
+  Author                   = {Berthier, Ludovic and Biroli, Giulio},
+  Journal                  = {Reviews of Modern Physics},
+  Year                     = {2011},
+  Number                   = {2},
+  Pages                    = {587},
+  Volume                   = {83},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.07.13}
+}
+
+@Book{Berthier2011,
+  Title                    = {Dynamical heterogeneities in glasses, colloids, and granular media},
+  Author                   = {Berthier, Ludovic and Biroli, Giulio and Bouchaud, Jean-Philippe and Cipelletti, Luca and van Saarloos, Wim},
+  Publisher                = {Oxford University Press},
+  Year                     = {2011},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2014.08.09}
+}
+
+@Article{berthier2016facets,
+  Title                    = {Facets of glass physics},
+  Author                   = {Berthier, Ludovic and Ediger, Mark},
+  Journal                  = {Physics today},
+  Year                     = {2016},
+  Number                   = {1},
+  Pages                    = {40},
+  Volume                   = {69},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {American Institute of Physics},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{bi2015density,
+  Title                    = {A density-independent rigidity transition in biological tissues},
+  Author                   = {Bi, Dapeng and Lopez, JH and Schwarz, JM and Manning, M Lisa},
+  Journal                  = {Nature Physics},
+  Year                     = {2015},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{Biroli2007,
+  Title                    = {Jamming: A new kind of phase transition?},
+  Author                   = {Biroli, Giulio},
+  Journal                  = {Nature Physics},
+  Year                     = {2007},
+  Number                   = {4},
+  Pages                    = {222--223},
+  Volume                   = {3},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2014.06.14}
+}
+
+@Article{Biroli02,
+  Title                    = {Lattice Glass Models},
+  Author                   = {Biroli, Giulio and M\'ezard, Marc},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2001},
+
+  Month                    = {Dec},
+  Pages                    = {025501},
+  Volume                   = {88},
+
+  Doi                      = {10.1103/PhysRevLett.88.025501},
+  Issue                    = {2},
+  Numpages                 = {4},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.88.025501}
+}
+
+@Article{boettcher2015classification,
+  Title                    = {Classification of critical phenomena in hierarchical small-world networks},
+  Author                   = {Boettcher, Stefan and Brunson, CT},
+  Journal                  = {EPL (Europhysics Letters)},
+  Year                     = {2015},
+  Number                   = {2},
+  Pages                    = {26005},
+  Volume                   = {110},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2016.07.13}
+}
+
+@Article{Boettcher2011HNNP,
+  Title                    = {Fixed-point properties of the Ising ferromagnet on the Hanoi networks},
+  Author                   = {Boettcher, S. and Brunson, C. T.},
+  Journal                  = {Phys. Rev. E},
+  Year                     = {2011},
+
+  Month                    = {Feb},
+  Pages                    = {021103},
+  Volume                   = {83},
+
+  Doi                      = {10.1103/PhysRevE.83.021103},
+  Issue                    = {2},
+  Numpages                 = {13},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.83.021103}
+}
+
+@Article{Boettcher09c,
+  Title                    = {Patchy percolation on a hierarchical network with small-world bonds},
+  Author                   = {Boettcher, S. and Cook, J. L. and Ziff, R. M.},
+  Journal                  = {Phys. Rev. E},
+  Year                     = {2009},
+  Pages                    = {041115},
+  Volume                   = {80},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.07.12}
+}
+
+@Article{Boettcher2008HN,
+  Title                    = {Hierarchical regular small-world networks},
+  Author                   = {Boettcher, Stefan and Gon{\c{c}}alves, Bruno and Guclu, Hasan},
+  Journal                  = {Journal of Physics A: Mathematical and Theoretical},
+  Year                     = {2008},
+  Number                   = {25},
+  Pages                    = {252001},
+  Volume                   = {41},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2014.06.14}
+}
+
+@Article{Boettcher2010HN,
+  Title                    = {Hierarchical networks of regular degree},
+  Author                   = {Boettcher, Stefan and Goncalves, Bruno},
+  Journal                  = {Physics Procedia},
+  Year                     = {2010},
+  Pages                    = {12--15},
+  Volume                   = {6},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.06.14}
+}
+
+@Article{BoHa11,
+  Title                    = {Optimal vertex cover for the small-world Hanoi networks},
+  Author                   = {Boettcher, Stefan and Hartmann, Alexander K.},
+  Journal                  = {Phys. Rev. E},
+  Year                     = {2011},
+
+  Month                    = {Jul},
+  Pages                    = {011108},
+  Volume                   = {84},
+
+  Doi                      = {10.1103/PhysRevE.84.011108},
+  Issue                    = {1},
+  Numpages                 = {17},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.84.011108}
+}
+
+@Article{Boolchand2005,
+  Title                    = {Self-organization and the physics of glassy networks},
+  Author                   = {Boolchand, P and Lucovsky, G and Phillips, JC and Thorpe, MF},
+  Journal                  = {Philosophical Magazine},
+  Year                     = {2005},
+  Number                   = {32},
+  Pages                    = {3823--3838},
+  Volume                   = {85},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Taylor \& Francis},
+  Timestamp                = {2014.08.13}
+}
+
+@PhdThesis{brunson2014rg,
+  Title                    = {A Renormalization Group Study of the Ising Model on the Hierarchical Hanoi Networks},
+  Author                   = {Brunson, Clifton Trent},
+  School                   = {Emory University},
+  Year                     = {2014},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{cheng2015jamming,
+  Title                    = {Jamming in hierarchical networks},
+  Author                   = {Cheng, Xiang and Boettcher, Stefan},
+  Journal                  = {Computer Physics Communications},
+  Year                     = {2015},
+  Pages                    = {19--26},
+  Volume                   = {196},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2016.07.13}
+}
+
+@Article{Ciamarra2010,
+  Title                    = {Recent results on the jamming phase diagram},
+  Author                   = {Ciamarra, Massimo Pica and Nicodemi, Mario and Coniglio, Antonio},
+  Journal                  = {Soft Matter},
+  Year                     = {2010},
+  Number                   = {13},
+  Pages                    = {2871--2874},
+  Volume                   = {6},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Royal Society of Chemistry},
+  Timestamp                = {2014.09.09}
+}
+
+@Article{Dickman2011,
+  Title                    = {Critical behavior of hard-core lattice gases: Wang--Landau sampling with adaptive windows},
+  Author                   = {Cunha-Netto, AG and Dickman, Ronald},
+  Journal                  = {Computer Physics Communications},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {719--725},
+  Volume                   = {182},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.06.15}
+}
+
+@Article{DaCruz2002,
+  Title                    = {Viscosity bifurcation in granular materials, foams, and emulsions},
+  Author                   = {Da Cruz, F and Chevoir, F and Bonn, Daniel and Coussot, Ph},
+  Journal                  = {Physical Review E},
+  Year                     = {2002},
+  Number                   = {5},
+  Pages                    = {051305},
+  Volume                   = {66},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2014.08.13}
+}
+
+@Article{edwards1975theory,
+  Title                    = {Theory of spin glasses},
+  Author                   = {Edwards, Samuel Frederick and Anderson, Phil W},
+  Journal                  = {Journal of Physics F: Metal Physics},
+  Year                     = {1975},
+  Number                   = {5},
+  Pages                    = {965},
+  Volume                   = {5},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{fernandez1988random,
+  Title                    = {Random fields generated by dilution in zero external field},
+  Author                   = {Fernandez, JF},
+  Journal                  = {EPL (Europhysics Letters)},
+  Year                     = {1988},
+  Number                   = {2},
+  Pages                    = {129},
+  Volume                   = {5},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2016.08.11}
+}
+
+@Article{fisher1988theory,
+  Title                    = {Theory of random magnets},
+  Author                   = {Fisher, Daniel S and Grinstein, Geoffrey M and Khurana, Anil},
+  Journal                  = {Physics Today},
+  Year                     = {1988},
+  Number                   = {12},
+  Pages                    = {56--67},
+  Volume                   = {41},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {American Institute of Physics},
+  Timestamp                = {2016.08.11}
+}
+
+@Article{Fredrickson1984,
+  Title                    = {Kinetic Ising Model of the Glass Transition},
+  Author                   = {Fredrickson, Glenn H. and Andersen, Hans C.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {1984},
+
+  Month                    = {Sep},
+  Pages                    = {1244--1247},
+  Volume                   = {53},
+
+  Doi                      = {10.1103/PhysRevLett.53.1244},
+  Issue                    = {13},
+  Numpages                 = {0},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.53.1244}
+}
+
+@Article{Gibbs1958nature,
+  Title                    = {Nature of the glass transition and the glassy state},
+  Author                   = {Gibbs, Julian H and DiMarzio, Edmund A},
+  Journal                  = {The Journal of Chemical Physics},
+  Year                     = {1958},
+  Number                   = {3},
+  Pages                    = {373--383},
+  Volume                   = {28},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {AIP Publishing},
+  Timestamp                = {2016.07.13}
+}
+
+@Article{Thorpe1985,
+  Title                    = {Elastic Properties of Glasses},
+  Author                   = {He, H. and Thorpe, M. F.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {1985},
+
+  Month                    = {May},
+  Pages                    = {2107--2110},
+  Volume                   = {54},
+
+  Doi                      = {10.1103/PhysRevLett.54.2107},
+  Issue                    = {19},
+  Numpages                 = {0},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.08.13},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.54.2107}
+}
+
+@Article{herrero2008afm,
+  Title                    = {Antiferromagnetic Ising model in small-world networks},
+  Author                   = {Herrero, Carlos P},
+  Journal                  = {Physical Review E},
+  Year                     = {2008},
+  Number                   = {4},
+  Pages                    = {041102},
+  Volume                   = {77},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{Hill1985,
+  Title                    = {Debye and non-Debye relaxation},
+  Author                   = {Hill, RM and Dissado, LA},
+  Journal                  = {Journal of Physics C: Solid State Physics},
+  Year                     = {1985},
+  Number                   = {19},
+  Pages                    = {3829},
+  Volume                   = {18},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2014.09.09}
+}
+
+@Article{Hunter12,
+  Title                    = {The physics of the colloidal glass transition},
+  Author                   = {Hunter, Gary L and Weeks, Eric R},
+  Journal                  = {Reports on Progress in Physics},
+  Year                     = {2012},
+  Number                   = {6},
+  Pages                    = {066501},
+  Volume                   = {75},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2014.10.03}
+}
+
+@Article{Ikeda2013,
+  Title                    = {Dynamic criticality at the jamming transition},
+  Author                   = {Ikeda, Atsushi and Berthier, Ludovic and Biroli, Giulio},
+  Journal                  = {The Journal of chemical physics},
+  Year                     = {2013},
+  Number                   = {12},
+  Pages                    = {12A507},
+  Volume                   = {138},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {AIP Publishing},
+  Timestamp                = {2014.09.05}
+}
+
+@Article{imry1975random,
+  Title                    = {Random-field instability of the ordered state of continuous symmetry},
+  Author                   = {Imry, Yoseph and Ma, Shang-keng},
+  Journal                  = {Physical Review Letters},
+  Year                     = {1975},
+  Number                   = {21},
+  Pages                    = {1399},
+  Volume                   = {35},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.08.11}
+}
+
+@Article{Jacquin2011,
+  Title                    = {Microscopic Mean-Field Theory of the Jamming Transition},
+  Author                   = {Jacquin, Hugo and Berthier, Ludovic and Zamponi, Francesco},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2011},
+
+  Month                    = {Mar},
+  Pages                    = {135702},
+  Volume                   = {106},
+
+  Doi                      = {10.1103/PhysRevLett.106.135702},
+  Issue                    = {13},
+  Numpages                 = {4},
+  Owner                    = {xiang},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.13},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.106.135702}
+}
+
+@Article{kageyama2000direct,
+  Title                    = {Direct evidence for the localized single-triplet excitations and the dispersive multitriplet excitations in SrCu 2 (BO 3) 2},
+  Author                   = {Kageyama, Hiroshi and Nishi, Masakazu and Aso, Naofumi and Onizuka, Kenzo and Yosihama, T and Nukui, Katsuyuki and Kodama, Katsuaki and Kakurai, Kazuhisa and Ueda, Yutaka},
+  Journal                  = {Physical review letters},
+  Year                     = {2000},
+  Number                   = {25},
+  Pages                    = {5876},
+  Volume                   = {84},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.05}
+}
+
+@Article{kageyama1999pleatu,
+  Title                    = {Exact dimer ground state and quantized magnetization plateaus in the two-dimensional spin system SrCu 2 (BO 3) 2},
+  Author                   = {Kageyama, H and Yoshimura, K and Stern, R and Mushnikov, NV and Onizuka, K and Kato, M and Kosuge, K and Slichter, CP and Goto, T and Ueda, Y},
+  Journal                  = {Physical review letters},
+  Year                     = {1999},
+  Number                   = {15},
+  Pages                    = {3168},
+  Volume                   = {82},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.05}
+}
+
+@Article{SA,
+  Title                    = {Optimization by simulated annealing},
+  Author                   = {S. Kirkpatrick and C. D. Gelatt and M. P. Vecchi},
+  Journal                  = {Science},
+  Year                     = {1983},
+  Pages                    = {671-680},
+  Volume                   = {220},
+
+  Owner                    = {stb},
+  Timestamp                = {2007.12.01}
+}
+
+@Article{Kob93,
+  Title                    = {Kinetic lattice-gas model of cage effects in high-density liquids and a test of mode-coupling theory of the ideal-glass transition},
+  Author                   = {Kob, Walter and Andersen, Hans C.},
+  Journal                  = {Phys. Rev. E},
+  Year                     = {1993},
+
+  Month                    = {Dec},
+  Pages                    = {4364--4377},
+  Volume                   = {48},
+
+  Doi                      = {10.1103/PhysRevE.48.4364},
+  Issue                    = {6},
+  Numpages                 = {0},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.48.4364}
+}
+
+@Article{kosterlitz1974critical,
+  Title                    = {The critical properties of the two-dimensional xy model},
+  Author                   = {Kosterlitz, JM},
+  Journal                  = {Journal of Physics C: Solid State Physics},
+  Year                     = {1974},
+  Number                   = {6},
+  Pages                    = {1046},
+  Volume                   = {7},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{kosterlitz1973ordering,
+  Title                    = {Ordering, metastability and phase transitions in two-dimensional systems},
+  Author                   = {Kosterlitz, John Michael and Thouless, David James},
+  Journal                  = {Journal of Physics C: Solid State Physics},
+  Year                     = {1973},
+  Number                   = {7},
+  Pages                    = {1181},
+  Volume                   = {6},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{Krzakala2008,
+  Title                    = {Lattice Model for Colloidal Gels and Glasses},
+  Author                   = {Krzakala, Florent and Tarzia, Marco and Zdeborov\'a, Lenka},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2008},
+
+  Month                    = {Oct},
+  Pages                    = {165702},
+  Volume                   = {101},
+
+  Doi                      = {10.1103/PhysRevLett.101.165702},
+  Issue                    = {16},
+  Numpages                 = {4},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.101.165702}
+}
+
+@Article{Lee2006,
+  Title                    = {Convergence and refinement of the Wang--Landau algorithm},
+  Author                   = {Lee, Hwee Kuan and Okabe, Yutaka and Landau, DP},
+  Journal                  = {Computer physics communications},
+  Year                     = {2006},
+  Number                   = {1},
+  Pages                    = {36--40},
+  Volume                   = {175},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.06.15}
+}
+
+@Article{Liu2010,
+  Title                    = {The jamming transition and the marginally jammed solid},
+  Author                   = {Liu, Andrea J and Nagel, Sidney R},
+  Journal                  = {Annu. Rev. Condens. Matter Phys.},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {347--369},
+  Volume                   = {1},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Annual Reviews},
+  Timestamp                = {2014.06.14}
+}
+
+@Article{Liu1998,
+  Title                    = {Nonlinear dynamics: Jamming is not just cool any more},
+  Author                   = {Liu, Andrea J and Nagel, Sidney R},
+  Journal                  = {Nature},
+  Year                     = {1998},
+  Number                   = {6706},
+  Pages                    = {21--22},
+  Volume                   = {396},
+
+  Owner                    = {xiang},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2014.06.13}
+}
+
+@Article{ma2016prb,
+  Title                    = {Thickness-dependent cooperative aging in polycrystalline films of antiferromagnet CoO},
+  Author                   = {Ma, Tianyu and Cheng, Xiang and Boettcher, Stefan and Urazhdin, Sergei and Novozhilova, Lydia},
+  Journal                  = {Physical Review B},
+  Year                     = {2016},
+  Number                   = {2},
+  Pages                    = {024422},
+  Volume                   = {94},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.08.11}
+}
+
+@Article{Majmudar2007,
+  Title                    = {Jamming Transition in Granular Systems},
+  Author                   = {Majmudar, T. S. and Sperl, M. and Luding, S. and Behringer, R. P.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2007},
+
+  Month                    = {Jan},
+  Pages                    = {058001},
+  Volume                   = {98},
+
+  Doi                      = {10.1103/PhysRevLett.98.058001},
+  Issue                    = {5},
+  Numpages                 = {4},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.98.058001}
+}
+
+@Article{o2002random,
+  Title                    = {Random packings of frictionless particles},
+  Author                   = {O'Hern, Corey S and Langer, Stephen A and Liu, Andrea J and Nagel, Sidney R},
+  Journal                  = {Physical Review Letters},
+  Year                     = {2002},
+  Number                   = {7},
+  Pages                    = {075507},
+  Volume                   = {88},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2014.09.05}
+}
+
+@Article{OHern2002,
+  Title                    = {Random packings of frictionless particles},
+  Author                   = {O'Hern, Corey S and Langer, Stephen A and Liu, Andrea J and Nagel, Sidney R},
+  Journal                  = {Physical Review Letters},
+  Year                     = {2002},
+  Number                   = {7},
+  Pages                    = {075507},
+  Volume                   = {88},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2014.09.05}
+}
+
+@Article{ohanyan2003mag,
+  Title                    = {Magnetization plateaus in the ferromagnetic--ferromagnetic--antiferromagnetic Ising chain},
+  Author                   = {Ohanyan, VR and Ananikian, NS},
+  Journal                  = {Physics Letters A},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {76--84},
+  Volume                   = {307},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2016.07.14}
+}
+
+@Article{Parisi2010,
+  Title                    = {Mean-field theory of hard sphere glasses and jamming},
+  Author                   = {Parisi, Giorgio and Zamponi, Francesco},
+  Journal                  = {Rev. Mod. Phys.},
+  Year                     = {2010},
+
+  Month                    = {Mar},
+  Pages                    = {789--845},
+  Volume                   = {82},
+
+  Doi                      = {10.1103/RevModPhys.82.789},
+  Issue                    = {1},
+  Numpages                 = {0},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.08.13},
+  Url                      = {http://link.aps.org/doi/10.1103/RevModPhys.82.789}
+}
+
+@Article{richard2005slow,
+  Title                    = {Slow relaxation and compaction of granular systems},
+  Author                   = {Richard, Patrick and Nicodemi, Mario and Delannay, Renaud and Ribiere, Philippe and Bideau, Daniel},
+  Journal                  = {Nature materials},
+  Year                     = {2005},
+  Number                   = {2},
+  Pages                    = {121--128},
+  Volume                   = {4},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{Rivoire03,
+  Title                    = {Glass models on Bethe lattices},
+  Author                   = {Rivoire, Olivier and Biroli, Giulio and Martin, Olivier C and M{\'e}zard, Marc},
+  Journal                  = {The European Physical Journal B-Condensed Matter and Complex Systems},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {55--78},
+  Volume                   = {37},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Springer},
+  Timestamp                = {2014.10.03}
+}
+
+@Article{roth2005glass,
+  Title                    = {Glass transition and chain mobility in thin polymer films},
+  Author                   = {Roth, Connie B and Dutcher, John R},
+  Journal                  = {Journal of Electroanalytical Chemistry},
+  Year                     = {2005},
+  Number                   = {1},
+  Pages                    = {13--22},
+  Volume                   = {584},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{shokef2011,
+  Title                    = {Order by disorder in the antiferromagnetic Ising model on an elastic triangular lattice},
+  Author                   = {Shokef, Yair and Souslov, Anton and Lubensky, Tom C},
+  Journal                  = {Proceedings of the National Academy of Sciences},
+  Year                     = {2011},
+  Number                   = {29},
+  Pages                    = {11804--11809},
+  Volume                   = {108},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {National Acad Sciences},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{Trappe2001,
+  Title                    = {Jamming phase diagram for attractive particles},
+  Author                   = {Trappe, V and Prasad, V and Cipelletti, Luca and Segre, PN and Weitz, DA},
+  Journal                  = {Nature},
+  Year                     = {2001},
+  Number                   = {6839},
+  Pages                    = {772--775},
+  Volume                   = {411},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2014.08.13}
+}
+
+@Article{van2010,
+  Title                    = {Jamming of soft particles: geometry, mechanics, scaling and isostaticity},
+  Author                   = {Van Hecke, M},
+  Journal                  = {Journal of Physics: Condensed Matter},
+  Year                     = {2010},
+  Number                   = {3},
+  Pages                    = {033101},
+  Volume                   = {22},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2014.09.09}
+}
+
+@Article{villain1982commensurate,
+  Title                    = {Commensurate-incommensurate transition with frozen impurities},
+  Author                   = {Villain, J},
+  Journal                  = {Journal de Physique Lettres},
+  Year                     = {1982},
+  Number                   = {15},
+  Pages                    = {551--558},
+  Volume                   = {43},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Les Editions de Physique},
+  Timestamp                = {2016.08.11}
+}
+
+@Article{villain1977spin,
+  Title                    = {Spin glass with non-random interactions},
+  Author                   = {Villain, Jacques},
+  Journal                  = {Journal of Physics C: Solid State Physics},
+  Year                     = {1977},
+  Number                   = {10},
+  Pages                    = {1717},
+  Volume                   = {10},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{wang01a,
+  Title                    = {Determining the density of states for classical statistical models: A random walk algorithm to produce a flat histogram},
+  Author                   = {Wang, F. and Landau, D. P.},
+  Journal                  = {Phys. Rev. E},
+  Year                     = {2001},
+  Pages                    = {056101},
+  Volume                   = {64},
+
+  Owner                    = {stb},
+  Timestamp                = {2007.12.08}
+}
+
+@Article{Wang2001,
+  Title                    = {Efficient, Multiple-Range Random Walk Algorithm to Calculate the Density of States},
+  Author                   = {Wang, Fugao and Landau, D. P.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2001},
+
+  Month                    = {Mar},
+  Pages                    = {2050--2053},
+  Volume                   = {86},
+
+  Doi                      = {10.1103/PhysRevLett.86.2050},
+  Issue                    = {10},
+  Numpages                 = {0},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2014.06.14},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.86.2050}
+}
+
+@Article{wannier1950afm,
+  Title                    = {Antiferromagnetism. the triangular ising net},
+  Author                   = {Wannier, GH},
+  Journal                  = {Physical Review},
+  Year                     = {1950},
+  Number                   = {2},
+  Pages                    = {357},
+  Volume                   = {79},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.07.17}
+}
+
+@Book{young1997spin,
+  Title                    = {Spin glasses and random fields},
+  Author                   = {Young, A Peter},
+  Publisher                = {World Scientific},
+  Year                     = {1997},
+  Volume                   = {12},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.07.17}
+}
+
+@Article{Zhang2005,
+  Title                    = {Jamming transition in emulsions and granular materials},
+  Author                   = {Zhang, HP and Makse, HA},
+  Journal                  = {Physical Review E},
+  Year                     = {2005},
+  Number                   = {1},
+  Pages                    = {011301},
+  Volume                   = {72},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2014.08.13}
+}
+
