@@ -32,7 +32,7 @@
 \contentsline {subsection}{\numberline {3.3.3}RG with magnetic fileds}{43}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Results}{44}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Dynamic Properties}{44}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Fixed Point Analysis}{46}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Fixed Point Analysis}{47}{subsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.2.1} HN3, HN5, and their interpolations }{47}{subsubsection.3.4.2.1}
 \contentsline {subsubsection}{\numberline {3.4.2.2} HNNP, HN6, and their interpolations }{50}{subsubsection.3.4.2.2}
 \contentsline {subsection}{\numberline {3.4.3}Equilibrium Properties}{57}{subsection.3.4.3}
