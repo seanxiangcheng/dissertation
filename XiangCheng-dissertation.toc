@@ -30,21 +30,21 @@
 \contentsline {subsubsection}{\numberline {3.3.2.1}HN3, HN5, and their interpolations }{38}{subsubsection.3.3.2.1}
 \contentsline {subsubsection}{\numberline {3.3.2.2} HNNP, HN6, and their interpolations }{41}{subsubsection.3.3.2.2}
 \contentsline {subsection}{\numberline {3.3.3}RG with magnetic fileds}{43}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Results}{44}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Dynamic Properties}{44}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.4}Results}{46}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Dynamic Properties}{46}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Fixed Point Analysis}{47}{subsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.2.1} HN3, HN5, and their interpolations }{47}{subsubsection.3.4.2.1}
-\contentsline {subsubsection}{\numberline {3.4.2.2} HNNP, HN6, and their interpolations }{50}{subsubsection.3.4.2.2}
-\contentsline {subsection}{\numberline {3.4.3}Equilibrium Properties}{57}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Summary and Conclusion}{60}{section.3.5}
-\contentsline {chapter}{\numberline {4}Aging in the Two-Dimensional Random Field Ising Model}{62}{chapter.4}
-\contentsline {section}{\numberline {4.1}Random Field Ising Model and experiments }{63}{section.4.1}
-\contentsline {section}{\numberline {4.2}Monte Carlo Simulation}{65}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results and Comparison to Experiments}{67}{section.4.3}
-\contentsline {section}{\numberline {4.4}Summary and Conclusion}{72}{section.4.4}
-\contentsline {chapter}{\numberline {5}Summary and Future Work}{74}{chapter.5}
-\contentsline {chapter}{Appendices}{79}{chapter*.46}
+\contentsline {subsubsection}{\numberline {3.4.2.1} HN3, HN5, and their interpolations }{49}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2} HNNP, HN6, and their interpolations }{52}{subsubsection.3.4.2.2}
+\contentsline {subsection}{\numberline {3.4.3}Equilibrium Properties}{60}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Summary and Conclusion}{65}{section.3.5}
+\contentsline {chapter}{\numberline {4}Aging in the Two-Dimensional Random Field Ising Model}{66}{chapter.4}
+\contentsline {section}{\numberline {4.1}Random Field Ising Model and experiments }{67}{section.4.1}
+\contentsline {section}{\numberline {4.2}Monte Carlo Simulation}{69}{section.4.2}
+\contentsline {section}{\numberline {4.3}Results and Comparison to Experiments}{71}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary and Conclusion}{76}{section.4.4}
+\contentsline {chapter}{\numberline {5}Summary and Future Work}{78}{chapter.5}
+\contentsline {chapter}{Appendices}{83}{chapter*.46}
  \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
-\contentsline {section}{\numberline {.1}Simulated Annealing Code}{80}{section.Alph0.1}
-\contentsline {section}{\numberline {.2}Wang-Landau Sampling Code}{80}{section.Alph0.2}
-\contentsline {section}{\numberline {.3}Renormalization Group}{80}{section.Alph0.3}
+\contentsline {section}{\numberline {.1}Simulated Annealing Code}{84}{section.Alph0.1}
+\contentsline {section}{\numberline {.2}Wang-Landau Sampling Code}{84}{section.Alph0.2}
+\contentsline {section}{\numberline {.3}Renormalization Group}{84}{section.Alph0.3}

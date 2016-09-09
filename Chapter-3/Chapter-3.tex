@@ -254,8 +254,67 @@ These solutions are also the same as those in Ref. \cite{Boettcher2011HNNP}, but
 \subsection{RG with magnetic fileds}
 In order to study a broad range of physical properties using RG, the external magnetic field $H$ is needed. We plan to explore different physical properties, such as internal energy $e$, magnetization $m$, free energy $f$, entropy $s$, specific heat $c_v$, and magnetic susceptibility $\chi$. 
 
-Here the RG setup is extended to a more general case by including $H$. The procedure of such RG has been developed by Brunson and Boettcher in FM of Hanoi networks \cite{brunson2014rg}. In AFM, the same procedure is followed with corresponding adjustments of temperature $T$ ($\mu$ in RG) and prefactors of these derivations. Instead of detailed derivations \cite{brunson2014rg}, only the general logic is described here. 
+Here the RG setup is extended to a more general scenario by including $H$. The procedure of such RG has been developed by Brunson and Boettcher in FM of Hanoi networks \cite{brunson2014rg}. In AFM, the same procedure is followed with corresponding adjustments of temperature $T$ ($\mu$ in RG) and prefactors of these derivations. Instead of detailed derivations \cite{brunson2014rg}, only the general logic and the formulations of targeted physics properties are described in this section. 
 
+The starting point of all these equilibrium physical properties is the partition function $Z$. As shown in Fig. \ref{fig:afm-hn3rgafter}, the partition function of the smallest system size $N=2^1+1=3$
+\begin{equation}
+Z^{(1)} = e^{-\beta \mathcal{H} ( K^{(1)}, L^{(1)}, \cdots ;\  x_1, x_2, x_3)}
+\end{equation}
+where $K^{(1)}, L^{(1)}, \cdots$ stands for the raw activity parameters of temperature $T$, coupling $J$, and magnetic field $H$; $x_1, x_2$, and $ x_3$ are the 3 spins ($\pm 1$). 
+Using RG and its recursive solutions (similar to Eq. \ref{eq:afm-hn35sol1} in RG without magnetic field), it is easy to obtain the renormalized activity parameters  $K^{(n)}, L^{(n)}, \cdots$. The superscript $n$ means system size $N=2^n + 1$. 
+
+The physical properties calculated are
+\begin{enumerate}
+\item internal energy per spin
+\begin{equation}
+e = -\frac{1}{N}\frac{\partial \ln Z}{\partial \beta}
+\end{equation}
+The goal is to find the equilibrium energy to uncover the non-equilibrium dynamics in simulations.
+
+\item Free energy per spin
+\begin{equation}
+f = - \frac{1}{N}\frac{1}{\beta} \ln Z
+\label{eq:afm-free}
+\end{equation}
+
+\item Free energy difference between parallel and anti-parallel boundary conditions
+
+The equation of the free energies is still the same as Eq. \ref{eq:afm-free}. The difference is that the first spin ($x_0$) and last one ($x_{N}$) are fixed, i.e., the parallel boundary condition ($f_1$) have both $x_0 = x_N = +1$, while the anti-parallel boundary condition ($f_2$) has $x_0=+1$ but $x_N=-1$. The difference is
+\begin{equation}
+\Delta f = f_1 - f_2 = - \frac{1}{N}\frac{1}{\beta} ( \ln Z_{++} - \ln Z_{+-}) =- \frac{1}{N}\frac{1}{\beta}  \ln \frac{Z_{++}}{ Z_{+-}}
+\label{eq:afm-freediff}
+\end{equation}
+where $Z_{++}$ and $Z_{+-}$ stand for the partition functions of parallel and anti-parallel boundary conditions, respectively.
+
+The goal of this parameter is to discover the chaotic dynamics and spin glass phase. In a spin glass system with chaotic dynamics, the difference $\Delta F$ is non-zero in the thermodynamic limit and changes signs at different temperatures \cite{wang2015chaos}. In a range of temperatures, the number of times of changing sign of $\Delta F$ may increase polynomially  with system size. 
+
+\item entropy per spin
+\begin{equation}
+s = \frac{1}{N} \frac{\partial}{\partial T} \left( \frac{1}{\beta} \ln Z \right)
+\end{equation}
+Entropy may be useful to understand the geometric frustrations and compared to Wang-Landu sampling's density of states. 
+
+\item magnetization per spin
+\begin{equation}
+m = \frac{1}{N}\frac{1}{\beta} \frac{\partial \ln Z}{\partial H}
+\end{equation}
+The magnetization may have interesting patterns at low temperatures \cite{ohanyan2003mag, kageyama2000direct} due to complex local spin configurations.
+
+\item specific heat per spin
+\begin{equation}
+c_v = \frac{\partial e} {\partial T}
+\end{equation}
+If there is any second-order phase transition, specific heat $c_v$ may show the transition.
+
+\item magnetic susceptibility per spin
+\begin{equation}
+\chi = \frac{\partial m} {\partial H}
+\end{equation}
+If there is any second-order phase transition, susceptibility  $c_v$ may show the transition.
+
+\end{enumerate}
+
+There equations are trivial and can be found in the textbook, but their implementation in RG take a large amount of analytical deviations and numerical testing. The detailed description can be found in the work by Brunson and Boettcher \cite{brunson2014rg}.
 
 
 \section{Results}
@@ -277,9 +336,6 @@ The interesting glassy dynamics can be observed from simulational experiments us
 The behavior at low $T$ is similar to what is observed in the jamming systems in Chapter \ref{chap-jamming}. As shown in Fig. \ref{fig:afm-hnsjam} and \ref{fig:afm-hnsscaling}, all four
  networks show the glassy dynamics with a power relaxation. HN5 may reach equilibrium ground
  states at a much slower annealing schedules due to increasing variations at lower schedules. Other networks have clearly a gap between 'jammed' state and the equilibrium ground states, and the gap can only be eliminated at an infinitely slow annealing rate after an infinitely long time due to the power-law scaling.
-
-
-
 
 \begin{figure}
 \centering \includegraphics[width=0.5\columnwidth]{Chapter-3/AFM_Jamming_SA_scaling_plot}
@@ -431,7 +487,7 @@ J_{\rm evig} = -\frac{(\mu +1)}{2 (\kappa  \mu +1)^3} \Big[\lambda  \mu  (\kappa
 
 \begin{figure}
 \centering \includegraphics[width=0.6\columnwidth]{Chapter-3/HNNP_eigenvalues.pdf}
-\protect\caption{The absolute values (1st norm) of the 2 complex eigenvalues for HNNP. For $0<\mu<1$, that is for the ferromagnetic case; while the antiferromagnetic region is $\mu>1$. You see the transition temperature is $\mu=3.0$ or $T=2/\log(3)=1.820478...$ because after that the $|eigenvalues|>1$ . }
+\protect\caption{The absolute values (1st norm) of the 2 complex eigenvalues for HNNP. For $0<\mu<1$, that is for the ferromagnetic case; while the antiferromagnetic region is $\mu>1$. You see the transition temperature is $\mu_g=3.0$ or $T_g=2/\log(3)=1.820478...$ because after that the $|{\rm eigenvalue}|>1$ . }
 \label{fig:afm-hnnp_eigs} 
 \end{figure}
 
@@ -452,7 +508,7 @@ We can plug in the 2 possible fixed points to these two eigenvalues, and the eig
 J_{\rm evig} = \frac{\pm \sqrt{-7 \mu ^2-2 \mu +9}-\mu +1}{2 \mu +2}
 \label{eq:afm-hnnpJevig2}
 \end{equation}
-Because $\mu>1$ for AFM, the eigenvalues are complex numbers. In this case, the absolute values matter: if the absolute value is smaller than 1, there is a stable fixed points, otherwise there is not. The complex number means that the unstable fixed points are oscillating. More descriptions of the chaotic fixed points is included for generalized $y$'s later in this section. As shown in Fig. \ref{fig:afm-hnnp_eigs}, by solving the Eq. \ref{eq:afm-hpeig} $ ==1$, we can get the transition temperature is $\mu=3$ ($T=1.820478...$).
+Because $\mu>1$ for AFM, the eigenvalues are complex numbers. In this case, the absolute values matter: if the absolute value is smaller than 1, there is a stable fixed points, otherwise there is not. The complex number means that the unstable fixed points are oscillating. More descriptions of the chaotic fixed points is included for generalized $y$'s later in this section. As shown in Fig. \ref{fig:afm-hnnp_eigs}, by solving the Eq. \ref{eq:afm-hpeig} $ ==1$, we can get the transition temperature is $\mu_g=3$ ($T_g=1.820478...$).
 
 
 In this scenario, $y$ makes the fixed point much more complicated. One of the fixed point is
@@ -486,7 +542,7 @@ Most interestingly, the fixed points are also chaotic for $-2<y<2$ (as shown in 
 \label{fig:afm-hp6Tys} 
 \end{figure}
 
-The chaotic transition temperatures can be determined from the eigenvalues of the Jacobian matrix.
+The chaotic transition temperatures $T_g$ can be determined from the eigenvalues of the Jacobian matrix.
 The Jocobian matrix is
 \begin{equation}
 J_{11} = \frac{\partial \kappa'(\kappa, \lambda)}{\partial \kappa}=\frac{\lambda  (\mu +1)^2}{(\kappa  \mu +1)^2}-\frac{2 \kappa  \lambda  \mu  (\mu +1)^2}{(\kappa  \mu +1)^3}
@@ -521,7 +577,7 @@ Wang-Landau sampling can estimate the density of states $g_E$, which yields the 
 \begin{equation}
 Z(\beta)=\sum_{i=1}^{N_{E}}g_{E_i}e^{-\beta E_i}
 \end{equation}
-where $\beta$ is $1/T$, and $N_E$ is the total number of energy states. The density of states for different HNs in AFM are shown in Fig. \ref{fig:afm-doswl}. We can see there is clearly a difference between planar (HN3, HN5) and nonplanar networks (HNNP, HN6). The planar networks have highly degenerate ground states, which may indicate more glassy dynamics at low temperature. The nonplanar networks have unique ground state, which may indicate an equilibrium phase transition. However, Wang-Landau sampling can only converge for system sizes $<1024$. No evidence is obtained to prove the speculations due to finite size scaling.
+where $\beta$ is $1/T$, and $N_E$ is the total number of energy states. The density of states for different HNs in AFM are shown in Fig. \ref{fig:afm-doswl}. We can see there is clearly a difference between planar (HN3, HN5) and nonplanar networks (HNNP, HN6). The planar networks have highly degenerate ground states, which may indicate more glassy dynamics at low temperature. The nonplanar networks have unique ground state, which may indicate an equilibrium phase transition. However, Wang-Landau sampling can only converge for system sizes $<1024$. Due the small system sizes in Wang-Landau sampling's results, no evidence is obtained to prove the speculations of phase transitions.
 Therefore, RG is needed to reach any meaningful conclusion for systems in the thermodynamic limit.
 
 \begin{figure}
@@ -547,26 +603,50 @@ Another interesting finding is the magnetization behavior as to the increasing e
 Further conclusion needs detailed information of the low-temperature (even ground states)
  spin configuration, which is not directly retrievable from RG.
 
-One of the main goals of RG is to explore the chaotic behaviors found in the fixed point analysis. In AFM, the free energy with different boundary conditions has been used to study the chaos in physical systems. 
-
 \begin{figure}
 \centering \includegraphics[width=0.8\columnwidth]{Chapter-3/freeE_lowT2highT.pdf}
-\protect\caption{The free energy difference between the 2 boundaries conditions at different temperatures. The system size is $N=2^k$, which are $2^16$, $2^24$, $2^32$ in the figure above. Obviously, at higher temperatures, there is no difference; at low temperatures, there is more and more difference variations for bigger and bigger system sizes. A zoomed-in plot for low temperatures is shown next (Fig. \ref{fig:afm-freeEdiff}).  }
+\protect\caption{The free energy difference between the 2 boundaries conditions at different temperatures. The system size is $N=2^k$, which are $2^{16}$, $2^{24}$, $2^{32}$ in the figure above. Obviously, at higher temperatures, there is no difference; at low temperatures, there is more and more difference variations for bigger and bigger system sizes. A plot for low $T$ is shown next (Fig. \ref{fig:afm-freeEdiff}) which shows the chaos at low $T$.  }
 \label{fig:afm-freeEdiff_allT} 
 \end{figure}
 
+One of the main goals of RG is to explore the chaotic behaviors found in the fixed point analysis.
+ In AFM, the free energy with different boundary conditions has been used to study the chaos in physical systems. The reference parameter is the free energy difference $\Delta F$ (Eq. \ref{eq:afm-freediff}) between different boundary conditions. The difference at a wide range of temperatures are shown in Fig. \ref{fig:afm-freeEdiff_allT} which shows the $\Delta F$ is 0 at high $T$ but non-zero and chaotic at low $T$. The curves may have very different patterns for difference system size, and Fig. \ref{fig:afm-freeEdiff}  is an example. 
+
 \begin{figure}
-\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/freeEdifference_k16_32.pdf}
-\protect\caption{The free energy difference between the 2 boundaries conditions at low temperatures $T<2.0$. }
+\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/freeEdifference_k23_24.pdf}
+\protect\caption{The free energy difference between the 2 boundaries conditions at low temperatures $T<2.0$. The yellow dashed line is to show where the crossings of $f_1$ and $f_2$ are. ($f_1$: parallel boundary condition; $f_2$: anti-parallel boundary condition.) }
 \label{fig:afm-freeEdiff} 
 \end{figure}
 
+The crossing point is where $\Delta F = 0$ and $\Delta F$ changes sign. In other words, $f_1$  (parallel boundary condition) and $f_2$ (anti-parallel) switch their order. In a spin glass with chaotic dynamics, the number of crossings $N_c$ is expected to increase polynomially with system size 
+\begin{equation}
+N_c = A N^\alpha
+\end{equation}
+where $A$ is a constant, $N$ is the system size, and $\alpha$ is the exponent. The exponent $\alpha$ is called chaotic exponent. 
 
 \begin{figure}
-\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/chaotic_exponents_freeE.pdf}
-\protect\caption{Number of free energies crossings fitted to $k$ (=$\log_2 N$) using the equation $N_c = A N^\alpha$. Two methods are used to find the exponents. Method 1 (left figure): $\log_2 N_c = \log_2 A + \alpha \log_2 N= \log_2 A + \alpha k$; method 2 (right figure): $\log_2 N_c / \log_2 N = \log_2 A / \log_2 N + \alpha$ which is $\log_2 N_c / k = \log_2 A / k + \alpha$. The exponent $\alpha$ from method 1 and method 2 are $0.29\pm 0.01$ and $0.30\pm 0.01$, respectively. }
+\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/chaotic_exponents_freeE_binning.pdf}
+\protect\caption{Number of free energies crossings fitted to $k$ (=$\log_2 N$) in temperature range $T \in [10^{-3}, T_g]$. Two methods of fitting are used: Eq. \ref{eq:afm-fit1} (left figure) and Eq. \ref{eq:afm-fit2} (right figure). The exponents are $0.319\pm 0.006$ and $0.321 \pm 0.009$, respectively. Both of the $R^2$ is bigger than $0.98$.}
 \label{fig:afm-freeEfit} 
 \end{figure}
+
+
+There is two way to obtain chaotic exponent $\alpha$. The first way is 
+\begin{equation}
+\log_2 N_c = \log_2 A + \alpha \log_2 N
+\label{eq:afm-fit1}
+\end{equation}
+, and the second way is 
+\begin{equation}
+\frac{\log_2 N_c }{\log_2 N } =\frac {\log_2 A }{\log_2{N}} + \alpha 
+\label{eq:afm-fit2}
+\end{equation}
+where $\log_2 N = k$. These two ways can show us the trend from different perspectives as shown in Fig. \ref{fig:afm-freeEfit}. 
+These two exponents are $0.319\pm 0.006$ and $0.321 \pm 0.009$, respectively. Both strongly show there is a polynomial increase with system size. 
+
+As you may notice from the free energy curves in Fig. \ref{fig:afm-freeEdiff}, $N_c$ may dependent on the temperature and step size. First, we tested different 2 more temperatures ranges $T \in [0.1, 0.2]$ and $T \in [0.2, 0.3]$ which show similar pattern. Second, different step sizes are tested to make sure the $N_c$ does not change with a smaller step size. 
+
+
 
 
 \section{Summary and Conclusion}
