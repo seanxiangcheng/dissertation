@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{55}%
+\begin{thebibliography}{61}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -331,6 +331,47 @@
   {Biroli}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo
   {pages} {587} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ising}(1925)}]{ising1925contribution}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Ising}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Z.
+  Phys}\ }\textbf {\bibinfo {volume} {31}},\ \bibinfo {pages} {253} (\bibinfo
+  {year} {1925})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brush}(1967)}]{brush1967history}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~G.}\ \bibnamefont
+  {Brush}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Reviews
+  of modern physics}\ }\textbf {\bibinfo {volume} {39}},\ \bibinfo {pages}
+  {883} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Onsager}(1944)}]{onsager1944}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Onsager}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {65}},\ \bibinfo {pages} {117}
+  (\bibinfo {year} {1944})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fredrickson}\ and\ \citenamefont
+  {Andersen}(1984)}]{fredrickson1984kinetic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Fredrickson}}\ and\ \bibinfo {author} {\bibfnamefont {H.~C.}\ \bibnamefont
+  {Andersen}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical review letters}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo
+  {pages} {1244} (\bibinfo {year} {1984})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blundell}\ and\ \citenamefont
+  {Thouless}(2001)}]{blundell2001magnetism}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Blundell}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Thouless}},\ }\href@noop {} {\emph {\bibinfo {title} {Magnetism in condensed
+  matter}}},\ Vol.~\bibinfo {volume} {18}\ (\bibinfo  {publisher} {Oxford
+  university press New York},\ \bibinfo {year} {2001})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hopfield}(1982)}]{hopfield1982neural}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Hopfield}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the national academy of sciences}\ }\textbf {\bibinfo
+  {volume} {79}},\ \bibinfo {pages} {2554} (\bibinfo {year}
+  {1982})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Boettcher}\ \emph {et~al.}(2008)\citenamefont
   {Boettcher}, \citenamefont {Gon{\c{c}}alves},\ and\ \citenamefont
   {Guclu}}]{Boettcher2008HN}%
@@ -471,6 +512,23 @@
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
   B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages} {094410} (\bibinfo
   {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kageyama}\ \emph {et~al.}(2000)\citenamefont
+  {Kageyama}, \citenamefont {Nishi}, \citenamefont {Aso}, \citenamefont
+  {Onizuka}, \citenamefont {Yosihama}, \citenamefont {Nukui}, \citenamefont
+  {Kodama}, \citenamefont {Kakurai},\ and\ \citenamefont
+  {Ueda}}]{kageyama2000direct}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Kageyama}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nishi}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Aso}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Onizuka}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Yosihama}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Nukui}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Kodama}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Kakurai}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Ueda}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {5876} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kageyama}\ \emph {et~al.}(1999)\citenamefont
   {Kageyama}, \citenamefont {Yoshimura}, \citenamefont {Stern}, \citenamefont
   {Mushnikov}, \citenamefont {Onizuka}, \citenamefont {Kato}, \citenamefont
@@ -489,23 +547,6 @@
    {journal} {\bibinfo  {journal} {Physical review letters}\ }\textbf {\bibinfo
   {volume} {82}},\ \bibinfo {pages} {3168} (\bibinfo {year}
   {1999})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kageyama}\ \emph {et~al.}(2000)\citenamefont
-  {Kageyama}, \citenamefont {Nishi}, \citenamefont {Aso}, \citenamefont
-  {Onizuka}, \citenamefont {Yosihama}, \citenamefont {Nukui}, \citenamefont
-  {Kodama}, \citenamefont {Kakurai},\ and\ \citenamefont
-  {Ueda}}]{kageyama2000direct}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
-  {Kageyama}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nishi}},
-  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Aso}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {Onizuka}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Yosihama}}, \bibinfo {author} {\bibfnamefont
-  {K.}~\bibnamefont {Nukui}}, \bibinfo {author} {\bibfnamefont
-  {K.}~\bibnamefont {Kodama}}, \bibinfo {author} {\bibfnamefont
-  {K.}~\bibnamefont {Kakurai}}, \ and\ \bibinfo {author} {\bibfnamefont
-  {Y.}~\bibnamefont {Ueda}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
-  {journal} {Physical review letters}\ }\textbf {\bibinfo {volume} {84}},\
-  \bibinfo {pages} {5876} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ma}\ \emph {et~al.}(2016)\citenamefont {Ma},
   \citenamefont {Cheng}, \citenamefont {Boettcher}, \citenamefont {Urazhdin},\
   and\ \citenamefont {Novozhilova}}]{ma2016prb}%
