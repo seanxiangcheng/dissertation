@@ -10,7 +10,7 @@ systems still have a variety of challenging and unclear questions.
 This chapter first introduces the general disordered system and 3 specific disordered systems, i.e. jamming transition, antiferromagnetic Ising model, and random field Ising model. Then the finite dimensional networks we use in our study are described. In the end of this chapter, the existing work of disordered system in complex networks is reviewed to understand the problem and how we can contribute new insights.
 
 \section{Disordered System}
-In real world, most materials can be considered as disordered materials because of the heterogeneous structures with defects and impurities. There are various types of disordered materials, such as glass\cite{Gibbs1958nature}, amorphous solids \cite{berthier2016facets}, polymer \cite{roth2005glass}, granular material \cite{richard2005slow}, and biological tissue \cite{bi2015density}. 
+In real world, most materials can be considered as disordered materials because of the heterogeneous structures with defects and impurities. There are various types of disordered materials, such as glass \cite{Gibbs1958nature}, amorphous solids \cite{berthier2016facets}, polymer \cite{roth2005glass}, granular material \cite{richard2005slow}, and biological tissue \cite{bi2015density}. 
 
 Here we focus on models of disordered systems that lend themselves to theoretical investigations, such as Edwards-Anderson model \cite{edwards1975theory}, random field Ising model \cite{imry1975random}, antiferromagnetic Ising model\cite{wannier1950afm},  fully frustrated model \cite{kosterlitz1973ordering, kosterlitz1974critical}, spin glass \cite{young1997spin}, lattice glass model \cite{Biroli02}. 
 
@@ -80,24 +80,44 @@ solutions~\cite{Krzakala2008}. In other words, the jammed state coincides
 with an underlying equilibrium state that possesses a phase transition
 to a glassy state. There is also other work trying to prove the similar idea using mean-field models \cite{Rivoire03,berthier2011theory, Parisi2010}. That raises the prospect that this equilibrium phase transition might be the reason for the onset of jamming. However, such a connection between phase transition and jamming transition is hard to ascertain for finite-dimensional lattice glasses. Our work (Chapter \ref{chap-jamming}) focuses on jamming in finite-dimensional hierarchical networks which could contribute closer insights to real world systems.
 
+
+
 \section{Ising models}
 The Ising model was proposed by Wilhelm Lenz and Ernst Ising \cite{ising1925contribution, brush1967history} in the 1920s. It has simple nearest-neighbor interactions and a simple Hamiltonian (energy)
 \begin{equation}
 \mathcal{H}=-J \sum_{\langle i, j\rangle}^N s_i s_j - H \sum_{i=1}^N s_i
 \label{eq:intro-ising}
 \end{equation}
-where $s_i=\pm1$, $\langle i, j\rangle$ stands for nearest-neighbor spin-pair, $s_i$ $J$ is the exchange interaction constant, and $H$ is the external magnetic field.
+where $s_i=\pm1$, $\langle i, j\rangle$ stands for nearest-neighbor spin-pair, $s_i$ $J$ ($>0$)is the exchange interaction constant, and $H$ is the external magnetic field. This is the most simple Ising model and usually called ferromagnetic Ising model (FM).
 However, this simple model could represent approximately real-world systems and lead to phase transitions \cite{onsager1944} or complex dynamics \cite{fredrickson1984kinetic} in different lattice structures. 
 Numerous variations have been proposed to study different systems, ranging from magnetic systems \cite{blundell2001magnetism} to biological systems \cite{hopfield1982neural}.
 
-In this section, two disordered models modified from the Ising model are introduced and reviewed. They are also the focus the studies in Chapter \ref{chap-afm} and Chapter \ref{chap-rfim}.
+In this section, two disordered Ising models, antiferromagnetic Ising model and random field Ising model,  are introduced and reviewed. They are also the focus the studies in Chapter \ref{chap-afm} and Chapter \ref{chap-rfim}.
 \subsection{Antiferromagnetic Ising Model}
 \label{sec:intro-afm}
-abc
+Unlike ferromagnetic Ising model (FM) having a large amount of investigations, the antiferromagnetic Ising model (AFM) have little work published until 1970s \cite{penney2003new}. The most interesting characteristic of the AFM is that it can easily introduce geometric frustrations and may give rise to a glassy dynamics or even spin glass phase. While this interesting characteristic is realized by only change the the sign of the coupling constant $J$ ($J<0$), and the Hamiltonian is still the same as Eq. \ref{eq:intro-ising}.
+
+
 
 \subsection{Random Field Ising Model}
 \label{sec:intro-rfim}
-cddf
+The random field Ising model (RFIM) was first introcuded by Imry and Ma \cite{imry1975random} in 1975. It represents a class of quenched disordered spin models \cite{young1997spin} with  disorderness coupled to the each spin, which is different from the spin glass models with disordered interaction constants. The general Hamiltonian of RFIM with $N$ spins is
+\begin{equation}
+\mathcal{H}=-J\sum_{<i,j>}s_{i}s_{j}-\sum_{i=1}^{N}h_{i}s_{i}
+\end{equation}
+where the major difference from traditional Ising model is the random field term $h_i$ for spin $i$. Different spins usually have  identical independent distributed random fields $h_i$, and $h_i$ often follows a uniform \cite{nattermann1997theory} or Gaussian distribution \cite{newman1999}.
+
+As a statistical mechanical model, the most investigated theoretical aspect of RFIM is still the critical phenomena, such as ferromagnetic phase transition. For one dimensional RFIM, its exact solution suggests no phase transition \cite{grinstein1983exact}. Through a number of theoretical calculations \cite{parisi1979random, bricmont1987lower}, three dimensional RFIM has a phase transition from a paramagnetic phase to a ferromagnetic one  \cite{bricmont1987lower}, which suggests the lower critical dimension is $d_l = 3$. 
+
+However, the focus of our study in Chapter \ref{chap-rfim} is not the phase transition but the aging dynamics of the RFIM simulating experimental system. In terms of experimental studies, the RFIM has been used to study different experimental systems, such as diluted antiferromagnet \cite{fernandez1988random}, impure substrates \cite{villain1982commensurate}, and magnetic alloys \cite{fisher1988theory}. 
+The experimental system to model here is a thin-film ferromagnet/antiferromagnet bilayer which exhibits non-Arrhenius power-law aging of the magnetization state \cite{ma2016prb}. 
+It is expected that, in such a complex experimental magnetic system, the aging or relaxation to equilibrium state may be trapped by metastable states, and the relaxation may follow an exponential scaling according to the Arrhenius law \cite{Arrhenius1989}
+\begin{equation}
+\tau = \tau_0 \exp \left( \frac{E}{k_B T}\right)
+\end{equation}
+where $\tau$ is the characteristic activation time, $\tau_0$ is a material-dependent pre-exponential factor, $E$ is the energy barrier between two local/local (or local/global) minimum, $k_B$ is the Boltzmann constant, and $T$ is the temperature. However, what is observed in the experiment is a power-law relaxation with a subunity exponent instead of exponential relaxation. The experiment itself cannot explain this phenomena, and the small exponent is not convincing either to conclude the power-law relaxation. 
+
+In order to explain the experiment and justify the small-exponent power-law, we use a two dimensional RFIM and the Monte Carlo method to simulate the experimental material with simplifying approximations. This simple model captures the salient features of the non-Arrhenius aging observed in the experimental measures, i.e., power-law relaxation with a subunity exponent. In addition to the scaling, the aging in the Monte Carlo simulation can be easily visualized, which shows the system evolves to two big domains with oppositely oriented spins. What the aging can do is actually smoothing the domain wall between these two domains, and the system can never break the barrier imposed by the domain wall. More details are described in Chapter \ref{chap-rfim}.
 
 \section{Hanoi Networks}
 \label{sec:HN} 
@@ -110,12 +130,10 @@ links, as an instructive intermediary between mean-field and finite-dimensional
 lattice systems, on which potentially exact results can be found using
 the renormalization group~\cite{BoHa11}. 
 
-Across all the chapters, we use four Hanoi networks: HN3, HN5, HNNP, and HN6. Their general characteristics are summarized in Table \ref{tab:hns}.
-
 \begin{table}
 \begin{centering}
 \protect\caption{\label{tab:hns} 
-Summary of Hanio networks at system size $N\rightarrow\infty$ }
+Summary of Hanoi networks at system size $N\rightarrow\infty$ }
 \par\end{centering}
 \begin{centering}
 \par\end{centering}
@@ -125,16 +143,19 @@ Summary of Hanio networks at system size $N\rightarrow\infty$ }
 Network & Degree  & Planarity & Diameter & Fractal Dimension  \tabularnewline
 \hline 
 \hline 
-HN3  & 3 & Planar & $\sqrt{N}$ & 2 \tabularnewline
+HN3  & $3$ & Planar & $\sqrt{N}$ & 2 \tabularnewline
 \hline 
-HN5  & 5 & Planar &  $\ln N$ & $\infty$  \tabularnewline
+HN5  & $5$ & Planar &  $\ln N$ & $\infty$  \tabularnewline
 \hline 
-HNNP  & 4  & Nonplanar &  - & -  \tabularnewline
+HNNP  & $4$  & Nonplanar &  $\ln N$ & -  \tabularnewline
 \hline 
-HNNP  & 6  & Nonplanar &  - & - \tabularnewline
+HNNP  & $6$  & Nonplanar &  $\ln N$ & - \tabularnewline
 \hline 
 \end{tabular}
 \end{table}
+
+Across all the chapters, we use four Hanoi networks (HNs): HN3, HN5, HNNP, and HN6. Their general characteristics are summarized in Table \ref{tab:hns}. These HNs have different degrees, planarities, diameters, and fractal dimensions, each of which may have different effects on the model. For example, there have been studies showing different degrees of connections may affect the critical phenomena \cite{dorogovtsev2008critical, herrero2002ising}; the planarity of complex networks may affect Ising model's phase transition \cite{fisher1966dimer, istrail2000statistical} and computational complexity \cite{barahona1982}.
+
 
 Each of them can be built on
 a simple backbone of a 1D lattice. The 1D backbone has $N=2^{k}+1$
@@ -162,8 +183,6 @@ As a result, HN3 is a planar network of regular degree 3.
 \centering \includegraphics[width=1\columnwidth]{Chapter-1/HN3_short.pdf} 
 \protect\caption{\label{fig:HN3_short} An example of the first 14 sites of HN3 on a semi-infinite line.}
 \end{figure}
-
-
 
 
 HN5~\cite{Boettcher09c}, as shown in Fig.~\ref{fig:Depiction-of-HN},
@@ -203,5 +222,25 @@ As you can see, these four networks are all constructed hierarchically and can p
 
 
 \section{Computational Methods}
+In all the three projects in this dissertation, the computational methods are the most important part to implement the models and realize the computations. We use a wide range of different computational methods, such as Markov-Chain Monte Carlo (MCMC) method, non-Markov-Chain Monte Carlo method, Renormalization Group (RG), numerical analysis, and graphical models. These methods requires a broad knowledge of computer science, physics, mathematics, and statistics. Moreover, their implementations take a large amount time and effort for coding, testing, and analysis. Our computational work may not only contribute new insights in physics but also shed light onto algorithms development and optimization.
 
-Wang-Landau sampling is a computational methods using non-Markov-chain Monte Carlo; while RG is an analytical methods but requires the computational implementation using modern symbolic computational tools (Mathematica.)
+Specifically, we mainly adapted and implemented three advanced methods: Simulated Annealing (SA), Wang-Landau sampling (WL), and Renormalization Group (RG). 
+
+The Simulated Annealing (SA) was first formulated as an approach to find a minimization of a function with a large number of variables in statistical mechanics \cite{khachaturyan1979statistical, khachaturyan1981thermodynamic}. This algorithm imitates the slow cooling process in metallurgy to increase its crystallization and reduce its defects. In the implementation of the algorithm, it slowly decrease the probability of accepting worse transitions or solutions to robustly find a local or global minimum. In physics, the probability of a worse transition is usually controlled by the temperature, which makes this name self-explaining. Kirkpatrick {\it et. al.} \cite{SA} published a famous paper on {\it Science} to formally define, apply, and discuss SA  in the scenarios of combinatorial optimization, statistical mechanics, physics design of computer, and even the famous traveling salesmen's problem. It is a widely used method to search for local and global minimum but can also be used to simulate the dynamics of a physical system because the annealing process simulates the physical process.
+
+In the implementation of SA in our studies, our goal is not simply search for the minimum (ground states) but instead learn the relaxation  dynamics. 
+
+The Wang-Landau sampling (WL) is a computational methods using non-Markov-chain Monte Carlo; while RG is an analytical methods but requires the computational implementation using modern symbolic computational tools (Mathematica.)
+
+
+The Renormalization Group (RG) is an analytical method to takes advantage of the symmetries in the problem and renormalize the problem to a low-dimensional one.
+
+
+
+
+
+
+
+
+
+
