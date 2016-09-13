@@ -286,7 +286,7 @@ The equation of the free energies is still the same as Eq. \ref{eq:afm-free}. Th
 \end{equation}
 where $Z_{++}$ and $Z_{+-}$ stand for the partition functions of parallel and anti-parallel boundary conditions, respectively.
 
-The goal of this parameter is to discover the chaotic dynamics and spin glass phase. In a spin glass system with chaotic dynamics, the difference $\Delta F$ is non-zero in the thermodynamic limit and changes signs at different temperatures \cite{wang2015chaos}. In a range of temperatures, the number of times of changing sign of $\Delta F$ may increase polynomially  with system size. 
+The goal of this parameter is to discover the chaotic dynamics and spin glass phase. In a spin glass system with chaotic dynamics, the difference $\Delta F$ is non-zero in the thermodynamic limit and changes signs at different temperatures \cite{wang2015chaos}. In a range of temperatures, the number of times of changing sign of $\Delta F$ may increase  with system size following a power-law. 
 
 \item entropy per spin
 \begin{equation}
@@ -568,8 +568,8 @@ The equation of $\rm |eigenvalue|==0$ is not solvable analytically but can be nu
 Equilibrium properties are vital to learn critical phenomena and almost impossible to study experimentally for glassy systems due to the extremely long relaxation. To learn the equilibrium properties of AFM in Hanoi networks, there are 2 methods: Wang-Landau sampling and/or RG. 
 
 \begin{figure}
-\centering \includegraphics[width=0.7\columnwidth]{Chapter-3/HN35P6DOS_h2}
-\protect\caption{Density of states from Wang-Landau sampling for system size $N=512$. Both the planar networks have highly degenerated ground states; while the nonplanar ones have unique ground states. }
+\centering \includegraphics[width=0.6\columnwidth]{Chapter-3/HN35P6DOS_h3.pdf}
+\protect\caption{Density of states from Wang-Landau sampling for system size $N=512$. Both the planar networks have highly degenerated ground states; while the nonplanar ones have unique ground states. This is also confirmed by the entropy from RG. }
 \label{fig:afm-doswl} 
 \end{figure}
 
@@ -577,10 +577,16 @@ Wang-Landau sampling can estimate the density of states $g_E$, which yields the 
 \begin{equation}
 Z(\beta)=\sum_{i=1}^{N_{E}}g_{E_i}e^{-\beta E_i}
 \end{equation}
-where $\beta$ is $1/T$, and $N_E$ is the total number of energy states. The density of states for different HNs in AFM are shown in Fig. \ref{fig:afm-doswl}. We can see there is clearly a difference between planar (HN3, HN5) and nonplanar networks (HNNP, HN6). The planar networks have highly degenerate ground states, which may indicate more glassy dynamics at low temperature. The nonplanar networks have unique ground state, which may indicate an equilibrium phase transition. However, Wang-Landau sampling can only converge for system sizes $<1024$. Due the small system sizes in Wang-Landau sampling's results, no evidence is obtained to prove the speculations of phase transitions.
+where $\beta$ is $1/T$, and $N_E$ is the total number of energy states. The density of states for different HNs in AFM are shown in Fig. \ref{fig:afm-doswl}. We can see there is clearly a difference between planar (HN3, HN5) and nonplanar networks (HNNP, HN6). The planar networks have highly degenerate ground states, which may indicate more glassy dynamics at low temperature. The nonplanar networks have unique ground state, which may indicate an equilibrium phase transition. The ground states degenency can be further proved by the entropy density $s$ from RG as shown in Fig. \ref{fig:afm-entropy}. However, the Wang-Landau sampling can only converge for system sizes $<1024$. Due the small system sizes in Wang-Landau sampling's results, no evidence is obtained to prove the speculations of phase transitions.
 Therefore, RG is needed to reach any meaningful conclusion for systems in the thermodynamic limit.
 
-\begin{figure}
+\begin{figure}[h]
+\centering \includegraphics[width=0.88\columnwidth]{Chapter-3/HNs_entropy_density.pdf}
+\protect\caption{Entropy Densities for all HNs of system sizes $N=2^{16}, 2^{32}, 2^{64}$. Each Hanoi network has 3 curves of different system sizes, and these curves all cllapses on each other, which shows these curves can represent the behavior in the thermodynamic limit.  }
+\label{fig:afm-entropy} 
+\end{figure}
+
+\begin{figure}[h]
 \centering \includegraphics[width=0.9\columnwidth]{Chapter-3/HNs_MagvsH_m_vs_H.pdf}
 \protect\caption{Magnetization patterns with increasing external magnetic fields at low temperature $T=0.1$ for system size $N=2^{128}$ using RG.}
 \label{fig:afm-magplt}
@@ -604,7 +610,7 @@ Further conclusion needs detailed information of the low-temperature (even groun
  spin configuration, which is not directly retrievable from RG.
 
 \begin{figure}
-\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/freeE_lowT2highT.pdf}
+\centering \includegraphics[width=1\columnwidth]{Chapter-3/freeE_lowT2highT.pdf}
 \protect\caption{The free energy difference between the 2 boundaries conditions at different temperatures. The system size is $N=2^k$, which are $2^{16}$, $2^{24}$, $2^{32}$ in the figure above. Obviously, at higher temperatures, there is no difference; at low temperatures, there is more and more difference variations for bigger and bigger system sizes. A plot for low $T$ is shown next (Fig. \ref{fig:afm-freeEdiff}) which shows the chaos at low $T$.  }
 \label{fig:afm-freeEdiff_allT} 
 \end{figure}
@@ -618,20 +624,17 @@ One of the main goals of RG is to explore the chaotic behaviors found in the fix
 \label{fig:afm-freeEdiff} 
 \end{figure}
 
+\begin{figure}
+\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/chaotic_exponents_freeE_binning.pdf}
+\protect\caption{Number of free energies crossings fitted to $k$ (=$\log_2 N$) in the temperature range $T \in [10^{-3}, T_g]$ for HNNP. The yellow squares are the raw $N_c$'s which have fluctuations due to finite size scaling and numerical precision. To get a more reliable fitting, the moveing average (black circles) with window size of 6 and overlap of 3 are used for fitting. Two methods of fitting are used: Eq. \ref{eq:afm-fit1} (left figure) and Eq. \ref{eq:afm-fit2} (right figure). The exponents are $0.312\pm 0.003$ and $0.309 \pm 0.003$, respectively. Both of the $R^2$ is bigger than $0.99$.}
+\label{fig:afm-freeEfit} 
+\end{figure}
+
 The crossing point is where $\Delta F = 0$ and $\Delta F$ changes sign. In other words, $f_1$  (parallel boundary condition) and $f_2$ (anti-parallel) switch their order. In a spin glass with chaotic dynamics, the number of crossings $N_c$ is expected to increase polynomially with system size 
 \begin{equation}
 N_c = A N^\alpha
 \end{equation}
-where $A$ is a constant, $N$ is the system size, and $\alpha$ is the exponent. The exponent $\alpha$ is called chaotic exponent. 
-
-\begin{figure}
-\centering \includegraphics[width=0.8\columnwidth]{Chapter-3/chaotic_exponents_freeE_binning.pdf}
-\protect\caption{Number of free energies crossings fitted to $k$ (=$\log_2 N$) in temperature range $T \in [10^{-3}, T_g]$. Two methods of fitting are used: Eq. \ref{eq:afm-fit1} (left figure) and Eq. \ref{eq:afm-fit2} (right figure). The exponents are $0.319\pm 0.006$ and $0.321 \pm 0.009$, respectively. Both of the $R^2$ is bigger than $0.98$.}
-\label{fig:afm-freeEfit} 
-\end{figure}
-
-
-There is two way to obtain chaotic exponent $\alpha$. The first way is 
+where $A$ is a constant, $N$ is the system size, and $\alpha$ is the exponent. The exponent $\alpha$ is called chaotic exponent. There is two way to obtain chaotic exponent $\alpha$. The first way is 
 \begin{equation}
 \log_2 N_c = \log_2 A + \alpha \log_2 N
 \label{eq:afm-fit1}
@@ -641,12 +644,11 @@ There is two way to obtain chaotic exponent $\alpha$. The first way is
 \frac{\log_2 N_c }{\log_2 N } =\frac {\log_2 A }{\log_2{N}} + \alpha 
 \label{eq:afm-fit2}
 \end{equation}
-where $\log_2 N = k$. These two ways can show us the trend from different perspectives as shown in Fig. \ref{fig:afm-freeEfit}. 
-These two exponents are $0.319\pm 0.006$ and $0.321 \pm 0.009$, respectively. Both strongly show there is a polynomial increase with system size. 
+where $\log_2 N = k$. The two ways can show us the trend from different perspectives as shown in Fig. \ref{fig:afm-freeEfit}. 
+These two exponents are $0.312\pm 0.003$ and $0.309 \pm 0.003$, respectively. Both strongly show there is a power-law increase with system size. 
 
 As you may notice from the free energy curves in Fig. \ref{fig:afm-freeEdiff}, $N_c$ may dependent on the temperature and step size. First, we tested different 2 more temperatures ranges $T \in [0.1, 0.2]$ and $T \in [0.2, 0.3]$ which show similar pattern. Second, different step sizes are tested to make sure the $N_c$ does not change with a smaller step size. 
 
 
-
-
 \section{Summary and Conclusion}
+

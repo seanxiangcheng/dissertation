@@ -10,13 +10,22 @@ systems still have a variety of challenging and unclear questions.
 This chapter first introduces the general disordered system and 3 specific disordered systems, i.e. jamming transition, antiferromagnetic Ising model, and random field Ising model. Then the finite dimensional networks we use in our study are described. In the end of this chapter, the existing work of disordered system in complex networks is reviewed to understand the problem and how we can contribute new insights.
 
 \section{Disordered System}
-In real world, most materials can be considered as disordered materials because of the heterogeneous structures with defects and impurities. There are various types of disordered materials, such as glass \cite{Gibbs1958nature}, amorphous solids \cite{berthier2016facets}, polymer \cite{roth2005glass}, granular material \cite{richard2005slow}, and biological tissue \cite{bi2015density}. 
+In real world, most materials can be considered as disordered materials because of their heterogeneous structures with defects and impurities. There are various types of disordered materials, such as glass \cite{Gibbs1958nature, berthier2016facets}, amorphous solids \cite{berthier2016facets}, polymer s\cite{roth2005glass}, granular materials \cite{richard2005slow}, and biological tissues \cite{bi2015density}. 
 
-Here we focus on models of disordered systems that lend themselves to theoretical investigations, such as Edwards-Anderson model \cite{edwards1975theory}, random field Ising model \cite{imry1975random}, antiferromagnetic Ising model\cite{wannier1950afm},  fully frustrated model \cite{kosterlitz1973ordering, kosterlitz1974critical}, spin glass \cite{young1997spin}, lattice glass model \cite{Biroli02}. 
+Here we focus on models of disordered systems that lend themselves to theoretical investigations, such as Edwards-Anderson model \cite{edwards1975theory}, Sherrington-Kirkpatrick model \cite{sherrington1975}, random field Ising model (RFIM) \cite{imry1975random}, antiferromagnetic Ising model (AFM) \cite{wannier1950afm},  fully frustrated model \cite{kosterlitz1973ordering, kosterlitz1974critical}, spin glass \cite{young1997spin}, lattice glass model \cite{Biroli02}. These different models share  three main similarities. 
+\begin{figure}[h]
+\centering \includegraphics[width=0.2\columnwidth]{Chapter-1/geo_frustration.png} 
+\protect\caption{\label{fig:intro-gf} An example of the geometric frustration in antiferromagnetic Ising model. There are more than one ground states even in this simple triangular lattice. A more complex network would lead to more frustrations.}
+\end{figure}
 
-To Be Completed later!
+Two main commonalities are geometric frustration and glassy dynamics  in these systems. First, the geometric frustration is introduced either by random interaction or complex structure \cite{vannimenus1977}. For example, in AFM, any odd loop in the structure can lead to the geometric frustration \cite{wannier1950afm} (as illustrated by Fig. \ref{fig:intro-gf}). In spin glass, the interaction constant $J_{ij}$ between spin $i$ and $j$ is random and can be either negative or positive, which is known as frustrated interaction \cite{edwards1975theory}.
+Second, the glassy dynamics is often observed in the simulations of these disordered systems \cite{lunkenheimer2000}. For example, a strongly interacting glassy material is observed to have a power-law relaxation \cite{palmer1984}. These glassy dynamics often lead to the glass transition \cite{biroli2013perspective} or jamming transition \cite{Liu1998}. 
+In all the three Chapters (Chapter 2 - 4), the disordered systems studied share both the geometric frustration and the glassy dynamics with a power-law relaxation, and we explore to see whether there is any phase transitions or glass transitions.
 
-BLANK.\footnote{This will be changed!}
+Another commonality is the analytical and computational complexity. Analytically, only certain models in certain lattices or structures are exactly solvable. For example, the mean field theory  \cite{kadanoff2009} is the most popular method to solve problems of spin glass \cite{sherrington1975}, lattice glass model \cite{Biroli02}, fully frustrated XY model \cite{kim2001xy}, etc. However, the majority of these models in real world lattice or complex networks are not analytically solvable. Moreover, their computational complexity is often NP-complete \cite{garey1983} because the computational cost grows exponentially with the system size \cite{barahona1982, weigt2000}.
+
+In our studies, we have the same difficulties. In order to address these problems, we utilize a combination \cite{cheng2015jamming, ma2016prb} of real-world-like lattices, Monte Carlo methods, and analytical method RG using scientific computing languages (C/C++, Python) and modern computing tools (Mathematica, MATLAB). Our physical modeling, computational implementations, and results are described in details in Chapter 2-4.
+
 
 \section{Jamming Transition}
 \label{sec:jam_intro}
@@ -35,7 +44,7 @@ transition may be induced in various ways, such as by increasing density,
 decreasing temperature, or/and reducing shear stress~\cite{Liu2010}.
 Below the jamming transition, the system stays in long-lived meta-stable
 states, and its progression to its corresponding equilibrium state
-entails an extremely slow, non-Debye relaxation~\cite{Hill1985,Ciamarra2010,van2010}.
+entails an extremely slow, non-Debye relaxation~\cite{Hill1985, Ciamarra2010, van2010}.
 
 Jamming transitions have been observed in various types of systems,
 such as granular media~\cite{Majmudar2007}, molecular glasses~\cite{Parisi2010,Angelani2007},
@@ -89,7 +98,7 @@ The Ising model was proposed by Wilhelm Lenz and Ernst Ising \cite{ising1925cont
 \label{eq:intro-ising}
 \end{equation}
 where $s_i=\pm1$, $\langle i, j\rangle$ stands for nearest-neighbor spin-pair, $s_i$ $J$ ($>0$)is the exchange interaction constant, and $H$ is the external magnetic field. This is the most simple Ising model and usually called ferromagnetic Ising model (FM).
-However, this simple model could represent approximately real-world systems and lead to phase transitions \cite{onsager1944} or complex dynamics \cite{fredrickson1984kinetic} in different lattice structures. 
+However, this simple model could represent approximately real-world systems and lead to phase transitions \cite{onsager1944} or complex dynamics \cite{Fredrickson1984} in different lattice structures. 
 Numerous variations have been proposed to study different systems, ranging from magnetic systems \cite{blundell2001magnetism} to biological systems \cite{hopfield1982neural}.
 
 In this section, two disordered Ising models, antiferromagnetic Ising model and random field Ising model,  are introduced and reviewed. They are also the focus the studies in Chapter \ref{chap-afm} and Chapter \ref{chap-rfim}.
@@ -109,7 +118,7 @@ where the major difference from traditional Ising model is the random field term
 
 As a statistical mechanical model, the most investigated theoretical aspect of RFIM is still the critical phenomena, such as ferromagnetic phase transition. For one dimensional RFIM, its exact solution suggests no phase transition \cite{grinstein1983exact}. Through a number of theoretical calculations \cite{parisi1979random, bricmont1987lower}, three dimensional RFIM has a phase transition from a paramagnetic phase to a ferromagnetic one  \cite{bricmont1987lower}, which suggests the lower critical dimension is $d_l = 3$. 
 
-However, the focus of our study in Chapter \ref{chap-rfim} is not the phase transition but the aging dynamics of the RFIM simulating experimental system. In terms of experimental studies, the RFIM has been used to study different experimental systems, such as diluted antiferromagnet \cite{fernandez1988random}, impure substrates \cite{villain1982commensurate}, and magnetic alloys \cite{fisher1988theory}. 
+However, the focus of our study in Chapter \ref{chap-rfim} is not the phase transition but the aging dynamics of the RFIM simulating experimental system. In terms of experimental studies, the diluted antiferromagnet is considered as an experimental realization of the RFIM \cite{belanger1985, fernandez1988random}. It has also been used to study other materials, such as  impure substrates \cite{villain1982commensurate}, and magnetic alloys \cite{fisher1988theory}. 
 The experimental system to model here is a thin-film ferromagnet/antiferromagnet bilayer which exhibits non-Arrhenius power-law aging of the magnetization state \cite{ma2016prb}. 
 It is expected that, in such a complex experimental magnetic system, the aging or relaxation to equilibrium state may be trapped by metastable states, and the relaxation may follow an exponential scaling according to the Arrhenius law \cite{Arrhenius1989}
 \begin{equation}
@@ -222,18 +231,19 @@ As you can see, these four networks are all constructed hierarchically and can p
 
 
 \section{Computational Methods}
-In all the three projects in this dissertation, the computational methods are the most important part to implement the models and realize the computations. We use a wide range of different computational methods, such as Markov-Chain Monte Carlo (MCMC) method, non-Markov-Chain Monte Carlo method, Renormalization Group (RG), numerical analysis, and graphical models. These methods requires a broad knowledge of computer science, physics, mathematics, and statistics. Moreover, their implementations take a large amount time and effort for coding, testing, and analysis. Our computational work may not only contribute new insights in physics but also shed light onto algorithms development and optimization.
+In all the three projects in this dissertation, the computational methods are the most important part to implement the models and realize the computations. We use a wide range of different computational methods, such as Markov-Chain Monte Carlo (MCMC) method, non-Markov-Chain Monte Carlo method, Renormalization Group (RG), numerical analysis, and graphical models.
+ These methods requires a broad knowledge in computer science, physics, mathematics, and statistics. Moreover, their implementations take a large amount of time and effort for coding,  testing, computation, and analysis. Our computational work may not only contribute new insights in physics but also shed light onto algorithms development and optimizations.
 
 Specifically, we mainly adapted and implemented three advanced methods: Simulated Annealing (SA), Wang-Landau sampling (WL), and Renormalization Group (RG). 
 
-The Simulated Annealing (SA) was first formulated as an approach to find a minimization of a function with a large number of variables in statistical mechanics \cite{khachaturyan1979statistical, khachaturyan1981thermodynamic}. This algorithm imitates the slow cooling process in metallurgy to increase its crystallization and reduce its defects. In the implementation of the algorithm, it slowly decrease the probability of accepting worse transitions or solutions to robustly find a local or global minimum. In physics, the probability of a worse transition is usually controlled by the temperature, which makes this name self-explaining. Kirkpatrick {\it et. al.} \cite{SA} published a famous paper on {\it Science} to formally define, apply, and discuss SA  in the scenarios of combinatorial optimization, statistical mechanics, physics design of computer, and even the famous traveling salesmen's problem. It is a widely used method to search for local and global minimum but can also be used to simulate the dynamics of a physical system because the annealing process simulates the physical process.
-
-In the implementation of SA in our studies, our goal is not simply search for the minimum (ground states) but instead learn the relaxation  dynamics. 
-
-The Wang-Landau sampling (WL) is a computational methods using non-Markov-chain Monte Carlo; while RG is an analytical methods but requires the computational implementation using modern symbolic computational tools (Mathematica.)
+The Simulated Annealing (SA) \cite{SA} was first formulated as an approach to find a minimization of a function with a large number of variables in statistical mechanics \cite{khachaturyan1979statistical, khachaturyan1981thermodynamic}. This algorithm imitates the slow cooling process in metallurgy to increase its crystallization and reduce its defects. In the implementation of the algorithm, it slowly decrease the probability of accepting worse transitions or solutions to robustly find a local or global minimum. In physics, the probability of a worse transition is usually controlled by the temperature, which makes this name self-explaining. Kirkpatrick {\it et. al.} \cite{SA} published a famous paper on {\it Science} to formally define, apply, and discuss SA  in the scenarios of combinatorial optimization, statistical mechanics, physics design of computer, and even the famous traveling salesmen's problem. It is a widely used method not only to search for a global minimum but can also to simulate the dynamics of a physical system because the annealing process simulates the physical process.
+In the implementation of SA in our studies, our goal is not only simply search for the minimum (ground states) but also learn the relaxation dynamics. This process is extremely costly in terms of the computational time because we need to cool the system slowly and repeat the annealing many times ($50\sim 1000$ runs in our projects). For most SA results in Chapter 2 and 3, each curve takes about $\sim ~50$ hours using sequential computation on a single core. More detailed computing setup is described in the chapters using SA.
 
 
-The Renormalization Group (RG) is an analytical method to takes advantage of the symmetries in the problem and renormalize the problem to a low-dimensional one.
+The Wang-Landau sampling (WL) \cite{Wang2001} is a computational methods using non-Markov-chain Monte Carlo; while RG is an analytical methods but requires the computational implementation using modern symbolic computational tools (Mathematica).
+
+
+The Renormalization Group (RG) is an analytical method to take advantage of the symmetries in the problem and renormalize the problem to a low-dimensional one. 
 
 
 
