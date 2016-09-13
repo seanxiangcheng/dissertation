@@ -6,7 +6,7 @@ This chapter uses both computational and theoretical methods to study the dynami
 \label{sec:amf-glass-intro}
 As introduced in Sec. \ref{sec:intro-afm}, the Ising antiferromagnet (AF) is a convenient model of glassy dynamics. With non-random interactions, it can still introduce geometric frustrations through complex structures and may give rise to a spin glass phase and glassy relaxation at low temperatures \cite{villain1977spin, herrero2008afm}. The motivations to this model in hierarchical networks are
 \begin{itemize}
-\item the antiferromagnetic Ising model (AFM) has been shown to have interesting dynamics \cite{shokef2011}, magnetization plateaus \cite{ohanyan2003mag} , and phase transitions\cite{herrero2008afm}, and even more interesting results are expected from our hierarchical networks;
+\item the antiferromagnetic Ising model (AFM) has been shown to have interesting dynamics \cite{shokef2011}, magnetization plateaus \cite{ohanyan2003mag} , and phase transitions \cite{herrero2008afm}, and even more interesting results are expected from our hierarchical networks;
 \item the Hanoi networks are renormalizable and can be studied exactly \cite{boettcher2015classification, Boettcher2011HNNP}, which could provide more insights about the equilibrium dynamics underlying the extremely slow glassy dynamics;
 \item the ferromagnetic Ising model in hierarchical networks has been studied  and shows phase transitions in Hanoi networks \cite{brunson2014rg}.
 \end{itemize}
@@ -651,4 +651,11 @@ As you may notice from the free energy curves in Fig. \ref{fig:afm-freeEdiff}, $
 
 
 \section{Summary and Conclusion}
+The antiferromagnetic Ising model has been studied in these four Hanoi networks. A combination of both Monte Carlo methods and exact renormalization is applied to learn both the non-equilibrium and equilibrium behaviors. There are interesting and new discoveries in these disordered systems.
+
+The Wang-Landau sampling provides a direct access to the equlibrium density of states, which compares well with the asymptotic entropy density obtained by RG. Unfortunately, the WL can only return results for system sizes up to $512$. Nothing else could be concluded using results from WL alone. 
+
+Another Monte Carlo method, the simulated annealing, simulates the dynamics at different cooling rates. As the temperature gets lower and lower, the system gets trapped indefinitely into meta-stable states of increasing worse energy for more rapid quenches characterized by a power-law relation \cite{cheng2015jamming} which is also observed in jamming in Chapter \ref{chap-jamming}. The same power-law relaxation here may contribute new insights to how these disordered connected with each other.
+
+Finally and most importantly, the exact renormalization provide the most information of the equlibrium dynamics. Free energy chaos and Hopf-bifurcation in the RG-flow are discovered, which indicates a spin glass phase transition. Moreover, if we tune the strengths of the long-range links in these Hanoi networks, we can also get paramagnetic-ferromagnetic phase transition. Using these results, we obtain a phase diagram of the transition temperatue and different interpolation strengths.
 

@@ -81,8 +81,12 @@ lattice glass model on those networks.
 \subsection{Wang-Landau Sampling}
 \label{sub:WLsampling}Wang-Landau sampling~\cite{Wang2001} is a
 multi-canonical method to numerically determine the entire density
-of states $g_{n}$ within a single simulation. This method is based
-on the fact that a random walk in the configuration space with a probability
+of states $g_{n}$ within a single simulation. This method is initially proposed to study 
+ferromagnetic Ising model, and we independently modify this algorithm to sample  
+density of states in the lattice glass model.
+ 
+As introduced in Sec. \ref{sec:intro-comp}, this method is based on 
+the fact that a random walk in the configuration space with a probability
 proportional to the inverse of the density of states with occupation
 $n$, $0\leq n\leq N$, enforces a flat histogram in $g_{n}$ over
 all $n$. Based on this fact, Wang-Landau sampling keeps modifying

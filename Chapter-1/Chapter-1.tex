@@ -22,7 +22,7 @@ Two main commonalities are geometric frustration and glassy dynamics  in these s
 Second, the glassy dynamics is often observed in the simulations of these disordered systems \cite{lunkenheimer2000}. For example, a strongly interacting glassy material is observed to have a power-law relaxation \cite{palmer1984}. These glassy dynamics often lead to the glass transition \cite{biroli2013perspective} or jamming transition \cite{Liu1998}. 
 In all the three Chapters (Chapter 2 - 4), the disordered systems studied share both the geometric frustration and the glassy dynamics with a power-law relaxation, and we explore to see whether there is any phase transitions or glass transitions.
 
-Another commonality is the analytical and computational complexity. Analytically, only certain models in certain lattices or structures are exactly solvable. For example, the mean field theory  \cite{kadanoff2009} is the most popular method to solve problems of spin glass \cite{sherrington1975}, lattice glass model \cite{Biroli02}, fully frustrated XY model \cite{kim2001xy}, etc. However, the majority of these models in real world lattice or complex networks are not analytically solvable. Moreover, their computational complexity is often NP-complete \cite{garey1983} because the computational cost grows exponentially with the system size \cite{barahona1982, weigt2000}.
+Another commonality is the analytical and computational complexity. Analytically, only certain models in certain lattices or structures are exactly solvable. For example, the mean field theory  \cite{kadanoff2009} is the most popular method to solve problems of spin glass \cite{sherrington1975}, lattice glass model \cite{Biroli02}, fully frustrated XY model \cite{kim2001xy}, etc. However, the majority of these models in real world lattice or complex networks are not analytically solvable. Moreover, their computational complexity is often NP-complete \cite{garey1983} because the computational cost grows exponentially with the system size \cite{barahona1982, weigt2000}. These difficulties of computational complexity make these disordered systems being studied even beyond physics \cite{mezard1990spin, stein2013spin}.
 
 In our studies, we have the same difficulties. In order to address these problems, we utilize a combination \cite{cheng2015jamming, ma2016prb} of real-world-like lattices, Monte Carlo methods, and analytical method RG using scientific computing languages (C/C++, Python) and modern computing tools (Mathematica, MATLAB). Our physical modeling, computational implementations, and results are described in details in Chapter 2-4.
 
@@ -104,13 +104,24 @@ Numerous variations have been proposed to study different systems, ranging from 
 In this section, two disordered Ising models, antiferromagnetic Ising model and random field Ising model,  are introduced and reviewed. They are also the focus the studies in Chapter \ref{chap-afm} and Chapter \ref{chap-rfim}.
 \subsection{Antiferromagnetic Ising Model}
 \label{sec:intro-afm}
-Unlike ferromagnetic Ising model (FM) having a large amount of investigations, the antiferromagnetic Ising model (AFM) have little work published until 1970s \cite{penney2003new}. The most interesting characteristic of the AFM is that it can easily introduce geometric frustrations and may give rise to a glassy dynamics or even spin glass phase. While this interesting characteristic is realized by only change the the sign of the coupling constant $J$ ($J<0$), and the Hamiltonian is still the same as Eq. \ref{eq:intro-ising}.
+Unlike ferromagnetic Ising model (FM) having a large amount of investigations \cite{niss2005history, mccoy2014two}, the antiferromagnetic Ising model (AFM) have little work published until the 1970s \cite{penney2003new}. The most interesting characteristic of the AFM is that it can easily introduce geometric frustrations and may give rise to a glassy dynamics or even spin glass phase. While this interesting characteristic is realized by only change the the sign of the coupling constant $J$ ($J<0$), and the Hamiltonian is still the same as Eq. \ref{eq:intro-ising}. Then the geometric frustrations can be simply introduced through odd loops (as illustrated in Fig. \ref{fig:intro-gf}).
 
+Using a combination of the simple AFM and complex networks, there has been interesting phenomena observed, such as glassy \cite{shokef2011}, magnetization plateaus \cite{ohanyan2003mag} , and spin glass phase transition \cite{herrero2008afm}. However, most results have been gained from the exact solution of such models in their mean-field
+limit, and these mean-field descriptions for disordered systems often fail to capture the properties of real, finite-dimensional materials.  Unlikely most these findings, we study the AFM in real-world lattice-like Hanoi networks who remain exactly renormalizable. Through these methods, we can learn both the non-equilibrium and equilibrium behaviors. 
 
+Our work using the AFM is inspired by an early attempt in Ref. \citep{mckay1982spin} to avoid randomness with a family of geometrically frustrated hierarchical networks susceptable to an exact renormalization group (RG) treatment. As there, we find that glassy behavior is associated
+with a transition into chaos for the RG-flow in coupling space. We
+show that this transition into the glass state is of infinite order
+and occurs via a sub-critical Hopf-bifurcation in the RG-flow \citep{weinrib1983critical}.
+This chaotic flow appears as a natural manifestation of temperature
+chaos that is a characteristic of glassy order  \citep{bray1987chaotic, thomas2011zero}.
+We study the scaling behavior of the zero-crossings in the domain-wall
+free-energy, for which we can derive an exact expression in terms
+of renormalized couplings. More details are described in Sec. \ref{sec:afm-rg}.
 
 \subsection{Random Field Ising Model}
 \label{sec:intro-rfim}
-The random field Ising model (RFIM) was first introcuded by Imry and Ma \cite{imry1975random} in 1975. It represents a class of quenched disordered spin models \cite{young1997spin} with  disorderness coupled to the each spin, which is different from the spin glass models with disordered interaction constants. The general Hamiltonian of RFIM with $N$ spins is
+The random field Ising model (RFIM) was first introcuded by Imry and Ma \cite{imry1975random} in 1975. It represents a class of quenched disordered spin models \cite{young1997spin} with  disorderedness coupled to the each spin, which is different from the spin glass models with disordered interaction constants. The general Hamiltonian of RFIM with $N$ spins is
 \begin{equation}
 \mathcal{H}=-J\sum_{<i,j>}s_{i}s_{j}-\sum_{i=1}^{N}h_{i}s_{i}
 \end{equation}
@@ -154,11 +165,11 @@ Network & Degree  & Planarity & Diameter & Fractal Dimension  \tabularnewline
 \hline 
 HN3  & $3$ & Planar & $\sqrt{N}$ & 2 \tabularnewline
 \hline 
-HN5  & $5$ & Planar &  $\ln N$ & $\infty$  \tabularnewline
+HN5  & $5$ & Planar &  $\ln N$ &  2?  \tabularnewline
 \hline 
-HNNP  & $4$  & Nonplanar &  $\ln N$ & -  \tabularnewline
+HNNP  & $4$  & Nonplanar &  $\ln N$ & 2?   \tabularnewline
 \hline 
-HNNP  & $6$  & Nonplanar &  $\ln N$ & - \tabularnewline
+HNNP  & $6$  & Nonplanar &  $\ln N$  & 2?  \tabularnewline
 \hline 
 \end{tabular}
 \end{table}
@@ -231,6 +242,7 @@ As you can see, these four networks are all constructed hierarchically and can p
 
 
 \section{Computational Methods}
+\label{sec:intro-comp}
 In all the three projects in this dissertation, the computational methods are the most important part to implement the models and realize the computations. We use a wide range of different computational methods, such as Markov-Chain Monte Carlo (MCMC) method, non-Markov-Chain Monte Carlo method, Renormalization Group (RG), numerical analysis, and graphical models.
  These methods requires a broad knowledge in computer science, physics, mathematics, and statistics. Moreover, their implementations take a large amount of time and effort for coding,  testing, computation, and analysis. Our computational work may not only contribute new insights in physics but also shed light onto algorithms development and optimizations.
 
@@ -240,10 +252,10 @@ The Simulated Annealing (SA) \cite{SA} was first formulated as an approach to fi
 In the implementation of SA in our studies, our goal is not only simply search for the minimum (ground states) but also learn the relaxation dynamics. This process is extremely costly in terms of the computational time because we need to cool the system slowly and repeat the annealing many times ($50\sim 1000$ runs in our projects). For most SA results in Chapter 2 and 3, each curve takes about $\sim ~50$ hours using sequential computation on a single core. More detailed computing setup is described in the chapters using SA.
 
 
-The Wang-Landau sampling (WL) \cite{Wang2001} is a computational methods using non-Markov-chain Monte Carlo; while RG is an analytical methods but requires the computational implementation using modern symbolic computational tools (Mathematica).
+The Wang-Landau sampling (WL) \cite{Wang2001} is a computational methods using non-Markov-chain Monte Carlo. It is a flat histogram method which keeps track of all the random walks in the function (energy or configuration) space. Every transition from one state to another depends on all the histories of these two states. This method is based on the fact that a random walk in the function spaces with a probability proportional to the inverse of the probability density (or mass, for discrete system) enforces a flat histogram. In physics, this method is extremely attractive because it can be used to sample the density of states. Density of states can be used to calculate most physical properties using the partition function in statistical mechanics \cite{gould2010statistical}. It has been shown as a successful method in solving the problems of ferromagnetic Ising model \cite{landau2004new}, HP model of protein folding \cite{wust2008hp}, polymer chain \cite{taylor2009phase}, and numerical integration \cite{li2007numerical}. However, it has its limitations too. The two main limitations are accuracy and convergence \cite{morozov2007accuracy}. These two aspects are strongly correlated with each other and also depend on the specific problems \cite{landau2014guide, wust2008hp}. There has been a lot efforts trying to improve both aspects \cite{schulz2003avoiding, schulz2003avoiding, troster2005wang}. In our work, all the models are disordered systems with entangled geometric frustrations which makes it extremely difficult to explore all the energy or configuration space. We improved the algorithm by introducing one more type of random walk, which significantly improved the computational efficiency \cite{cheng2015jamming}. The computation time for the largest system size achieved decreases from $\sim 150$ hours to $\sim 20$ hours. More details of the setup, procedure, and results are described in Chapter 2 and 3.
 
 
-The Renormalization Group (RG) is an analytical method to take advantage of the symmetries in the problem and renormalize the problem to a low-dimensional one. 
+The Renormalization Group (RG) \cite{wilson1975renormalization} is an analytical method to take advantage of the symmetries in the problem and to renormalize the problem to a low-dimensional self-similar one. Using RG, some problems can be solved on paper beautifully. For example, one-dimensional and two-dimensional Ising model without external magnetic fields can be solved exactly using RG \cite{onsager1944}. However, more complex problems require computational implementations using modern symbolic computational tools, such as Mathematica.  Boettcher {\it et. al.} develop a RG procedure in hierarchical networks using RG and Mathematica \cite{boettcher2012ordinary, boettcher2011rgcp, BoHa11}. We use the same RG procedure to explore various equilibrium physical properties, such as internal energy, entropy, magnetization, specific heat, susceptibility. These equilibrium results are extremely valuable to learn the dynamics and phase transitions, especially considering all computational methods may fail to equilibrate for problems of large disordered systems at low temperatures. More details of the RG setup are described in Sec. \ref{sec:afm-rg}.
 
 
 

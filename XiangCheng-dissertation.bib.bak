@@ -210,6 +210,18 @@
   Timestamp                = {2016.07.13}
 }
 
+@Article{boettcher2011rgcp,
+  Title                    = {Renormalization group for critical phenomena in complex networks},
+  Author                   = {Boettcher, Stefan and Brunson, CT},
+  Journal                  = {Networking of Psychophysics, Psychology and Neurophysiology},
+  Year                     = {2011},
+  Pages                    = {45},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Frontiers E-books},
+  Timestamp                = {2016.09.13}
+}
+
 @Article{Boettcher2011HNNP,
   Title                    = {Fixed-point properties of the Ising ferromagnet on the Hanoi networks},
   Author                   = {Boettcher, S. and Brunson, C. T.},
@@ -287,6 +299,19 @@
   Url                      = {http://link.aps.org/doi/10.1103/PhysRevE.84.011108}
 }
 
+@Article{boettcher2012ordinary,
+  Title                    = {Ordinary percolation with discontinuous transitions},
+  Author                   = {Boettcher, Stefan and Singh, Vijay and Ziff, Robert M},
+  Journal                  = {Nature communications},
+  Year                     = {2012},
+  Pages                    = {787},
+  Volume                   = {3},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2016.09.13}
+}
+
 @Article{Boolchand2005,
   Title                    = {Self-organization and the physics of glassy networks},
   Author                   = {Boolchand, P and Lucovsky, G and Phillips, JC and Thorpe, MF},
@@ -299,6 +324,20 @@
   Owner                    = {xcheng0907},
   Publisher                = {Taylor \& Francis},
   Timestamp                = {2014.08.13}
+}
+
+@Article{bray1987chaotic,
+  Title                    = {Chaotic nature of the spin-glass phase},
+  Author                   = {Bray, AJ and Moore, MA},
+  Journal                  = {Physical review letters},
+  Year                     = {1987},
+  Number                   = {1},
+  Pages                    = {57},
+  Volume                   = {58},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
 }
 
 @Article{bricmont1987lower,
@@ -509,6 +548,16 @@
   Owner                    = {xcheng0907},
   Publisher                = {AIP Publishing},
   Timestamp                = {2016.07.13}
+}
+
+@Book{gould2010statistical,
+  Title                    = {Statistical and thermal physics: with computer applications},
+  Author                   = {Gould, Harvey and Tobochnik, Jan},
+  Publisher                = {Princeton University Press},
+  Year                     = {2010},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.09.13}
 }
 
 @Article{grinstein1983exact,
@@ -846,6 +895,30 @@
   Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.101.165702}
 }
 
+@Article{landau2004new,
+  Title                    = {A new approach to Monte Carlo simulations in statistical physics: Wang-Landau sampling},
+  Author                   = {Landau, DP and Tsai, Shan-Ho and Exler, M},
+  Journal                  = {American Journal of Physics},
+  Year                     = {2004},
+  Number                   = {10},
+  Pages                    = {1294--1302},
+  Volume                   = {72},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {American Association of Physics Teachers},
+  Timestamp                = {2016.09.13}
+}
+
+@Book{landau2014guide,
+  Title                    = {A guide to Monte Carlo simulations in statistical physics},
+  Author                   = {Landau, David P and Binder, Kurt},
+  Publisher                = {Cambridge university press},
+  Year                     = {2014},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.09.13}
+}
+
 @Article{Lee2006,
   Title                    = {Convergence and refinement of the Wang--Landau algorithm},
   Author                   = {Lee, Hwee Kuan and Okabe, Yutaka and Landau, DP},
@@ -858,6 +931,20 @@
   Owner                    = {xcheng0907},
   Publisher                = {Elsevier},
   Timestamp                = {2014.06.15}
+}
+
+@Article{li2007numerical,
+  Title                    = {Numerical integration using Wang--Landau sampling},
+  Author                   = {Li, Ying Wai and W{\"u}st, Thomas and Landau, David P and Lin, HQ},
+  Journal                  = {Computer physics communications},
+  Year                     = {2007},
+  Number                   = {6},
+  Pages                    = {524--529},
+  Volume                   = {177},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2016.09.13}
 }
 
 @Article{Liu2010,
@@ -902,6 +989,16 @@
   Timestamp                = {2016.09.12}
 }
 
+@Article{mezard1990spin,
+  Title                    = {Spin glass theory and beyond.},
+  Author                   = {M{\'e}zard, Marc and Parisi, Giorgio and Virasoro, Miguel-Angel},
+  Year                     = {1990},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {World Scientific Publishing Co., Inc., Pergamon Press},
+  Timestamp                = {2016.09.13}
+}
+
 @Article{ma2016prb,
   Title                    = {Thickness-dependent cooperative aging in polycrystalline films of antiferromagnet CoO},
   Author                   = {Ma, Tianyu and Cheng, Xiang and Boettcher, Stefan and Urazhdin, Sergei and Novozhilova, Lydia},
@@ -935,6 +1032,44 @@
   Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.98.058001}
 }
 
+@Book{mccoy2014two,
+  Title                    = {The two-dimensional Ising model},
+  Author                   = {McCoy, Barry M and Wu, Tai Tsun},
+  Publisher                = {Courier Corporation},
+  Year                     = {2014},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{mckay1982spin,
+  Title                    = {Spin-glass behavior in frustrated Ising models with chaotic renormalization-group trajectories},
+  Author                   = {McKay, Susan R and Berker, A Nihat and Kirkpatrick, Scott},
+  Journal                  = {Physical Review Letters},
+  Year                     = {1982},
+  Number                   = {11},
+  Pages                    = {767},
+  Volume                   = {48},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{morozov2007accuracy,
+  Title                    = {Accuracy and convergence of the Wang-Landau sampling algorithm},
+  Author                   = {Morozov, Alexander N and Lin, Sheng Hsien},
+  Journal                  = {Physical Review E},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {026701},
+  Volume                   = {76},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
+}
+
 @Article{nattermann1997theory,
   Title                    = {Theory of the random field Ising model},
   Author                   = {Nattermann, T},
@@ -956,6 +1091,20 @@
 
   Owner                    = {xcheng0907},
   Timestamp                = {2016.09.11}
+}
+
+@Article{niss2005history,
+  Title                    = {History of the Lenz-Ising model 1920--1950: from ferromagnetic to cooperative phenomena},
+  Author                   = {Niss, Martin},
+  Journal                  = {Archive for history of exact sciences},
+  Year                     = {2005},
+  Number                   = {3},
+  Pages                    = {267--318},
+  Volume                   = {59},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Springer},
+  Timestamp                = {2016.09.13}
 }
 
 @Article{OHern2002,
@@ -1103,6 +1252,20 @@
   Timestamp                = {2016.07.17}
 }
 
+@Article{schulz2003avoiding,
+  Title                    = {Avoiding boundary effects in Wang-Landau sampling},
+  Author                   = {Schulz, BJ and Binder, K and M{\"u}ller, M and Landau, DP},
+  Journal                  = {Physical Review E},
+  Year                     = {2003},
+  Number                   = {6},
+  Pages                    = {067102},
+  Volume                   = {67},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
+}
+
 @Article{sherrington1975,
   Title                    = {Solvable model of a spin-glass},
   Author                   = {Sherrington, David and Kirkpatrick, Scott},
@@ -1129,6 +1292,58 @@
   Owner                    = {xcheng0907},
   Publisher                = {National Acad Sciences},
   Timestamp                = {2016.07.17}
+}
+
+@Book{stein2013spin,
+  Title                    = {Spin Glasses and Complexity},
+  Author                   = {Stein, Daniel L and Newman, Charles Michael},
+  Publisher                = {Princeton University Press},
+  Year                     = {2013},
+
+  Owner                    = {xcheng0907},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{taylor2009phase,
+  Title                    = {Phase transitions of a single polymer chain: A Wang--Landau simulation study},
+  Author                   = {Taylor, Mark P and Paul, Wolfgang and Binder, Kurt},
+  Journal                  = {The Journal of chemical physics},
+  Year                     = {2009},
+  Number                   = {11},
+  Pages                    = {114907},
+  Volume                   = {131},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {AIP Publishing},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{thomas2011zero,
+  Title                    = {Zero-and low-temperature behavior of the two-dimensional$\pm$J Ising spin glass},
+  Author                   = {Thomas, Creighton K and Huse, David A and Middleton, A Alan},
+  Journal                  = {Physical review letters},
+  Year                     = {2011},
+  Number                   = {4},
+  Pages                    = {047203},
+  Volume                   = {107},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{troster2005wang,
+  Title                    = {Wang-Landau sampling with self-adaptive range},
+  Author                   = {Tr{\"o}ster, Andreas and Dellago, Christoph},
+  Journal                  = {Physical Review E},
+  Year                     = {2005},
+  Number                   = {6},
+  Pages                    = {066705},
+  Volume                   = {71},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
 }
 
 @Article{Trappe2001,
@@ -1199,6 +1414,20 @@
   Owner                    = {xcheng0907},
   Publisher                = {IOP Publishing},
   Timestamp                = {2016.07.17}
+}
+
+@Article{wust2008hp,
+  Title                    = {The HP model of protein folding: A challenging testing ground for Wang--Landau sampling},
+  Author                   = {W{\"u}st, Thomas and Landau, DP},
+  Journal                  = {Computer Physics Communications},
+  Year                     = {2008},
+  Number                   = {1},
+  Pages                    = {124--127},
+  Volume                   = {179},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {Elsevier},
+  Timestamp                = {2016.09.13}
 }
 
 @Article{wang01a,
@@ -1272,6 +1501,34 @@
   Owner                    = {xcheng0907},
   Publisher                = {APS},
   Timestamp                = {2016.09.12}
+}
+
+@Article{weinrib1983critical,
+  Title                    = {Critical phenomena in systems with long-range-correlated quenched disorder},
+  Author                   = {Weinrib, Abel and Halperin, BI},
+  Journal                  = {Physical Review B},
+  Year                     = {1983},
+  Number                   = {1},
+  Pages                    = {413},
+  Volume                   = {27},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
+}
+
+@Article{wilson1975renormalization,
+  Title                    = {The renormalization group: Critical phenomena and the Kondo problem},
+  Author                   = {Wilson, Kenneth G},
+  Journal                  = {Reviews of Modern Physics},
+  Year                     = {1975},
+  Number                   = {4},
+  Pages                    = {773},
+  Volume                   = {47},
+
+  Owner                    = {xcheng0907},
+  Publisher                = {APS},
+  Timestamp                = {2016.09.13}
 }
 
 @Book{young1997spin,
