@@ -8,7 +8,6 @@ A level-1 auxiliary file: Chapter-3/Chapter-3.aux
 A level-1 auxiliary file: Chapter-4/Chapter-4.aux
 A level-1 auxiliary file: Chapter-5/Chapter-5.aux
 The style file: apsrev4-1.bst
-A level-1 auxiliary file: Appendix/Appendix.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -26,46 +25,44 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-Warning--missing journal in mezard1990spin
 You've used 105 entries,
             5847 wiz_defined-function locations,
-            2248 strings with 30855 characters,
-and the built_in function-call counts, 96434 in all, are:
-= -- 6553
+            2235 strings with 30145 characters,
+and the built_in function-call counts, 96468 in all, are:
+= -- 6560
 > -- 2254
 < -- 624
 + -- 750
 - -- 508
-* -- 14293
-:= -- 9767
+* -- 14300
+:= -- 9770
 add.period$ -- 105
 call.type$ -- 105
 change.case$ -- 424
 chr.to.int$ -- 103
-cite$ -- 106
-duplicate$ -- 9075
-empty$ -- 7361
+cite$ -- 105
+duplicate$ -- 9078
+empty$ -- 7363
 format.name$ -- 1373
-if$ -- 19240
+if$ -- 19249
 int.to.chr$ -- 3
 int.to.str$ -- 113
 missing$ -- 1170
 newline$ -- 367
 num.names$ -- 315
-pop$ -- 3960
+pop$ -- 3958
 preamble$ -- 1
 purify$ -- 525
 quote$ -- 0
-skip$ -- 3649
+skip$ -- 3651
 stack$ -- 0
 substring$ -- 2601
-swap$ -- 8235
+swap$ -- 8239
 text.length$ -- 257
 text.prefix$ -- 0
 top$ -- 8
 type$ -- 1401
-warning$ -- 1
+warning$ -- 0
 while$ -- 305
 width$ -- 0
-write$ -- 882
-(There was 1 warning)
+write$ -- 883
