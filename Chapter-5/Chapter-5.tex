@@ -2,3 +2,35 @@
 
 \chapter{Summary and Future Work}
 \label{chap-summary}
+
+Three disordered systems in finite dimensional lattice-like networks have been studied using Monte Carlo methods and renormalization group. There are both interesting findings and challenges in all these three disordered models. 
+
+In the lattice glass model, the first evidence of a jamming transition with no phase transition is discovered in HN3 with zero-allowed-neighbor constraint. In the antiferromagnetic Ising model, we find interesting chaotic RG-flows, spin glass phase, and infinite-order phase transition. In the two-dimensional random field Ising model, the Monte Carlo simulation helps explain the experimental observations of power-law relaxation and small exponents. 
+
+In addition to these interesting findings, there is also challenges and potential directions we may work on in the future. The following 3 sections cover a summary of our work, challenges, and future work.
+
+\section{Jamming in Hanoi Networks}
+The lattice glass model is studied in finite-dimensional Hanoi networks. Grand-canonical Monte Carlo simulations show non-equilibrium behavior with a power-law relaxation which indicates there is a jamming transition. We further explore the equilibrium behaviors using Wang-Landau sampling and exact renormalization. The equilibrium behavior in the thermodynamic limit show that there is no phase transition underlying the jamming transition in HN3, which is a new discovery in physics. Moreover, the local dynamics is tested, and local hopping can not only eliminate jamming but also improve the efficiency of these two Monte Carlo algorithms.  
+
+There are mainly three challenges in this project. Other projects actually have similar ones.
+\begin{enumerate}
+\item The computational cost is high. Each computing job of Wang-Landau sampling and Monte Carlo simulations takes $1\sim 200$ hours to run on one node of a HPC cluster. There are 3 networks, 2 sub-models ($l=0, 1$), multiple system size ($N=64\sim 65536$) to test. 
+A lot of time is spent on implementing the algorithm using C/C++ and optimizing the code to improve the efficiency.
+
+\item One problem is exactly solvable, but a similar one may not be. 
+For example, HN3 with $l=0$ has been solved by Boettcher and Hartman \cite{BoHa11}. However, a similar problem of HN3 with $l=1$ cannot be solved in the same way. We try to solve it using different ways, such as  re-structuring the RG parameters and introducing approximations, but these ways do not work, either.  
+
+\item The interpretation of the results is not trivial. A big problem we try to understand is what causes the jamming, which is not immediately clear from the results of Monte Carlo methods and RG. We suspect the jamming is due to the metastable states  which has been shown in other models \cite{Rivoire03, SibaniBo16, Eastham06prb}.
+\end{enumerate}
+
+In the future, we may try to extend RG to more general jamming problems, such as other complex networks and other constraint rules. After exploring more jamming scenarios, we may gain more understanding of what causes jamming so that we can understand jamming better.  
+
+
+
+
+
+\section{Antiferromagnetic Ising Model in Hanoi Networks}
+
+
+
+\section{Aging in Two-Dimensional Random Field Ising Model}
