@@ -3,18 +3,18 @@
 \chapter{Summary and Future Work}
 \label{chap-summary}
 
-Three disordered systems in finite dimensional lattice-like networks have been studied using Monte Carlo methods and renormalization group. There are both interesting findings and challenges in all these three disordered models. 
+Three disordered systems in finite dimensional lattice-like networks have been studied using the Monte Carlo methods and renormalization group. There are both interesting findings and challenges in all these three disordered models. 
 
-In the lattice glass model, the first evidence of a jamming transition with no phase transition is discovered in HN3 with zero-allowed-neighbor constraint. In the antiferromagnetic Ising model, we find interesting chaotic RG-flows, spin glass phase, and infinite-order phase transition. In the two-dimensional random field Ising model, the Monte Carlo simulation helps explain the experimental observations of power-law relaxation and small exponents. 
+In the lattice glass model, the first evidence of a jamming transition with no phase transition is discovered in HN3 with zero-allowed-neighbor constraint. In the antiferromagnetic Ising model, we find interesting chaotic RG-flows, spin glass phase, and infinite-order phase transition. In the two-dimensional random field Ising model, the Monte Carlo simulations help to explain the experimental observations of a power-law relaxation and small exponents. 
 
-In addition to these interesting findings, there is also challenges and potential directions we may work on in the future. The following 3 sections cover a summary of our work, challenges, and future work.
+In addition to these interesting findings, there are also challenges and potential directions we may work on in the future. The following 3 sections cover a summary of our work, challenges, and future work.
 
 \section{Jamming in Hanoi Networks}
-The lattice glass model is studied in finite-dimensional Hanoi networks. Grand-canonical Monte Carlo simulations show non-equilibrium behavior with a power-law relaxation which indicates there is a jamming transition. We further explore the equilibrium behaviors using Wang-Landau sampling and exact renormalization. The equilibrium behavior in the thermodynamic limit show that there is no phase transition underlying the jamming transition in HN3, which is a new discovery in physics. Moreover, the local dynamics is tested, and local hopping can not only eliminate jamming but also improve the efficiency of these two Monte Carlo algorithms.  
+The lattice glass model is studied in finite-dimensional Hanoi networks. The grand-canonical Monte Carlo simulations show non-equilibrium behaviors with a power-law relaxation which indicates there is a jamming transition. We further explore the equilibrium behaviors using the Wang-Landau sampling and the exact renormalization. The equilibrium behaviors in the thermodynamic limit show that there is no phase transition underlying the jamming transition in HN3, which is a new discovery in physics. Moreover, the local dynamics is tested, and local hopping can not only eliminate jamming but also improve the efficiency of these two Monte Carlo algorithms.  
 
 There are mainly three challenges in this project. Other projects actually have similar ones.
 \begin{enumerate}
-\item The computational cost is high. Each computing job of Wang-Landau sampling and Monte Carlo simulations takes $1\sim 200$ hours to run on one node of a HPC cluster. There are 3 networks, 2 sub-models ($l=0, 1$), multiple system size ($N=64\sim 65536$) to test. 
+\item The computational cost is high. Each computing job of the Wang-Landau sampling and the Monte Carlo simulation takes $1\sim 200$ hours to run on one node of a HPC cluster. There are 3 networks, 2 sub-models ($l=0, 1$), multiple system sizes ($N=64\sim 65536$) to test. 
 A lot of time is spent on implementing the algorithm using C/C++ and optimizing the code to improve the efficiency.
 
 \item One problem is exactly solvable, but a similar one may not be. 
@@ -23,14 +23,35 @@ For example, HN3 with $l=0$ has been solved by Boettcher and Hartman \cite{BoHa1
 \item The interpretation of the results is not trivial. A big problem we try to understand is what causes the jamming, which is not immediately clear from the results of Monte Carlo methods and RG. We suspect the jamming is due to the metastable states  which has been shown in other models \cite{Rivoire03, SibaniBo16, Eastham06prb}.
 \end{enumerate}
 
-In the future, we may try to extend RG to more general jamming problems, such as other complex networks and other constraint rules. After exploring more jamming scenarios, we may gain more understanding of what causes jamming so that we can understand jamming better.  
-
-
+In the future, we may try to extend RG to more general jamming problems, such as other complex networks and other constraint rules. After exploring more jamming scenarios, we may gain more understanding of what causes jamming so that we can understand the jamming transition better.  
 
 
 
 \section{Antiferromagnetic Ising Model in Hanoi Networks}
+The antiferromagnetic Ising model (AFM) is a simple model but can have complex geometric frustrations in these four Hanoi networks (HNs). In AFM, all four HNs except for HN5 have a gap between the equilibrium and non-equilibrium energies, which is similar to what is observed in Chapter \ref{chap-jamming}. The relaxation scaling is also a power-law. Using the exact renormalization group, more interesting results are discovered. Specifically, in the RG-flow, the activity parameters are chaotic and have no stable fixed points in HNNP, HN6, and their interpolations. Further analysis of the equilibrium properties, such as free energies, specific heat, and susceptibility, confirms there is an infinite-order phase transition to the spin glass phase. The chaotic exponent for HNNP is calculated to be $0.31\pm0.01$.
 
+
+This project has similar challenges as those in the jamming project. In this case, the RG computation takes much longer because of the requirements of larger system sizes and high numerical precision to avoid numeric fluctuation-induced chaos. The fixed point stability analysis needs mathematics, physics, and computer science to implement and understand. In addition to that, in terms of physics, the temperature chaos discovered need more investigations to understand the difference and similarities comparing to that in quenched disordered systems. 
+
+In the future, the chaotic RG-flow could be analyzed further to understand the different patterns in different temperature ranges. We can also compare the temperature chaos in Hanoi networks to those in other models to understand the chaotic behavior better. The transition temperatures in the phase diagram may be able to be represented using analytical equations based on the RG-flow calculations. Moreover, the structure of the networks can be studied further to understand the what types of complex networks may give rise to spin glass phase in AFM.
 
 
 \section{Aging in Two-Dimensional Random Field Ising Model}
+The experimental system of AF/F bilayer films is approximated and modeled using the random field Ising model (RFIM) in the square lattice. The Monte Carlo simulations show power-law relaxations with subunity exponents at low temperatures, which is in agreement with the experimental findings. The theoretical model and simulation help explain the experiments.
+
+The major challenge in this project is connecting the theoretical model, the Monte Carlo simulation, and the real-world magnetic material together. To establish the modeling approximation and the simulation procedure, a lot of relevant work is reviewed, and a range of procedures and parameters are tested.
+
+In the future, the growth of separate domains may be studied to understand how the random fields affect the spin patterns. In addition to RFIM, more advanced models, such as fully frustrated XY model and Heisenberg Ising model, may be tried to model more complicated magnetic systems. 
+
+
+
+
+
+
+
+
+
+
+
+
+

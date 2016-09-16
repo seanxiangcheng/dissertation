@@ -1,28 +1,29 @@
 \chapter{Antiferromagnetic Ising Model  in Hanoi Networks}
 \label{chap-afm}
-This chapter uses both computational and theoretical methods to study the dynamics and phase diagrams in antiferromagnetic Ising Model in Hanoi Networks.  First, the motivation of this study is reviewed in \ref{sec:amf-glass-intro}. Then two Monte Carlo methods are used to learn both the equlibrium and non-equlibrium properties for finite system sizes, which is described in \ref{sec:afm-mc}. In Sec. \ref{sec:afm-rg}, renormalization group is set up for both fixed point analysis and equlibrium properties explorations.  Using Monte Carlo methods and RG, spin glass phases, chaos, and a phase diagram are discovered in the model and networks, which is shown in Sec. \ref{sec:afm-results}.  
+
+In this chapter, we use both computational and theoretical methods to study the dynamics and phase transitions in antiferromagnetic Ising model (AFM) in Hanoi Networks.  First, the motivation of this study is reviewed in Sec. \ref{sec:amf-glass-intro}. Then two Monte Carlo methods are used to learn both the equilibrium and non-equilibrium properties for finite system sizes, which is described in \ref{sec:afm-mc}. In Sec. \ref{sec:afm-rg}, the exact renormalization group (RG) is set up for both fixed point analysis and equilibrium properties explorations.  Using the Monte Carlo methods and RG, spin glass phases, chaos, and a phase diagram are discovered in the model and Hanoi networks, which is described in Sec. \ref{sec:afm-results}.  
 
 \section{Spin Glass Phase and Chaos in Antiferromagnets}
 \label{sec:amf-glass-intro}
-As introduced in Sec. \ref{sec:intro-afm}, the Ising antiferromagnet (AF) is a convenient model of glassy dynamics. With non-random interactions, it can still introduce geometric frustrations through complex structures and may give rise to a spin glass phase and glassy relaxation at low temperatures \cite{villain1977spin, herrero2008afm}. The motivations to this model in hierarchical networks are
+As introduced in Sec. \ref{sec:intro-afm}, the Ising antiferromagnet (AF) is a convenient model of glassy dynamics. With non-random interactions, it can still introduce geometric frustrations through complex structures and may give rise to a spin glass phase and glassy relaxation at low temperatures \cite{villain1977spin, herrero2008afm}. The motivations of this model in hierarchical networks are
 \begin{itemize}
-\item the antiferromagnetic Ising model (AFM) has been shown to have interesting dynamics \cite{shokef2011}, magnetization plateaus \cite{ohanyan2003mag} , and phase transitions \cite{herrero2008afm}, and even more interesting results are expected from our hierarchical networks;
+\item the antiferromagnetic Ising model (AFM) has been shown to have glassy dynamics \cite{shokef2011}, magnetization plateaus \cite{ohanyan2003mag} , and phase transitions \cite{herrero2008afm}, and even more interesting results are expected from our hierarchical networks which are both finite dimensional and exact solvable using RG ;
 \item the Hanoi networks are renormalizable and can be studied exactly \cite{boettcher2015classification, Boettcher2011HNNP}, which could provide more insights about the equilibrium dynamics underlying the extremely slow glassy dynamics;
 \item the ferromagnetic Ising model in hierarchical networks has been studied  and shows phase transitions in Hanoi networks \cite{brunson2014rg}.
 \end{itemize}
 
 It is interesting to see how AFM behaves in these 4 hierarchical networks, HN3, HN5, HNNP, and HN6, whose short-range and long-range bonds create entangled loops of different sizes. These entangled loops can generate complex frustrations and introduce glassy dynamics and even phase transitions. 
 
-First of all,  Wang-Landau algorithm is employed to investigate the energy landscape and the corresponding equilibrium behaviors for a range of different system sizes. Then simulated annealing is used to explore the dynamical behaviors, and an extremely slow relaxation is discovered at low temperatures, which also has a power-law scaling to different annealing schedules.  In addition to these two Monte Carlo methods, renormalization group is the main focus to study the equilibrium properties in the thermodynamic limit and to compare with the results from simulated annealing and Wang-Landau sampling. We discover three phases (ferromagnetic, paramagnetic, and spin glass phases) and an interesting phase diagram of the transitions. 
+First of all,  the Wang-Landau algorithm (WL) is employed to investigate the energy landscape and the corresponding equilibrium behaviors for a range of different system sizes. Then the simulated annealing (SA) is used to explore the dynamical behaviors, and an extremely slow relaxation is discovered at low temperatures, which also has a power-law scaling to different annealing schedules.  In addition to these two Monte Carlo methods, the renormalization group (RG) is the main focus to study the equilibrium properties in the thermodynamic limit and to compare with the results from simulated annealing and Wang-Landau sampling. We discover three phases (ferromagnetic, paramagnetic, and spin glass phases), chaos, and an interesting phase diagram of the transitions. The details of our work are described in the following sections.
 
 
 \section{Monte Carlo Methods}
 \label{sec:afm-mc}
-Similarly to the methods in Chater \ref{chap-jamming}, two Monte Carlo methods are used. Wang-Landau sampling is used to estimate the density of states, its energy landscape, and further equlibrium properties for finite system sizes; while simulated annealing can simulate experiments and the glassy dynamics.
+Similarly to the methods in Chater \ref{chap-jamming}, two Monte Carlo methods are used. The Wang-Landau sampling (WL) is used to estimate the density of states, its energy landscape, and further equilibrium properties for finite system sizes; while simulated annealing can simulate experiments and the glassy dynamics.
  
 \subsection{Wang-Landau Sampling}
 Wang-Landau sampling is first introduced to estimate the density of states in ferromagnetic Ising model \cite{Wang2001}. Here we use it to calculate the density of states $g_{n}$ of AFM in
-these 4 networks. Comparing to tradiation Ising model, AFM in Hanoi networks has entangled geometric frustractions, so we expect slower convergence and more computational complexity. From the experience in Jamming systems sampling, the sampling procedure for AFM in Hanoi networks is: 
+these 4 networks. Comparing to traditional Ising model, AFM in Hanoi networks has entangled geometric frustrations, so we expect slower convergence and more computational complexity. From the experience in Jamming systems sampling, the sampling procedure for AFM in Hanoi networks is: 
 \begin{enumerate}
 \item Initially, set all unknown density of states $\{g_{E}=1\}$ and the
 histogram $\{H_{E}=0\}$ for all energy states $E$, initiate the modification
@@ -68,7 +69,7 @@ Renormalization Group (RG) is applied to these 4 Hanoi networks (HN3, HN5, HNNP,
 
 \subsection{RG on Hanoi Networks}
 \label{sec:afm-rghns}
-The Hanoi networks are constructed hierarchically which is inherently suitable for RG. As in the stardard RG procedures, the spins in HNs are also hierarchically traced out level by level \cite{Boettcher2011HNNP, brunson2014rg}. For example, the site $n$ in HNs can be described by Eq. \ref{eq:numbering} ( $n(i,j)=2^{i-1}(2j+1)$ ), then the spins are traced out from level $i=1$ level by level. In the end, there is only 3 \enquote{spins} left, and all the Hamiltonian is renormalized to the bonds among these 3  \enquote{spins}.
+The Hanoi networks are constructed hierarchically which is inherently suitable for RG. As in the standard RG procedure, the spins in HNs are also hierarchically traced out level by level \cite{Boettcher2011HNNP, brunson2014rg}. For example, the site $n$ in HNs can be described by Eq. \ref{eq:numbering} ( $n(i,j)=2^{i-1}(2j+1)$ ), then the spins are traced out from level $i=1$ level by level. In the end, there is only 3 \enquote{spins} left, and all the Hamiltonian is renormalized to the bonds among these 3  \enquote{spins}.
 
 \begin{figure}
 \centering \includegraphics[scale=0.68]{Chapter-3/RG3hanoi}
@@ -84,7 +85,7 @@ In terms of the 4 specific Hanoi network, we start with the most simple one HN3.
 \label{fig:afm-hn3rgafter} 
 \end{figure}
 
-After tracing over the odd spins $x_{n\pm 1}$, the long-range coupling as well the $K_0$ and $L$ between low-level sites is renormalized into $K_0 '$ and $L'$. The depiction of the graph left is shown in Fig. \ref{fig:afm-hn3rgafter} \cite{Boettcher2011HNNP}, which is about {\it half} of  Fig. \ref{fig:afm-hn3rgbefore} \cite{Boettcher2011HNNP}. $K_1 '$ in Fig. \ref{fig:afm-hn3rgafter} \cite{Boettcher2011HNNP} connects to another adjecent {\it half}, which produces another five-spin RG unit. By recursively renormaling the graph, the system size is reduced exponentially, and the final graph simply has 3 spins but very complicated couplings $K_0 ', K_1 ' $ and $L'$. The most important part in RG is to calculate these renormalized couplings.
+After tracing over the odd spins $x_{n\pm 1}$, the long-range coupling as well the $K_0$ and $L$ between low-level sites is renormalized into $K_0 '$ and $L'$. The depiction of the graph left is shown in Fig. \ref{fig:afm-hn3rgafter} \cite{Boettcher2011HNNP}, which is about {\it half} of  Fig. \ref{fig:afm-hn3rgbefore} \cite{Boettcher2011HNNP}. $K_1 '$ in Fig. \ref{fig:afm-hn3rgafter} \cite{Boettcher2011HNNP} connects to another adjacent {\it half}, which produces another five-spin RG unit. By recursively re-normalizing the graph, the system size is reduced exponentially, and the final graph simply has 3 spins but very complicated couplings $K_0 ', K_1 ' $ and $L'$. The most important part in RG is to calculate these renormalized couplings.
 
 
 \begin{figure}
@@ -319,15 +320,15 @@ There equations are trivial and can be found in the textbook, but their implemen
 
 \section{Results}
 \label{sec:afm-results}
-The most common observations in AFM with geometric frustraions are the glassy dynamics at low temperatures, which is often observed in experiments and simulations. However, the equlibrium behaviors near and beyond the critical point can only be detected using analytical method. Using both the computational and analytical methods introduced the previous section, results of dynamic properties, fixed point analysis, and corresponding equlibrium properties are described in Sec. \ref{sec:afm-dyn}, Sec. \ref{sec:afm-fpa}, and Sec. \ref{sec:afm-eqa}, respectively.
+The most common observations in AFM with geometric frustrations are the glassy dynamics at low temperatures, which is often observed in experiments and simulations. However, the equilibrium behaviors near and beyond the critical point can only be detected using analytical method. Using both the computational and analytical methods introduced the previous section, results of dynamic properties, fixed point analysis, and corresponding equilibrium properties are described in Sec. \ref{sec:afm-dyn}, Sec. \ref{sec:afm-fpa}, and Sec. \ref{sec:afm-eqa}, respectively.
 
-\subsection{Dynamic Properties}
+\subsection{Dynamic Properties}[h]
 \label{sec:afm-dyn}
 The interesting glassy dynamics can be observed from simulational experiments using simulated annealing described in Sec. \ref{sec:afm-mc}. In the simulations, the only control parameter is the temperature $T$. The starting point is high $T$ ($T=10.0$) which corresponds to 
  paramagnetic disordered states. As the $T$ is decreased, the system is more and more likely to
  accept a transition to a lower energy state. In a system with no geometric frustrations, a low $T\rightarrow0$ would lead to the ground state with the lowest energy. However, AFM in Hanoi networks cannot reach ground states due to complex geometric frustrations. 
 
-\begin{figure}
+\begin{figure}[h]
 \centering \includegraphics[width=0.9\columnwidth]{Chapter-3/AFM_Jamming_SA_plot}
 \protect\caption{Energy vs. temperature $T$ from the Simulated Annealing of all the four networks. In each of the 4 subfigures, the dotted curves from top to bottom correspond to annealing schedules of $10^{-3},  10^{-3}/2^1, 10^{-3}/2^2, \cdots, 10^{-3}/2^9$, respectively. The slowest annealing schedule is $1.95\times10^{-6}$. The solid black curves on the bottom are the equilibrium curves from RG, which clearly shows the gap between equilibrium and non-equilibrium behaviors.}
 \label{fig:afm-hnsjam} 
@@ -343,7 +344,7 @@ The behavior at low $T$ is similar to what is observed in the jamming systems in
 \label{fig:afm-hnsscaling} 
 \end{figure}
 
-In order to get the relaxation scaling in Fig. \ref{fig:afm-hnsscaling}, the most challenging part is to find the ground states. Unlike the exact and fractal "ground states" in the jamming systems, AFM in these four HNs has different but converging ground states as the system size gets larger and larger. Wang-Landu sampling fails to produce ground states for system sizes $N>2^{10}$, and renormalization group (RG) has to be used to find the ground states at different system sizes. From RG calculations, the equilibrium ground states for HN3, HN5, HNNP, and HN5 at system size $N=2^{14}$ are $-1.0$, $-1.166503...$, $-1.480224...$, $-1.285644...$, respectively.  More details of  RG and equilibrium properties are discussed in Sec. \ref{sec:afm-eqa}.
+In order to get the relaxation scaling in Fig. \ref{fig:afm-hnsscaling}, the most challenging part is to find the ground states. Unlike the exact and fractal "ground states" in the jamming systems, AFM in these four HNs has different but converging ground states as the system size gets larger and larger. Wang-Landau sampling fails to produce ground states for system sizes $N>2^{10}$, and renormalization group (RG) has to be used to find the ground states at different system sizes. From RG calculations, the equilibrium ground states for HN3, HN5, HNNP, and HN5 at system size $N=2^{14}$ are $-1.0$, $-1.166503...$, $-1.480224...$, $-1.285644...$, respectively.  More details of  RG and equilibrium properties are discussed in Sec. \ref{sec:afm-eqa}.
 
 \subsection{Fixed Point Analysis}
 \label{sec:afm-fpa}
@@ -359,7 +360,7 @@ For HN3 with $y=0$ in Eq. \ref{eq:afm-hn35sol1}, there are 2 analytical fixed po
 \displaystyle \kappa^* = 0, \lambda^* =\frac{1+\mu}{2} 
 \label{eq:afm-fps3-2}
 \end{equation}
-where only the first one is a stable fixed point solution. The second one is only stable at the high temperature limit, and any finite temperatures lead to the fixed point $\kappa^* =1, \lambda^* = 1.$ The stability of the two fixed points is mathemtically analyzed using the Jacobian matrix later in this section.
+where only the first one is a stable fixed point solution. The second one is only stable at the high temperature limit, and any finite temperatures lead to the fixed point $\kappa^* =1, \lambda^* = 1.$ The stability of the two fixed points is mathematically analyzed using the Jacobian matrix later in this section.
 
 HN5 with $y=1$ has more interesting fixed points are more interesting. The two fixed point solution are
 \begin{equation}
@@ -436,7 +437,7 @@ J^* = -\frac{T}{4} \log \kappa^*
 
 \begin{figure}
 \centering \includegraphics[width=0.9\columnwidth]{Chapter-3/HN35ysTransVsY.pdf}
-\protect\caption{Transition temperatures at different $y$'s. This is also a phase diagram. The phase above the curves is the paramagnetic phase while the phase below the curve is the ferromagnetic phase. }
+\protect\caption{Transition temperatures at different $y$'s. This is also a phase diagram. The phase above the curves is the paramagnetic phase while the phase below the curve is the ferromagnetic phase.}
 \label{fig:afm-hn35transys} 
 \end{figure}
 
@@ -456,11 +457,11 @@ In the AFM scenario, for HNNP ($y = 0$), there are only 2 possible fixed points
 \begin{equation}
 \kappa^* = \lambda^* = 1 
 \end{equation} 
- The stability of HNNP is not uniform across different temperatures. The fixed point of $\kappa$ and $\lambda$ is 1 for $\mu \le 3$ ($T\ge1.820478\cdots$) and oscillating fixed points for $\mu > 3$ ($T<1.820478\cdots$). This result is obtained from both numerical iterations of $\kappa^*(\kappa, \lambda)$ and fixed point stability analysis from the Jacobian.
+ The stability of HNNP is not uniform across different temperatures. The fixed point of $\kappa$ and $\lambda$ is 1 for $\mu \le 3$ ($T\ge1.820478\cdots$) and oscillating fixed points for $\mu > 3$ ($T<1.820478\cdots$). This chaotic behavior is referred as super-critical Hopf-bifurcation  \cite{weinrib1983critical}. This result is obtained from both numerical iterations of $\kappa^*(\kappa, \lambda)$ and fixed point stability analysis from the Jacobian.
 The simple numerical iterations of Eq. \ref{eq:afm-hpsol1} is shown in Fig. \ref{fig:afm-hnnpkappa}, and the absolute eigenvalue of Jacobian matrix is shown in Fig. \ref{fig:afm-hnnp_eigs}.
 \begin{figure}
 \centering \includegraphics[width=0.6\columnwidth]{Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf}
-\protect\caption{ $\kappa$ and $J$ of HNNP RG recrusive numerical results. When $1/\mu < 1/3$ or $T < 2/\log(3)$, there is no stable fixed point. }
+\protect\caption{ $\kappa$ and $J$ of HNNP RG recursive numerical results. When $1/\mu < 1/3$ or $T < 2/\log(3)$, there is no stable fixed point. This kind of chaotic fixed points is referred as super-critical Hopf-bifurcation.}
 \label{fig:afm-hnnpkappa} 
 \end{figure}
 
@@ -577,12 +578,12 @@ Wang-Landau sampling can estimate the density of states $g_E$, which yields the 
 \begin{equation}
 Z(\beta)=\sum_{i=1}^{N_{E}}g_{E_i}e^{-\beta E_i}
 \end{equation}
-where $\beta$ is $1/T$, and $N_E$ is the total number of energy states. The density of states for different HNs in AFM are shown in Fig. \ref{fig:afm-doswl}. We can see there is clearly a difference between planar (HN3, HN5) and nonplanar networks (HNNP, HN6). The planar networks have highly degenerate ground states, which may indicate more glassy dynamics at low temperature. The nonplanar networks have unique ground state, which may indicate an equilibrium phase transition. The ground states degenency can be further proved by the entropy density $s$ from RG as shown in Fig. \ref{fig:afm-entropy}. However, the Wang-Landau sampling can only converge for system sizes $<1024$. Due the small system sizes in Wang-Landau sampling's results, no evidence is obtained to prove the speculations of phase transitions.
+where $\beta$ is $1/T$, and $N_E$ is the total number of energy states. The density of states for different HNs in AFM are shown in Fig. \ref{fig:afm-doswl}. We can see there is clearly a difference between planar (HN3, HN5) and nonplanar networks (HNNP, HN6). The planar networks have highly degenerate ground states, which may indicate more glassy dynamics at low temperature. The nonplanar networks have unique ground state, which may indicate an equilibrium phase transition. The ground states degeneracy can be further proved by the entropy density $s$ from RG as shown in Fig. \ref{fig:afm-entropy}. However, the Wang-Landau sampling can only converge for system sizes $<1024$. Due the small system sizes in Wang-Landau sampling's results, no evidence is obtained to prove the speculations of phase transitions.
 Therefore, RG is needed to reach any meaningful conclusion for systems in the thermodynamic limit.
 
 \begin{figure}[h]
 \centering \includegraphics[width=0.88\columnwidth]{Chapter-3/HNs_entropy_density.pdf}
-\protect\caption{Entropy Densities for all HNs of system sizes $N=2^{16}, 2^{32}, 2^{64}$. Each Hanoi network has 3 curves of different system sizes, and these curves all cllapses on each other, which shows these curves can represent the behavior in the thermodynamic limit.  }
+\protect\caption{Entropy Densities for all HNs of system sizes $N=2^{16}, 2^{32}, 2^{64}$. Each Hanoi network has 3 curves of different system sizes, and these curves all collapses on each other, which shows these curves can represent the behavior in the thermodynamic limit.  }
 \label{fig:afm-entropy} 
 \end{figure}
 
@@ -607,55 +608,68 @@ Another interesting finding is the magnetization behavior as to the increasing e
 \cite{kageyama1999pleatu, kageyama2000direct}. This result provides another example of
  classical system where the plateaus are mainly caused by the structure of the networks. 
 Further conclusion needs detailed information of the low-temperature (even ground states)
- spin configuration, which is not directly retrievable from RG.
+ spin configuration, which is not directly retrievable from the RG.
 
-\begin{figure}
+\begin{figure}[h]
 \centering \includegraphics[width=1\columnwidth]{Chapter-3/freeE_lowT2highT.pdf}
 \protect\caption{The free energy difference between the 2 boundaries conditions at different temperatures. The system size is $N=2^k$, which are $2^{16}$, $2^{24}$, $2^{32}$ in the figure above. Obviously, at higher temperatures, there is no difference; at low temperatures, there is more and more difference variations for bigger and bigger system sizes. A plot for low $T$ is shown next (Fig. \ref{fig:afm-freeEdiff}) which shows the chaos at low $T$.  }
 \label{fig:afm-freeEdiff_allT} 
 \end{figure}
 
-One of the main goals of RG is to explore the chaotic behaviors found in the fixed point analysis.
- In AFM, the free energy with different boundary conditions has been used to study the chaos in physical systems. The reference parameter is the free energy difference $\Delta F$ (Eq. \ref{eq:afm-freediff}) between different boundary conditions. The difference at a wide range of temperatures are shown in Fig. \ref{fig:afm-freeEdiff_allT} which shows the $\Delta F$ is 0 at high $T$ but non-zero and chaotic at low $T$. The curves may have very different patterns for difference system size, and Fig. \ref{fig:afm-freeEdiff}  is an example. 
-
-\begin{figure}
+\begin{figure}[h]
 \centering \includegraphics[width=0.8\columnwidth]{Chapter-3/freeEdifference_k23_24.pdf}
 \protect\caption{The free energy difference between the 2 boundaries conditions at low temperatures $T<2.0$. The yellow dashed line is to show where the crossings of $f_1$ and $f_2$ are. ($f_1$: parallel boundary condition; $f_2$: anti-parallel boundary condition.) }
 \label{fig:afm-freeEdiff} 
 \end{figure}
 
+One of the main goals of RG is to explore the chaotic behaviors and phase transition found in the fixed point analysis.  In AFM, the free energy with different boundary conditions has been used to study the chaos in physical systems. The reference parameter is the free energy difference $\Delta F$ (Eq. \ref{eq:afm-freediff}) between different boundary conditions  \cite{wang2015chaos}. The difference in a wide range of temperatures is shown in Fig. \ref{fig:afm-freeEdiff_allT} which shows the $\Delta F$ is 0 at high $T$ but non-zero and chaotic at low $T$. The curves may have very different patterns for different system sizes, and Fig. \ref{fig:afm-freeEdiff}  is an example. 
+
+
+
 \begin{figure}
 \centering \includegraphics[width=0.8\columnwidth]{Chapter-3/chaotic_exponents_freeE_binning.pdf}
-\protect\caption{Number of free energies crossings fitted to $k$ (=$\log_2 N$) in the temperature range $T \in [10^{-3}, T_g]$ for HNNP. The yellow squares are the raw $N_c$'s which have fluctuations due to finite size scaling and numerical precision. To get a more reliable fitting, the moveing average (black circles) with window size of 6 and overlap of 3 are used for fitting. Two methods of fitting are used: Eq. \ref{eq:afm-fit1} (left figure) and Eq. \ref{eq:afm-fit2} (right figure). The exponents are $0.312\pm 0.003$ and $0.309 \pm 0.003$, respectively. Both of the $R^2$ is bigger than $0.99$.}
+\protect\caption{Number of free energies crossings fitted to $k$ (=$\log_2 N$) in the temperature range $T \in [10^{-3}, T_g]$ for HNNP. The yellow squares are the raw $N_c$'s which have fluctuations due to finite size scaling and numerical precision. To get a more reliable fitting, the moving average (MA) (black circles) with window size of 6 and overlap of 3 are used for fitting. Two methods of fitting are used: Eq. \ref{eq:afm-fit1} (left figure) and Eq. \ref{eq:afm-fit2} (right figure). The exponents are $0.312\pm 0.003$ and $0.309 \pm 0.003$, respectively. Both of the $R^2$ is bigger than $0.99$.}
 \label{fig:afm-freeEfit} 
 \end{figure}
 
-The crossing point is where $\Delta F = 0$ and $\Delta F$ changes sign. In other words, $f_1$  (parallel boundary condition) and $f_2$ (anti-parallel) switch their order. In a spin glass with chaotic dynamics, the number of crossings $N_c$ is expected to increase polynomially with system size 
+The crossing point is where $\Delta F = 0$ and $\Delta F$ changes sign. In other words, $f_1$  (parallel boundary condition) and $f_2$ (anti-parallel) switch their order. In a spin glass with chaotic dynamics, the number of crossings $N_c$ is expected to increase polynomially with system size \cite{wang2015chaos}
 \begin{equation}
 N_c = A N^\alpha
 \end{equation}
-where $A$ is a constant, $N$ is the system size, and $\alpha$ is the exponent. The exponent $\alpha$ is called chaotic exponent. There is two way to obtain chaotic exponent $\alpha$. The first way is 
+where $A$ is a constant, $N$ is the system size, and $\alpha$ is the exponent. The exponent $\alpha$ is called the chaotic exponent. There are two way to obtain chaotic exponent $\alpha$. The first way is 
 \begin{equation}
 \log_2 N_c = \log_2 A + \alpha \log_2 N
 \label{eq:afm-fit1}
 \end{equation}
-, and the second way is 
+, and the second one is 
 \begin{equation}
 \frac{\log_2 N_c }{\log_2 N } =\frac {\log_2 A }{\log_2{N}} + \alpha 
 \label{eq:afm-fit2}
 \end{equation}
 where $\log_2 N = k$. The two ways can show us the trend from different perspectives as shown in Fig. \ref{fig:afm-freeEfit}. 
-These two exponents are $0.312\pm 0.003$ and $0.309 \pm 0.003$, respectively. Both strongly show there is a power-law increase with system size. 
+These two exponents are $0.312\pm 0.003$ and $0.309 \pm 0.003$, respectively. Both strongly show there is a power-law increase with system size, which further confirms the temperature chaos and the spin glass phases.
 
-As you may notice from the free energy curves in Fig. \ref{fig:afm-freeEdiff}, $N_c$ may dependent on the temperature and step size. First, we tested different 2 more temperatures ranges $T \in [0.1, 0.2]$ and $T \in [0.2, 0.3]$ which show similar pattern. Second, different step sizes are tested to make sure the $N_c$ does not change with a smaller step size. 
+As you may notice from the free energy curves in Fig. \ref{fig:afm-freeEdiff}, $N_c$ may depend on the temperature and step size. First, we tested different 2 more temperatures ranges $T \in [0.1, 0.2]$ and $T \in [0.2, 0.3]$ which show similar pattern. Second, different step sizes are tested to make sure the $N_c$ does not change with a smaller step size. 
+
+The specific heat and susceptibility are also calculated, and no second order phase transition is found. Therefore, the phase transition from paramagnetic to spin glass phase found in the fixed point may be a infinite order transition. 
 
 
 \section{Summary and Conclusion}
 The antiferromagnetic Ising model has been studied in these four Hanoi networks. A combination of both Monte Carlo methods and exact renormalization is applied to learn both the non-equilibrium and equilibrium behaviors. There are interesting and new discoveries in these disordered systems.
 
-The Wang-Landau sampling provides a direct access to the equlibrium density of states, which compares well with the asymptotic entropy density obtained by RG. Unfortunately, the WL can only return results for system sizes up to $512$. Nothing else could be concluded using results from WL alone. 
+The Wang-Landau sampling provides a direct access to the equilibrium density of states, which compares well with the asymptotic entropy density obtained by RG. Unfortunately, the WL can only return results for system sizes up to $512$. Nothing else could be concluded using results from WL alone. 
 
 Another Monte Carlo method, the simulated annealing, simulates the dynamics at different cooling rates. As the temperature gets lower and lower, the system gets trapped indefinitely into meta-stable states of increasing worse energy for more rapid quenches characterized by a power-law relation \cite{cheng2015jamming} which is also observed in jamming in Chapter \ref{chap-jamming}. The same power-law relaxation here may contribute new insights to how these disordered connected with each other.
 
-Finally and most importantly, the exact renormalization provide the most information of the equlibrium dynamics. Free energy chaos and Hopf-bifurcation in the RG-flow are discovered, which indicates a spin glass phase transition. Moreover, if we tune the strengths of the long-range links in these Hanoi networks, we can also get paramagnetic-ferromagnetic phase transition. Using these results, we obtain a phase diagram of the transition temperatue and different interpolation strengths.
+Finally and most importantly, the exact renormalization provide the most information of the equilibrium dynamics. The free energy chaos and super-critical Hopf-bifurcation in the RG-flow are discovered, which indicates a spin glass phase transition. Moreover, if we tune the strengths of the long-range links in these Hanoi networks, we can also get paramagnetic-ferromagnetic phase transition. Using these results, we obtain a phase diagram of the transition temperature with different interpolation strengths.
+
+The temperature chaos and the power-law relaxation in AFM make our systems look like a real glassy system, but the infinite-order phase transition is untypical. This findings is new to physics. More investigations are needed to understand how the model and the geometry play a role in these findings. 
+
+
+
+
+
+
+
+
 

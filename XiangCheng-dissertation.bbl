@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{107}%
+\begin{thebibliography}{108}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -69,6 +69,14 @@
   {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
   {84}},\ \bibinfo {pages} {011108} (\bibinfo {year} {2011})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Kotani}\ and\ \citenamefont
+  {Ikeda}(2016)}]{Kotani16Material}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kotani}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ikeda}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Sci. Tech. Adv.
+  Mater.}\ }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {253} (\bibinfo
+  {year} {2016})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Gibbs}\ and\ \citenamefont
   {DiMarzio}(1958)}]{Gibbs1958nature}%
   \BibitemOpen
