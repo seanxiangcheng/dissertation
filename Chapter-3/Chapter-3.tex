@@ -12,18 +12,18 @@ As introduced in Sec. \ref{sec:intro-afm}, the Ising antiferromagnet (AF) is a c
 \item the ferromagnetic Ising model in hierarchical networks has been studied  and shows phase transitions in Hanoi networks \cite{brunson2014rg}.
 \end{itemize}
 
-It is interesting to see how AFM behaves in these 4 hierarchical networks, HN3, HN5, HNNP, and HN6, whose short-range and long-range bonds create entangled loops of different sizes. These entangled loops can generate complex frustrations and introduce glassy dynamics and even phase transitions. 
+It is interesting to see how AFM behaves in these 4 hierarchical networks, HN3, HN5, HNNP, and HN6, whose short-range and long-range bonds create entangled loops of different sizes. These entangled loops can generate complex geometric frustrations and introduce glassy dynamics and even phase transitions. 
 
-First of all,  the Wang-Landau algorithm (WL) is employed to investigate the energy landscape and the corresponding equilibrium behaviors for a range of different system sizes. Then the simulated annealing (SA) is used to explore the dynamical behaviors, and an extremely slow relaxation is discovered at low temperatures, which also has a power-law scaling to different annealing schedules.  In addition to these two Monte Carlo methods, the renormalization group (RG) is the main focus to study the equilibrium properties in the thermodynamic limit and to compare with the results from simulated annealing and Wang-Landau sampling. We discover three phases (ferromagnetic, paramagnetic, and spin glass phases), chaos, and an interesting phase diagram of the transitions. The details of our work are described in the following sections.
+First of all,  the Wang-Landau algorithm (WL) is employed to investigate the energy landscape and the corresponding equilibrium behaviors for a range of different system sizes. Then the simulated annealing (SA) is used to explore the dynamical behaviors, and an extremely slow relaxation is discovered at low temperatures, which also has a power-law scaling to different annealing schedules.  In addition to these two Monte Carlo methods, the renormalization group (RG) is the main focus to study the equilibrium properties in the thermodynamic limit and to compare with the results from SA and WL. We discover three phases (ferromagnetic, paramagnetic, and spin glass phases), chaos, and an interesting phase diagram of the transitions. The details of our work are described in the following sections.
 
 
 \section{Monte Carlo Methods}
 \label{sec:afm-mc}
-Similarly to the methods in Chater \ref{chap-jamming}, two Monte Carlo methods are used. The Wang-Landau sampling (WL) is used to estimate the density of states, its energy landscape, and further equilibrium properties for finite system sizes; while simulated annealing can simulate experiments and the glassy dynamics.
+Similarly to the methods in Chater \ref{chap-jamming}, two Monte Carlo methods are used. The Wang-Landau sampling (WL) is used to estimate the density of states, its energy landscape, and further equilibrium properties for finite system sizes; while  the simulated annealing can simulate experiments and the glassy dynamics.
  
 \subsection{Wang-Landau Sampling}
 Wang-Landau sampling is first introduced to estimate the density of states in ferromagnetic Ising model \cite{Wang2001}. Here we use it to calculate the density of states $g_{n}$ of AFM in
-these 4 networks. Comparing to traditional Ising model, AFM in Hanoi networks has entangled geometric frustrations, so we expect slower convergence and more computational complexity. From the experience in Jamming systems sampling, the sampling procedure for AFM in Hanoi networks is: 
+these 4 networks. Comparing to traditional Ising model, AFM in Hanoi networks has entangled geometric frustrations, so we expect slower convergence and more computational complexity. From the experience in the Jamming systems sampling in Chapter 2, the sampling procedure for AFM in Hanoi networks is: 
 \begin{enumerate}
 \item Initially, set all unknown density of states $\{g_{E}=1\}$ and the
 histogram $\{H_{E}=0\}$ for all energy states $E$, initiate the modification

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.13)  16 SEP 2016 02:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.13)  16 SEP 2016 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,7 +916,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
-Overfull \hbox (12.82147pt too wide) in paragraph at lines 151--159
+Overfull \hbox (12.82147pt too wide) in paragraph at lines 152--160
 \OT1/cmr/m/n/12 In our in-ves-ti-ga-tions, one of the in-no-va-tive in-sights i
 s con-tributed from the finite-dimensional
  []
@@ -938,14 +938,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: Chapter-1/HN3_short.pdf Graphic file (type pdf)
 
 <use Chapter-1/HN3_short.pdf>
-Package pdftex.def Info: Chapter-1/HN3_short.pdf used on input line 210.
+Package pdftex.def Info: Chapter-1/HN3_short.pdf used on input line 211.
 (pdftex.def)             Requested size: 451.68752pt x 151.5454pt.
 
 <Chapter-1/HN5HNNP.pdf, id=802, 252.945pt x 276.03125pt>
 File: Chapter-1/HN5HNNP.pdf Graphic file (type pdf)
 
 <use Chapter-1/HN5HNNP.pdf>
-Package pdftex.def Info: Chapter-1/HN5HNNP.pdf used on input line 226.
+Package pdftex.def Info: Chapter-1/HN5HNNP.pdf used on input line 227.
 (pdftex.def)             Requested size: 361.35138pt x 394.3384pt.
 
 
@@ -969,11 +969,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Overfull \hbox (0.27318pt too wide) in paragraph at lines 262--263
-[]\OT1/cmr/m/n/12 The Wang-Landau sam-pling (WL) [[]] is a com-pu-ta-tional met
-h-ods us-ing non-Markov-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1889,11 +1884,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
 Here is how much of TeX's memory you used:
  12385 strings out of 493304
  189394 string characters out of 6139871
- 429732 words of memory out of 5000000
+ 429746 words of memory out of 5000000
  15139 multiletter control sequences out of 15000+600000
  12256 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,12n,47p,2022b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,47p,2025b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
@@ -1912,7 +1907,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 .pfb>
-Output written on XiangCheng-dissertation.pdf (115 pages, 1741908 bytes).
+Output written on XiangCheng-dissertation.pdf (115 pages, 1742045 bytes).
 PDF statistics:
  2886 PDF objects out of 2984 (max. 8388607)
  2008 compressed objects within 21 object streams
