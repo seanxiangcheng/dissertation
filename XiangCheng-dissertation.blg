@@ -25,44 +25,46 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 108 entries,
+Warning--empty year in liuweb
+You've used 109 entries,
             5847 wiz_defined-function locations,
-            2259 strings with 30719 characters,
-and the built_in function-call counts, 99373 in all, are:
-= -- 6759
-> -- 2325
-< -- 643
-+ -- 772
-- -- 524
-* -- 14738
-:= -- 10058
-add.period$ -- 108
-call.type$ -- 108
-change.case$ -- 436
-chr.to.int$ -- 106
-cite$ -- 108
-duplicate$ -- 9344
-empty$ -- 7580
-format.name$ -- 1418
-if$ -- 19834
+            2264 strings with 30901 characters,
+and the built_in function-call counts, 100108 in all, are:
+= -- 6815
+> -- 2342
+< -- 647
++ -- 778
+- -- 528
+* -- 14851
+:= -- 10134
+add.period$ -- 110
+call.type$ -- 109
+change.case$ -- 442
+chr.to.int$ -- 107
+cite$ -- 110
+duplicate$ -- 9411
+empty$ -- 7629
+format.name$ -- 1431
+if$ -- 19972
 int.to.chr$ -- 3
-int.to.str$ -- 116
-missing$ -- 1205
-newline$ -- 376
-num.names$ -- 324
-pop$ -- 4070
+int.to.str$ -- 117
+missing$ -- 1211
+newline$ -- 379
+num.names$ -- 327
+pop$ -- 4101
 preamble$ -- 1
-purify$ -- 540
+purify$ -- 544
 quote$ -- 0
-skip$ -- 3763
+skip$ -- 3790
 stack$ -- 0
-substring$ -- 2688
-swap$ -- 8490
-text.length$ -- 265
+substring$ -- 2703
+swap$ -- 8555
+text.length$ -- 267
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 1442
-warning$ -- 0
-while$ -- 314
+type$ -- 1455
+warning$ -- 1
+while$ -- 316
 width$ -- 0
-write$ -- 907
+write$ -- 914
+(There was 1 warning)

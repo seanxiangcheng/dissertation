@@ -2,7 +2,7 @@
 \chapter{Jamming in Hanoi Networks}
 \label{chap-jamming}
 
-In this chapter, we propose to use the lattice glass model (BM model) on hierarchical
+In this chapter \footnote{The results of this chapter have been published in Ref. \cite{cheng2015jamming}.}, we propose to use the lattice glass model (BM model) on hierarchical
 networks~\cite{Boettcher2008HN}, which are networks with a fixed,
 lattice-like geometry. They combine a finite-dimensional lattice backbone
 with a hierarchy of small-world links that in themselves impose a
@@ -183,33 +183,16 @@ by summation of the formal derivates of $Z(\mu)$, such as those in
 Eqs.~(\ref{eq:GCPdiff}), over all permissible occupation numbers
 $0\leq n\leq n_{max}<N$. (For all $n_{max}<n\leq N$ it is $g_{n}=0$.) 
 
-In Fig.~\ref{fig:doswl}, we plot the density of states as a function
-of the packing fraction, both obtained with Wang-Landau. It becomes
-apparent that each model has a simple rational value for its optimal
-($\mu\to\infty$) ``random'' close packing fraction $\rho_{CP}=n_{max}/N$.
-This corresponds to a random packing in the sense that it has a nontrivial
-entropy density due to geometric disorder (imposed by the lack of
-translational invariance in the lattice), except for HNNP at $l=0$,
-which has a unique ``crystalline'' packing of every odd site being
-occupied. While these values for $\rho_{CP}$ have been previously
-obtained with RG for $l=0$~\cite{BoHa11}, the simulations predict
-also strikingly simple but nontrivial values for $l=1$, where exact
-RG is likely not possible. These values are listed in Table \ref{tab:cpf}.
 
 \begin{table}
 \begin{centering}
-\protect\caption{\label{tab:cpf} Closest packing fractions $\rho_{CP}$ found by Wang-Landau sampling.
-The values for $l=0$ have been previously obtained with exact RG,
+\protect\caption{\label{tab:cpf} Closest packing fractions $\rho_{CP}$ found by Wang-Landau sampling. The values for $l=0$ have been previously obtained with exact RG,
 the one for HNNP being unique, with every second, odd site occupied.
 For $l=1$, we also predict exact fractions with nontrivial entropy
-densities, see Fig.~\ref{fig:doswl}. }
-
+densities, see Fig.~\ref{fig:doswl}. However, the results for $l=1$ is based on results of system sizes $16\le N \le 512$. The closest packing fraction may change for larger system sizes.}
 \par\end{centering}
-
 \begin{centering}
-
 \par\end{centering}
-
 \centering{}%
 \begin{tabular}{|c|c||c|}
 \hline 
@@ -226,15 +209,27 @@ HNNP  & 1/2  & 1/2 \tabularnewline
 \end{table}
 
 
-\begin{figure}
-\centering \includegraphics[width=0.8\columnwidth]{Chapter-2/Paper_DOS_Plot2}
+\begin{figure}[h]
+\centering \includegraphics[width=0.6\columnwidth]{Chapter-2/Paper_DOS_Plot2}
 \protect\caption{Density of states from Wang-Landau sampling at $N=1024$. The green
 dash-dot vertical line are showing the closest packing fractions (as
 shown in Table \ref{tab:cpf}) for each system. Note that only for
 HNNP at $l=0$ there is a unique, crystalline ground state. }
-
 \label{fig:doswl} 
 \end{figure}
+
+In Fig.~\ref{fig:doswl}, we plot the density of states as a function
+of the packing fraction, both obtained with Wang-Landau. It becomes
+apparent that each model has a simple rational value for its optimal
+($\mu\to\infty$) ``random'' close packing fraction $\rho_{CP}=n_{max}/N$.
+This corresponds to a random packing in the sense that it has a nontrivial
+entropy density due to geometric disorder (imposed by the lack of
+translational invariance in the lattice), except for HNNP at $l=0$,
+which has a unique ``crystalline'' packing of every odd site being
+occupied. While these values for $\rho_{CP}$ have been previously
+obtained with RG for $l=0$~\cite{BoHa11}, the simulations predict
+also strikingly simple but nontrivial values for $l=1$, where exact
+RG is likely not possible. These values are listed in Table \ref{tab:cpf}.
 
 
 \begin{figure}
@@ -251,7 +246,7 @@ similar or better. }
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[h]
 \centering\includegraphics[width=0.6\columnwidth]{Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to}\protect\caption{\label{fig:RGvsWL} 
 Plot of the error in the finite-size packing fraction
 in Wang-Landau sampling, $\left|\rho_{WL}-\rho_{RG}\right|$, as a
@@ -266,7 +261,8 @@ quite small and rapidly diminishing corrections. }
 
 Wang-Landau sampling converges within a reasonable time for system
 sizes smaller than $N\approx2000$ but fails to converge for larger
-system size. There may be two reasons for the lack of convergence:
+system size within ~2 weeks of computational time. 
+There may be two reasons for the lack of convergence:
 (1) the density of states is not symmetric as a function of packing
 fraction, and this asymmetry requires Wang-Landau to sample the whole
 configuration space, which increases the computational cost dramatically
@@ -534,7 +530,7 @@ transition.}
 \hline 
 HN3  & JT \& no PT  & JT \& uncertain \tabularnewline
 \hline 
-HN5  & JT \& uncertain  & No JT \& no PT \tabularnewline
+HN5  & JT \& no PT  & No JT \& no PT \tabularnewline
 \hline 
 HNNP  & JT \& uncertain  & No JT \& no PT \tabularnewline
 \hline 

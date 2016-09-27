@@ -52,7 +52,7 @@ Similarly to the study of jamming in Chapter ~\ref{chap-jamming}, the Monte Carl
 \item Flip the selected spin with a probability of $\min\left[1, \exp(-\Delta E /T)\right]$ 
 where $\Delta E$ is the potential energy change if the spin is flipped; 
 \item If exchange is allowed, randomly pick 2 neighbor-spins and exchange with a probability of $\min\left[1, \exp(-\Delta E /T)\right]$; 
-\item Increase $T$ by $dT$ every 1 Monte Carlo sweep ($N$ random
+\item Decrease $T$ by $dT$ every 1 Monte Carlo sweep ($N$ random
 updates), where $dT/dt$ (in time-units of $dt=1$ ) is the annealing
 schedule and $dT\ll1$; 
 \item Repeat steps 2 to 4 until $dT$ reaches a certain low temperature $T=1e-3$. 
@@ -110,7 +110,7 @@ In addition to HN3, the other three networks have different setup of the five-sp
 
 
 
-\subsection{RG without magnetic fields}
+\subsection{RG with no magnetic field}
 The setup of RG is started by separating the AFM's Hamiltonian into hierarchies
 \begin{equation}
 -\beta\mathcal{H} = \sum_{n=1}^{k-2} (-\beta \mathcal{H}_n)+ \mathcal{R}(K_2, K_3, \cdots)
@@ -252,7 +252,7 @@ where $y$ can be 0 for HNNP, 1 for HN6, and any other values for thier interpola
 These solutions are also the same as those in Ref. \cite{Boettcher2011HNNP}, but we expect possible glassy and chaotic behaviors introduced in AFM and these complex networks.
 
 
-\subsection{RG with magnetic fileds}
+\subsection{RG with magnetic filed}
 In order to study a broad range of physical properties using RG, the external magnetic field $H$ is needed. We plan to explore different physical properties, such as internal energy $e$, magnetization $m$, free energy $f$, entropy $s$, specific heat $c_v$, and magnetic susceptibility $\chi$. 
 
 Here the RG setup is extended to a more general scenario by including $H$. The procedure of such RG has been developed by Brunson and Boettcher in FM of Hanoi networks \cite{brunson2014rg}. In AFM, the same procedure is followed with corresponding adjustments of temperature $T$ ($\mu$ in RG) and prefactors of these derivations. Instead of detailed derivations \cite{brunson2014rg}, only the general logic and the formulations of targeted physics properties are described in this section. 
@@ -322,7 +322,7 @@ There equations are trivial and can be found in the textbook, but their implemen
 \label{sec:afm-results}
 The most common observations in AFM with geometric frustrations are the glassy dynamics at low temperatures, which is often observed in experiments and simulations. However, the equilibrium behaviors near and beyond the critical point can only be detected using analytical method. Using both the computational and analytical methods introduced the previous section, results of dynamic properties, fixed point analysis, and corresponding equilibrium properties are described in Sec. \ref{sec:afm-dyn}, Sec. \ref{sec:afm-fpa}, and Sec. \ref{sec:afm-eqa}, respectively.
 
-\subsection{Dynamic Properties}[h]
+\subsection{Dynamic Properties}
 \label{sec:afm-dyn}
 The interesting glassy dynamics can be observed from simulational experiments using simulated annealing described in Sec. \ref{sec:afm-mc}. In the simulations, the only control parameter is the temperature $T$. The starting point is high $T$ ($T=10.0$) which corresponds to 
  paramagnetic disordered states. As the $T$ is decreased, the system is more and more likely to
@@ -362,7 +362,7 @@ For HN3 with $y=0$ in Eq. \ref{eq:afm-hn35sol1}, there are 2 analytical fixed po
 \end{equation}
 where only the first one is a stable fixed point solution. The second one is only stable at the high temperature limit, and any finite temperatures lead to the fixed point $\kappa^* =1, \lambda^* = 1.$ The stability of the two fixed points is mathematically analyzed using the Jacobian matrix later in this section.
 
-HN5 with $y=1$ has more interesting fixed points are more interesting. The two fixed point solution are
+HN5 with $y=1$ has more interesting fixed points. The two fixed point solution are
 \begin{equation}
 \kappa^* = 0, \ \  \lambda^* = \mu^{2y}\frac{\mu+1}{2}
 \label{eq:afm-fps5-1}
@@ -461,7 +461,7 @@ In the AFM scenario, for HNNP ($y = 0$), there are only 2 possible fixed points
 The simple numerical iterations of Eq. \ref{eq:afm-hpsol1} is shown in Fig. \ref{fig:afm-hnnpkappa}, and the absolute eigenvalue of Jacobian matrix is shown in Fig. \ref{fig:afm-hnnp_eigs}.
 \begin{figure}
 \centering \includegraphics[width=0.6\columnwidth]{Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf}
-\protect\caption{ $\kappa$ and $J$ of HNNP RG recursive numerical results. When $1/\mu < 1/3$ or $T < 2/\log(3)$, there is no stable fixed point. This kind of chaotic fixed points is referred as super-critical Hopf-bifurcation.}
+\protect\caption{ $\kappa$ and $J$ of HNNP RG recursive numerical results. When $1/\mu < 1/3$ or $T < 2/\log(3)$, there is no stable fixed point. This kind of chaotic fixed points is referred as super-critical Hopf-bifurcation, which indicates a spin glass phase.}
 \label{fig:afm-hnnpkappa} 
 \end{figure}
 
@@ -655,7 +655,7 @@ The specific heat and susceptibility are also calculated, and no second order ph
 
 
 \section{Summary and Conclusion}
-The antiferromagnetic Ising model has been studied in these four Hanoi networks. A combination of both Monte Carlo methods and exact renormalization is applied to learn both the non-equilibrium and equilibrium behaviors. There are interesting and new discoveries in these disordered systems.
+The antiferromagnetic Ising model has been studied in these four Hanoi networks. A combination of both Monte Carlo methods and exact renormalization is applied to learn both the non-equilibrium and equilibrium behaviors. There are interesting and new discoveries in these disordered systems, as summarized below.
 
 The Wang-Landau sampling provides a direct access to the equilibrium density of states, which compares well with the asymptotic entropy density obtained by RG. Unfortunately, the WL can only return results for system sizes up to $512$. Nothing else could be concluded using results from WL alone. 
 
