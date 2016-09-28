@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{109}%
+\begin{thebibliography}{110}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -959,6 +959,14 @@
    {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
   {volume} {82}},\ \bibinfo {pages} {3168} (\bibinfo {year}
   {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fisher}\ and\ \citenamefont
+  {Huse}(1986)}]{fisher86prl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Fisher}}\ and\ \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Huse}},\ }\href {\doibase 10.1103/PhysRevLett.56.1601} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {56}},\
+  \bibinfo {pages} {1601} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sibani}\ and\ \citenamefont
   {Boettcher}(2016)}]{SibaniBo16}%
   \BibitemOpen

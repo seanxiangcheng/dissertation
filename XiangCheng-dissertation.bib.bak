@@ -508,6 +508,25 @@
   Timestamp                = {2016.08.11}
 }
 
+@Article{fisher86prl,
+  Title                    = {Ordered Phase of Short-Range Ising Spin-Glasses},
+  Author                   = {Fisher, Daniel S. and Huse, David A.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {1986},
+
+  Month                    = {Apr},
+  Pages                    = {1601--1604},
+  Volume                   = {56},
+
+  Doi                      = {10.1103/PhysRevLett.56.1601},
+  Issue                    = {15},
+  Numpages                 = {0},
+  Owner                    = {xcheng0907},
+  Publisher                = {American Physical Society},
+  Timestamp                = {2016.09.27},
+  Url                      = {http://link.aps.org/doi/10.1103/PhysRevLett.56.1601}
+}
+
 @Article{fisher1966dimer,
   Title                    = {On the dimer solution of planar Ising models},
   Author                   = {Fisher, Michael E},

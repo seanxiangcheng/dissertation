@@ -253,6 +253,7 @@ These solutions are also the same as those in Ref. \cite{Boettcher2011HNNP}, but
 
 
 \subsection{RG with magnetic filed}
+\label{sec:afm-rgbf}
 In order to study a broad range of physical properties using RG, the external magnetic field $H$ is needed. We plan to explore different physical properties, such as internal energy $e$, magnetization $m$, free energy $f$, entropy $s$, specific heat $c_v$, and magnetic susceptibility $\chi$. 
 
 Here the RG setup is extended to a more general scenario by including $H$. The procedure of such RG has been developed by Brunson and Boettcher in FM of Hanoi networks \cite{brunson2014rg}. In AFM, the same procedure is followed with corresponding adjustments of temperature $T$ ($\mu$ in RG) and prefactors of these derivations. Instead of detailed derivations \cite{brunson2014rg}, only the general logic and the formulations of targeted physics properties are described in this section. 
@@ -457,7 +458,10 @@ In the AFM scenario, for HNNP ($y = 0$), there are only 2 possible fixed points
 \begin{equation}
 \kappa^* = \lambda^* = 1 
 \end{equation} 
- The stability of HNNP is not uniform across different temperatures. The fixed point of $\kappa$ and $\lambda$ is 1 for $\mu \le 3$ ($T\ge1.820478\cdots$) and oscillating fixed points for $\mu > 3$ ($T<1.820478\cdots$). This chaotic behavior is referred as super-critical Hopf-bifurcation  \cite{weinrib1983critical}. This result is obtained from both numerical iterations of $\kappa^*(\kappa, \lambda)$ and fixed point stability analysis from the Jacobian.
+ The stability of HNNP is not uniform across different temperatures. The fixed point of $\kappa$ and $\lambda$ is 1 for $\mu \le 3$ ($T\ge1.820478\cdots$) and oscillating or chaotic fixed points for $\mu > 3$ ($T<1.820478\cdots$). This chaotic behavior is referred as super-critical Hopf-bifurcation  \cite{weinrib1983critical}. This result is obtained from both numerical iterations of $\kappa^*(\kappa, \lambda)$. The reason of the chaotic RG trajectory from the microscopic perspective is that the effective coupling ($J^*$) switches between strong-coupling region ($J^*\gg 0$) and weak coupling region ($J^* \sim 0$), which indicates the correlation between different spins are very different \cite{mckay1982spin}. Therefore, the subsets of the spins behave heterogeneous and disorder to each other, which may imply a spin glass phase \cite{mckay1982spin}. More discussion of chaos is included in Sec. \ref{sec:afm-eqa} to confirm the spin glass phase. 
+
+
+The fixed point stability can be analyzed using the Jacobian of the recursive equations.
 The simple numerical iterations of Eq. \ref{eq:afm-hpsol1} is shown in Fig. \ref{fig:afm-hnnpkappa}, and the absolute eigenvalue of Jacobian matrix is shown in Fig. \ref{fig:afm-hnnp_eigs}.
 \begin{figure}
 \centering \includegraphics[width=0.6\columnwidth]{Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf}
@@ -622,8 +626,9 @@ Further conclusion needs detailed information of the low-temperature (even groun
 \label{fig:afm-freeEdiff} 
 \end{figure}
 
-One of the main goals of RG is to explore the chaotic behaviors and phase transition found in the fixed point analysis.  In AFM, the free energy with different boundary conditions has been used to study the chaos in physical systems. The reference parameter is the free energy difference $\Delta F$ (Eq. \ref{eq:afm-freediff}) between different boundary conditions  \cite{wang2015chaos}. The difference in a wide range of temperatures is shown in Fig. \ref{fig:afm-freeEdiff_allT} which shows the $\Delta F$ is 0 at high $T$ but non-zero and chaotic at low $T$. The curves may have very different patterns for different system sizes, and Fig. \ref{fig:afm-freeEdiff}  is an example. 
+One of the main goals of RG is to explore the chaotic behaviors and phase transition found in the fixed point analysis.  In AFM, the free energy with different boundary conditions has been used to study the chaos in physical systems. The reference parameter is the free energy difference $\Delta F$ (Eq. \ref{eq:afm-freediff}) between different boundary conditions  \cite{wang2015chaos}. The formulation of the free energies with different boundary conditions has been described in Sec. \ref{sec:afm-rgbf}. The difference in a wide range of temperatures is shown in Fig. \ref{fig:afm-freeEdiff_allT} which shows the $\Delta F$ is 0 at high $T$ but non-zero and chaotic at low $T$. The curves may have very different patterns for different system sizes, and Fig. \ref{fig:afm-freeEdiff}  is an example.
 
+The causes of the temperature chaos as shown in Fig. \ref{fig:afm-freeEdiff_allT} and Fig. \ref{fig:afm-freeEdiff} is that the spin glass phase may have spin configurations who share similar free energies but different energies and entropies \cite{fisher86prl, bray1987chaotic}. Therefore, the free energy difference $\Delta F = \Delta E -T\Delta S $ could be chaotic due to $\Delta E \gg \Delta F$ and  $\Delta S \gg \Delta F$ \cite{wang2015chaos}. These dissimilar configurations with similar free energies may distinguish from each other by a domain wall \cite{wang2015chaos}, which is also why we can detect the temperature chaos from the free energies of different boundary conditions. 
 
 
 \begin{figure}

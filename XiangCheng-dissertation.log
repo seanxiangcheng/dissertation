@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.13)  26 SEP 2016 20:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.13)  27 SEP 2016 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -809,7 +809,7 @@ xt4): destination with the same identifier (name{page.iv}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 ...{5}Summary and Future Work}{86}{chapter.5}
+l.45 ...{5}Summary and Future Work}{87}{chapter.5}
                                                    [4
 
 ])
@@ -836,11 +836,11 @@ it/12 ; \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2[]\OML/cmm/m/it/
 ; []  ; \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 2[]$, 
  []
 
-[9] [10])
+[9] [10] [11])
 \tf@lof=\write7
 \openout7 = `XiangCheng-dissertation.lof'.
 
- [11] [12]
+ [12]
 Overfull \hbox (0.6312pt too wide) in paragraph at lines 78--79
 []\OT1/cmr/m/n/12 Michael Madaio, Shang-Tse Chen, Oliver L Haim-son, Wen-wen Zh
 ang, $[]$,
@@ -860,7 +860,7 @@ Chapter 1.
 
 
 
-] <Chapter-1/geo_frustration.png, id=585, 127.677pt x 118.5228pt>
+] <Chapter-1/geo_frustration.png, id=589, 127.677pt x 118.5228pt>
 File: Chapter-1/geo_frustration.png Graphic file (type png)
 
 <use Chapter-1/geo_frustration.png>
@@ -880,7 +880,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] <Chapter-1/jamming_phase_diagram2.png, id=654, 423.5825pt x 343.2825pt>
+[3] <Chapter-1/jamming_phase_diagram2.png, id=658, 423.5825pt x 343.2825pt>
 File: Chapter-1/jamming_phase_diagram2.png Graphic file (type png)
 
 <use Chapter-1/jamming_phase_diagram2.png>
@@ -941,7 +941,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] <Chapter-1/HN3_short.pdf, id=804, 619.31375pt x 207.77625pt>
+[10] <Chapter-1/HN3_short.pdf, id=808, 619.31375pt x 207.77625pt>
 File: Chapter-1/HN3_short.pdf Graphic file (type pdf)
 
 <use Chapter-1/HN3_short.pdf>
@@ -954,7 +954,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <Chapter-1/HN5HNNP.pdf, id=816, 252.945pt x 276.03125pt>
+[11] <Chapter-1/HN5HNNP.pdf, id=820, 252.945pt x 276.03125pt>
 File: Chapter-1/HN5HNNP.pdf Graphic file (type pdf)
 
 <use Chapter-1/HN5HNNP.pdf>
@@ -1032,7 +1032,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21] <Chapter-2/Paper_DOS_Plot2.pdf, id=970, 270.80867pt x 251.7782pt>
+[21] <Chapter-2/Paper_DOS_Plot2.pdf, id=974, 270.80867pt x 251.7782pt>
 File: Chapter-2/Paper_DOS_Plot2.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_DOS_Plot2.pdf>
@@ -1049,7 +1049,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22]
-<Chapter-2/Paper_ConvergenceHN3_Plot2.pdf, id=983, 402.6233pt x 170.13562pt>
+<Chapter-2/Paper_ConvergenceHN3_Plot2.pdf, id=987, 402.6233pt x 170.13562pt>
 File: Chapter-2/Paper_ConvergenceHN3_Plot2.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_ConvergenceHN3_Plot2.pdf>
@@ -1057,7 +1057,7 @@ Package pdftex.def Info: Chapter-2/Paper_ConvergenceHN3_Plot2.pdf used on input
  line 236.
 (pdftex.def)             Requested size: 451.68752pt x 190.88028pt.
 
-<Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf, id=986, 216.23642pt 
+<Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf, id=990, 216.23642pt 
 x 201.61037pt>
 File: Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1097,7 +1097,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26 <./Chapter-2/Paper_HN3_l0_RGvsWL_error-eps-converted-to.pdf>]
-<Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf, id=1164, 356.33125pt x 334.24
+<Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf, id=1168, 356.33125pt x 334.24
 875pt>
 File: Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf Graphic file (type pdf)
  <use Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf>
@@ -1105,14 +1105,14 @@ Package pdftex.def Info: Chapter-2/Paper_HN3_PackMu_Entropy_l01_Plot.pdf used o
 n input line 322.
 (pdftex.def)             Requested size: 451.68752pt x 423.71596pt.
 
-<Chapter-2/Paper_HN3_Decay.pdf, id=1167, 365.365pt x 180.675pt>
+<Chapter-2/Paper_HN3_Decay.pdf, id=1171, 365.365pt x 180.675pt>
 File: Chapter-2/Paper_HN3_Decay.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_HN3_Decay.pdf>
 Package pdftex.def Info: Chapter-2/Paper_HN3_Decay.pdf used on input line 338.
 (pdftex.def)             Requested size: 406.516pt x 201.03406pt.
 
-<Chapter-2/Paper_HN3_Hopping_Plot.pdf, id=1168, 304.13625pt x 145.54375pt>
+<Chapter-2/Paper_HN3_Hopping_Plot.pdf, id=1172, 304.13625pt x 145.54375pt>
 File: Chapter-2/Paper_HN3_Hopping_Plot.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_HN3_Hopping_Plot.pdf>
@@ -1148,7 +1148,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30 <./Chapter-2/Paper_HN3_Hopping_Plot.pdf>]
-<Chapter-2/Paper_HN5_PE_Plot.pdf, id=1233, 353.32pt x 316.18124pt>
+<Chapter-2/Paper_HN5_PE_Plot.pdf, id=1237, 353.32pt x 316.18124pt>
 File: Chapter-2/Paper_HN5_PE_Plot.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_HN5_PE_Plot.pdf>
@@ -1156,7 +1156,7 @@ Package pdftex.def Info: Chapter-2/Paper_HN5_PE_Plot.pdf used on input line 426
 .
 (pdftex.def)             Requested size: 451.68752pt x 404.21367pt.
 
-<Chapter-2/Paper_HN5_Decay_Plot.pdf, id=1238, 203.76125pt x 201.75375pt>
+<Chapter-2/Paper_HN5_Decay_Plot.pdf, id=1242, 203.76125pt x 201.75375pt>
 File: Chapter-2/Paper_HN5_Decay_Plot.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_HN5_Decay_Plot.pdf>
@@ -1164,7 +1164,7 @@ Package pdftex.def Info: Chapter-2/Paper_HN5_Decay_Plot.pdf used on input line
 441.
 (pdftex.def)             Requested size: 225.84375pt x 223.62914pt.
 
-<Chapter-2/Paper_HNNP_PE_Plot.pdf, id=1241, 350.30875pt x 337.26pt>
+<Chapter-2/Paper_HNNP_PE_Plot.pdf, id=1245, 350.30875pt x 337.26pt>
 File: Chapter-2/Paper_HNNP_PE_Plot.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_HNNP_PE_Plot.pdf>
@@ -1172,7 +1172,7 @@ Package pdftex.def Info: Chapter-2/Paper_HNNP_PE_Plot.pdf used on input line 47
 9.
 (pdftex.def)             Requested size: 429.10176pt x 413.14453pt.
 
-<Chapter-2/Paper_HNNP_Decay.pdf, id=1250, 214.8025pt x 210.7875pt>
+<Chapter-2/Paper_HNNP_Decay.pdf, id=1254, 214.8025pt x 210.7875pt>
 File: Chapter-2/Paper_HNNP_Decay.pdf Graphic file (type pdf)
 
 <use Chapter-2/Paper_HNNP_Decay.pdf>
@@ -1270,14 +1270,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42] <Chapter-3/RG3hanoi.pdf, id=1393, 369.20436pt x 146.04375pt>
+[42] <Chapter-3/RG3hanoi.pdf, id=1398, 369.20436pt x 146.04375pt>
 File: Chapter-3/RG3hanoi.pdf Graphic file (type pdf)
 
 <use Chapter-3/RG3hanoi.pdf>
 Package pdftex.def Info: Chapter-3/RG3hanoi.pdf used on input line 75.
 (pdftex.def)             Requested size: 251.05563pt x 99.30843pt.
 
-<Chapter-3/RG3hanoi_after.pdf, id=1396, 223.87076pt x 145.30347pt>
+<Chapter-3/RG3hanoi_after.pdf, id=1401, 223.87076pt x 145.30347pt>
 File: Chapter-3/RG3hanoi_after.pdf Graphic file (type pdf)
 
 <use Chapter-3/RG3hanoi_after.pdf>
@@ -1294,7 +1294,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapter-3/RG3hanoi_after.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->] <Chapter-3/IsingRG_HN5_before.pdf, id=1417, 369.20436pt x 181.45894pt>
+>] <Chapter-3/IsingRG_HN5_before.pdf, id=1421, 369.20436pt x 181.45894pt>
 File: Chapter-3/IsingRG_HN5_before.pdf Graphic file (type pdf)
 
 <use Chapter-3/IsingRG_HN5_before.pdf>
@@ -1302,7 +1302,7 @@ Package pdftex.def Info: Chapter-3/IsingRG_HN5_before.pdf used on input line 92
 .
 (pdftex.def)             Requested size: 251.05563pt x 123.39043pt.
 
-<Chapter-3/IsingRG_HNNP_before.pdf, id=1418, 370.28337pt x 154.75717pt>
+<Chapter-3/IsingRG_HNNP_before.pdf, id=1422, 370.28337pt x 154.75717pt>
 File: Chapter-3/IsingRG_HNNP_before.pdf Graphic file (type pdf)
 
 <use Chapter-3/IsingRG_HNNP_before.pdf>
@@ -1310,7 +1310,7 @@ Package pdftex.def Info: Chapter-3/IsingRG_HNNP_before.pdf used on input line 9
 8.
 (pdftex.def)             Requested size: 251.78935pt x 105.23346pt.
 
-<Chapter-3/IsingRG_HN6_before.pdf, id=1419, 370.28337pt x 177.198pt>
+<Chapter-3/IsingRG_HN6_before.pdf, id=1423, 370.28337pt x 177.198pt>
 File: Chapter-3/IsingRG_HN6_before.pdf Graphic file (type pdf)
 
 <use Chapter-3/IsingRG_HN6_before.pdf>
@@ -1391,12 +1391,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53] <Chapter-3/AFM_Jamming_SA_plot.pdf, id=1535, 722.7pt x 578.16pt>
+[53] <Chapter-3/AFM_Jamming_SA_plot.pdf, id=1539, 722.7pt x 578.16pt>
 File: Chapter-3/AFM_Jamming_SA_plot.pdf Graphic file (type pdf)
 
 <use Chapter-3/AFM_Jamming_SA_plot.pdf>
 Package pdftex.def Info: Chapter-3/AFM_Jamming_SA_plot.pdf used on input line 3
-32.
+33.
 (pdftex.def)             Requested size: 406.516pt x 325.2142pt.
 
 
@@ -1406,12 +1406,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54 <./Chapter-3/AFM_Jamming_SA_plot.pdf>]
-<Chapter-3/AFM_Jamming_SA_scaling_plot.pdf, id=1573, 361.35pt x 289.08pt>
+<Chapter-3/AFM_Jamming_SA_scaling_plot.pdf, id=1577, 361.35pt x 289.08pt>
 File: Chapter-3/AFM_Jamming_SA_scaling_plot.pdf Graphic file (type pdf)
 
 <use Chapter-3/AFM_Jamming_SA_scaling_plot.pdf>
 Package pdftex.def Info: Chapter-3/AFM_Jamming_SA_scaling_plot.pdf used on inpu
-t line 342.
+t line 343.
 (pdftex.def)             Requested size: 225.84375pt x 180.67455pt.
 
 
@@ -1427,11 +1427,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56] <Chapter-3/HN35_KJvsTys.pdf, id=1639, 578.16pt x 289.08pt>
+[56] <Chapter-3/HN35_KJvsTys.pdf, id=1643, 578.16pt x 289.08pt>
 File: Chapter-3/HN35_KJvsTys.pdf Graphic file (type pdf)
 
 <use Chapter-3/HN35_KJvsTys.pdf>
-Package pdftex.def Info: Chapter-3/HN35_KJvsTys.pdf used on input line 423.
+Package pdftex.def Info: Chapter-3/HN35_KJvsTys.pdf used on input line 424.
 (pdftex.def)             Requested size: 406.516pt x 203.25446pt.
 
 
@@ -1440,11 +1440,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57] <Chapter-3/HN35ysTransVsY.pdf, id=1655, 505.89pt x 216.81pt>
+[57] <Chapter-3/HN35ysTransVsY.pdf, id=1659, 505.89pt x 216.81pt>
 File: Chapter-3/HN35ysTransVsY.pdf Graphic file (type pdf)
 
 <use Chapter-3/HN35ysTransVsY.pdf>
-Package pdftex.def Info: Chapter-3/HN35ysTransVsY.pdf used on input line 439.
+Package pdftex.def Info: Chapter-3/HN35ysTransVsY.pdf used on input line 440.
 (pdftex.def)             Requested size: 406.516pt x 174.22566pt.
 
 
@@ -1454,14 +1454,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [58 <./Chapter-3/HN35_KJvsTys.pdf>]
-<Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf, id=1708, 361.35pt x 578.16pt>
-File: Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf Graphic file (type pdf)
-
-<use Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf>
-Package pdftex.def Info: Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf used on input line 46
-3.
-(pdftex.def)             Requested size: 271.01526pt x 433.62775pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1469,26 +1461,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59 <./Chapter-3/HN35ysTransVsY.pdf>]
-<Chapter-3/HNNP_eigenvalues.pdf, id=1746, 438.63875pt x 293.095pt>
+<Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf, id=1752, 361.35pt x 578.16pt>
+File: Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf Graphic file (type pdf)
+
+<use Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf>
+Package pdftex.def Info: Chapter-3/HNNP_RG_Kvsmu_JvsT.pdf used on input line 46
+7.
+(pdftex.def)             Requested size: 271.01526pt x 433.62775pt.
+
+<Chapter-3/HNNP_eigenvalues.pdf, id=1753, 438.63875pt x 293.095pt>
 File: Chapter-3/HNNP_eigenvalues.pdf Graphic file (type pdf)
 
 <use Chapter-3/HNNP_eigenvalues.pdf>
-Package pdftex.def Info: Chapter-3/HNNP_eigenvalues.pdf used on input line 490.
+Package pdftex.def Info: Chapter-3/HNNP_eigenvalues.pdf used on input line 494.
 
 (pdftex.def)             Requested size: 271.01526pt x 181.09537pt.
 
-<Chapter-3/HNP6_KvsMu_ys.pdf, id=1747, 722.7pt x 578.16pt>
+<Chapter-3/HNP6_KvsMu_ys.pdf, id=1754, 722.7pt x 578.16pt>
 File: Chapter-3/HNP6_KvsMu_ys.pdf Graphic file (type pdf)
 
 <use Chapter-3/HNP6_KvsMu_ys.pdf>
-Package pdftex.def Info: Chapter-3/HNP6_KvsMu_ys.pdf used on input line 496.
+Package pdftex.def Info: Chapter-3/HNP6_KvsMu_ys.pdf used on input line 500.
 (pdftex.def)             Requested size: 451.68752pt x 361.3491pt.
 
-<Chapter-3/HNP6_JvsT_ys.pdf, id=1748, 722.7pt x 578.16pt>
+<Chapter-3/HNP6_JvsT_ys.pdf, id=1755, 722.7pt x 578.16pt>
 File: Chapter-3/HNP6_JvsT_ys.pdf Graphic file (type pdf)
 
 <use Chapter-3/HNP6_JvsT_ys.pdf>
-Package pdftex.def Info: Chapter-3/HNP6_JvsT_ys.pdf used on input line 502.
+Package pdftex.def Info: Chapter-3/HNP6_JvsT_ys.pdf used on input line 506.
 (pdftex.def)             Requested size: 451.68752pt x 361.3491pt.
 
 
@@ -1526,19 +1526,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [64 <./Chapter-3/HNP6_JvsT_ys.pdf>]
-<Chapter-3/HP_KJvsTys_FMTrans.pdf, id=2230, 650.43pt x 289.08pt>
+<Chapter-3/HP_KJvsTys_FMTrans.pdf, id=2235, 650.43pt x 289.08pt>
 File: Chapter-3/HP_KJvsTys_FMTrans.pdf Graphic file (type pdf)
 
 <use Chapter-3/HP_KJvsTys_FMTrans.pdf>
 Package pdftex.def Info: Chapter-3/HP_KJvsTys_FMTrans.pdf used on input line 53
-5.
+9.
 (pdftex.def)             Requested size: 451.68752pt x 200.75342pt.
 
-<Chapter-3/HN6_TransTvsY1.pdf, id=2231, 794.97pt x 289.08pt>
+<Chapter-3/HN6_TransTvsY1.pdf, id=2236, 794.97pt x 289.08pt>
 File: Chapter-3/HN6_TransTvsY1.pdf Graphic file (type pdf)
 
 <use Chapter-3/HN6_TransTvsY1.pdf>
-Package pdftex.def Info: Chapter-3/HN6_TransTvsY1.pdf used on input line 541.
+Package pdftex.def Info: Chapter-3/HN6_TransTvsY1.pdf used on input line 545.
 (pdftex.def)             Requested size: 451.68752pt x 164.2524pt.
 
 
@@ -1548,11 +1548,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [65 <./Chapter-3/HP_KJvsTys_FMTrans.pdf>]
-<Chapter-3/HN35P6DOS_h3.pdf, id=2282, 361.35pt x 289.08pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66 <./Chapter-3/HN6_TransTvsY1.pdf>]
+<Chapter-3/HN35P6DOS_h3.pdf, id=2337, 361.35pt x 289.08pt>
 File: Chapter-3/HN35P6DOS_h3.pdf Graphic file (type pdf)
 
 <use Chapter-3/HN35P6DOS_h3.pdf>
-Package pdftex.def Info: Chapter-3/HN35P6DOS_h3.pdf used on input line 572.
+Package pdftex.def Info: Chapter-3/HN35P6DOS_h3.pdf used on input line 576.
 (pdftex.def)             Requested size: 271.01526pt x 216.81387pt.
 
 
@@ -1561,32 +1568,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66 <./Chapter-3/HN6_TransTvsY1.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [67 <./Chapter-3/HN35P6DOS_h3.pdf>]
-<Chapter-3/HNs_entropy_density.pdf, id=2366, 650.43pt x 289.08pt>
+<Chapter-3/HNs_entropy_density.pdf, id=2372, 650.43pt x 289.08pt>
 File: Chapter-3/HNs_entropy_density.pdf Graphic file (type pdf)
 
 <use Chapter-3/HNs_entropy_density.pdf>
 Package pdftex.def Info: Chapter-3/HNs_entropy_density.pdf used on input line 5
-85.
+89.
 (pdftex.def)             Requested size: 397.48721pt x 176.66495pt.
 
-<Chapter-3/HNs_MagvsH_m_vs_H.pdf, id=2367, 722.7pt x 289.08pt>
+<Chapter-3/HNs_MagvsH_m_vs_H.pdf, id=2373, 722.7pt x 289.08pt>
 File: Chapter-3/HNs_MagvsH_m_vs_H.pdf Graphic file (type pdf)
 
 <use Chapter-3/HNs_MagvsH_m_vs_H.pdf>
-Package pdftex.def Info: Chapter-3/HNs_MagvsH_m_vs_H.pdf used on input line 591
+Package pdftex.def Info: Chapter-3/HNs_MagvsH_m_vs_H.pdf used on input line 595
 .
 (pdftex.def)             Requested size: 406.516pt x 162.60709pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1595,35 +1592,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [68 <./Chapter-3/HNs_entropy_density.pdf>]
-<Chapter-3/freeE_lowT2highT.pdf, id=2391, 722.7pt x 289.08pt>
+<Chapter-3/freeE_lowT2highT.pdf, id=2398, 722.7pt x 289.08pt>
 File: Chapter-3/freeE_lowT2highT.pdf Graphic file (type pdf)
 
 <use Chapter-3/freeE_lowT2highT.pdf>
-Package pdftex.def Info: Chapter-3/freeE_lowT2highT.pdf used on input line 614.
+Package pdftex.def Info: Chapter-3/freeE_lowT2highT.pdf used on input line 618.
 
 (pdftex.def)             Requested size: 451.68752pt x 180.67455pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapter-3/freeEdifference_k23_24.pdf, id=2394, 722.7pt x 578.16pt>
-File: Chapter-3/freeEdifference_k23_24.pdf Graphic file (type pdf)
-
-<use Chapter-3/freeEdifference_k23_24.pdf>
-Package pdftex.def Info: Chapter-3/freeEdifference_k23_24.pdf used on input lin
-e 620.
-(pdftex.def)             Requested size: 361.35138pt x 289.07928pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapter-3/chaotic_exponents_freeE_binning.pdf, id=2399, 650.43pt x 289.08pt>
-File: Chapter-3/chaotic_exponents_freeE_binning.pdf Graphic file (type pdf)
-
-<use Chapter-3/chaotic_exponents_freeE_binning.pdf>
-Package pdftex.def Info: Chapter-3/chaotic_exponents_freeE_binning.pdf used on 
-input line 630.
-(pdftex.def)             Requested size: 361.35138pt x 160.60449pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1632,6 +1607,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [69 <./Chapter-3/HNs_MagvsH_m_vs_H.pdf>]
+<Chapter-3/freeEdifference_k23_24.pdf, id=2440, 722.7pt x 578.16pt>
+File: Chapter-3/freeEdifference_k23_24.pdf Graphic file (type pdf)
+
+<use Chapter-3/freeEdifference_k23_24.pdf>
+Package pdftex.def Info: Chapter-3/freeEdifference_k23_24.pdf used on input lin
+e 624.
+(pdftex.def)             Requested size: 361.35138pt x 289.07928pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1639,6 +1625,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [70 <./Chapter-3/freeE_lowT2highT.pdf>]
+<Chapter-3/chaotic_exponents_freeE_binning.pdf, id=2470, 650.43pt x 289.08pt>
+File: Chapter-3/chaotic_exponents_freeE_binning.pdf Graphic file (type pdf)
+
+<use Chapter-3/chaotic_exponents_freeE_binning.pdf>
+Package pdftex.def Info: Chapter-3/chaotic_exponents_freeE_binning.pdf used on 
+input line 635.
+(pdftex.def)             Requested size: 361.35138pt x 160.60449pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1652,49 +1646,66 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72 <./Chapter-3/chaotic_exponents_freeE_binning.pdf>])
+[72 <./Chapter-3/chaotic_exponents_freeE_binning.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73]
+[73])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
 \openout2 = `Chapter-4/Chapter-4.aux'.
 
  (./Chapter-4/Chapter-4.tex
 Chapter 4.
-[74
+[75
 
 
 
-]
+] <Chapter-4/experimental_exponent.pdf, id=2555, 578.16pt x 252.945pt>
+File: Chapter-4/experimental_exponent.pdf Graphic file (type pdf)
+
+<use Chapter-4/experimental_exponent.pdf>
+Package pdftex.def Info: Chapter-4/experimental_exponent.pdf used on input line
+ 15.
+(pdftex.def)             Requested size: 316.17987pt x 138.32895pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[75]
+[76 <./Chapter-4/experimental_exponent.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[76]
+[77]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[77] <Chapter-4/RFIM_Before_After_Annealing.pdf, id=2553, 722.7pt x 397.485pt>
+[78] <Chapter-4/RFIM_Before_After_Annealing.pdf, id=2587, 722.7pt x 397.485pt>
 File: Chapter-4/RFIM_Before_After_Annealing.pdf Graphic file (type pdf)
 
 <use Chapter-4/RFIM_Before_After_Annealing.pdf>
 Package pdftex.def Info: Chapter-4/RFIM_Before_After_Annealing.pdf used on inpu
-t line 51.
+t line 60.
 (pdftex.def)             Requested size: 406.516pt x 223.58476pt.
 
 
@@ -1703,21 +1714,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78 <./Chapter-4/RFIM_Before_After_Annealing.pdf>]
-<Chapter-4/spin_plot1_Norf.pdf, id=2587, 433.62pt x 433.62pt>
+[79] <Chapter-4/spin_plot1_Norf.pdf, id=2594, 433.62pt x 433.62pt>
 File: Chapter-4/spin_plot1_Norf.pdf Graphic file (type pdf)
 
 <use Chapter-4/spin_plot1_Norf.pdf>
-Package pdftex.def Info: Chapter-4/spin_plot1_Norf.pdf used on input line 71.
+Package pdftex.def Info: Chapter-4/spin_plot1_Norf.pdf used on input line 80.
 (pdftex.def)             Requested size: 361.35138pt x 361.36676pt.
 
-<Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf, id=2590, 592.61403pt x 361
+<Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf, id=2597, 592.61403pt x 361
 .35pt>
 File: Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf Graphic file (type pdf
 )
  <use Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf>
 Package pdftex.def Info: Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf use
-d on input line 77.
+d on input line 86.
 (pdftex.def)             Requested size: 361.35138pt x 220.34047pt.
 
 
@@ -1726,35 +1736,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79]
+[80 <./Chapter-4/RFIM_Before_After_Annealing.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[80 <./Chapter-4/spin_plot1_Norf.pdf>]
+[81 <./Chapter-4/spin_plot1_Norf.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81 <./Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf>]
-<Chapter-4/exponent_scale_4cycle_T03.pdf, id=2647, 361.35pt x 289.08pt>
+[82 <./Chapter-4/Energy_simultion_fitted_10cycles_T03.pdf>]
+<Chapter-4/exponent_scale_4cycle_T03.pdf, id=2681, 361.35pt x 289.08pt>
 File: Chapter-4/exponent_scale_4cycle_T03.pdf Graphic file (type pdf)
 
 <use Chapter-4/exponent_scale_4cycle_T03.pdf>
 Package pdftex.def Info: Chapter-4/exponent_scale_4cycle_T03.pdf used on input 
-line 89.
+line 98.
 (pdftex.def)             Requested size: 225.84375pt x 180.67455pt.
 
-<Chapter-4/asymptotic_E_T03_10cycles.pdf, id=2648, 361.35pt x 289.08pt>
+<Chapter-4/asymptotic_E_T03_10cycles.pdf, id=2682, 361.35pt x 289.08pt>
 File: Chapter-4/asymptotic_E_T03_10cycles.pdf Graphic file (type pdf)
 
 <use Chapter-4/asymptotic_E_T03_10cycles.pdf>
 Package pdftex.def Info: Chapter-4/asymptotic_E_T03_10cycles.pdf used on input 
-line 95.
+line 104.
 (pdftex.def)             Requested size: 225.84375pt x 180.67455pt.
 
 
@@ -1763,33 +1773,38 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82 <./Chapter-4/exponent_scale_4cycle_T03.pdf>]
+[83]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83 <./Chapter-4/asymptotic_E_T03_10cycles.pdf>]
+[84 <./Chapter-4/exponent_scale_4cycle_T03.pdf> <./Chapter-4/asymptotic_E_T03_1
+0cycles.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapter-4/asymptotic_E_T03_10cycles.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84])
+[85])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[85]
+[86]
 \openout2 = `Chapter-5/Chapter-5.aux'.
 
  (./Chapter-5/Chapter-5.tex
 Chapter 5.
-[86
+[87
 
 
 
@@ -1800,7 +1815,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[87]
+[88]
 Overfull \hbox (10.68828pt too wide) in paragraph at lines 30--30
 []\OT1/cmr/bx/n/17.28 Antiferromagnetic Ising Model in Hanoi Net-works 
  []
@@ -1811,31 +1826,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[88])
+[89])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[89]
+[90]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[90] (./XiangCheng-dissertation.bbl [91
+[91] (./XiangCheng-dissertation.bbl [92
 
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[92]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1870,14 +1878,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[97])
+[97]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[98]
+[98])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (./XiangCheng-dissertation.aux (./front.aux) (./Chapter-1/Chapter-1.aux)
@@ -1895,10 +1910,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 12413 strings out of 493304
- 189867 string characters out of 6139871
- 431339 words of memory out of 5000000
- 15159 multiletter control sequences out of 15000+600000
+ 12429 strings out of 493304
+ 190231 string characters out of 6139871
+ 431793 words of memory out of 5000000
+ 15171 multiletter control sequences out of 15000+600000
  14218 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,12n,47p,2025b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1920,10 +1935,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on XiangCheng-dissertation.pdf (115 pages, 1801414 bytes).
+Output written on XiangCheng-dissertation.pdf (116 pages, 1808188 bytes).
 PDF statistics:
- 2937 PDF objects out of 2984 (max. 8388607)
- 2048 compressed objects within 21 object streams
- 421 named destinations out of 1000 (max. 500000)
- 521 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2972 PDF objects out of 2984 (max. 8388607)
+ 2079 compressed objects within 21 object streams
+ 424 named destinations out of 1000 (max. 500000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
